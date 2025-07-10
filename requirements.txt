@@ -1,0 +1,2 @@
+pydantic-settings==2.10.1   # config.py
+dotenv==0.9.9 				# Read environment variables from .env files
