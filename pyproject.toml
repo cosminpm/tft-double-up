@@ -1,7 +1,7 @@
 [tool.mypy]
 plugins = ["pydantic.mypy"]
 exclude=[".venv",  ".ruff_cache", ".mypy_cache", "tests"]
-python_version = "3.X"
+python_version = "3.12"
 no_implicit_optional = true
 strict_equality = true
 warn_unused_ignores = true
@@ -20,7 +20,7 @@ warn_required_dynamic_aliases = true
 
 [tool.ruff]
 line-length = 100
-target-version = "py3X"
+target-version = "py312"
 lint.select = ["ALL"]
 lint.ignore = [
     "ANN",      # Disable ALL type warnings (handled by mypy)

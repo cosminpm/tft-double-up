@@ -1,5 +1,7 @@
-from typing import Any
+from collections.abc import AsyncGenerator
+from contextlib import asynccontextmanager
 
+import httpx
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,7 +11,31 @@ from app.services.tft_api_fetcher.router import fetch_router
 
 settings = Settings()
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> AsyncGenerator:
+    """Do Setup and cleanup for the FastAPI app.
+
+    Creates a shared httpx.AsyncClient for making async HTTP requests,
+    and closes it on shutdown.
+
+    Args:
+    ----
+        app (FastAPI): The FastAPI app instance.
+
+    Yields:
+    ------
+        None
+
+    """
+    app.request_client = httpx.AsyncClient()
+
+    yield
+
+    await app.request_client.aclose()
+
+
+app = FastAPI(lifespan=lifespan)
 
 # Add routers
 app.include_router(fetch_router)
