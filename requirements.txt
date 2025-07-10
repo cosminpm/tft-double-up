@@ -3,3 +3,4 @@ dotenv==0.9.9 				# Read environment variables from .env files
 httpx==0.28.1				# Make requests
 pydantic==2.10.6			# Create models
 pydantic_core==2.33.2		# Create models
+beautifulsoup4==4.9.3		# Grep HTML
