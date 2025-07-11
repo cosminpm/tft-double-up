@@ -7,7 +7,7 @@ from app.services.tft_api_fetcher.models.composition import Champion, Compositio
 settings = Settings()
 
 
-async def fetch_tft_top_compositions(request_client: AsyncClient) -> list[Composition]:
+async def fetch_top_compositions(request_client: AsyncClient) -> list[Composition]:
     """Fetch the top tier compositions in Team Fight Tactics and parse it as it comes in a html.
 
     Args:
