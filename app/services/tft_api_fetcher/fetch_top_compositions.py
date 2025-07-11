@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup, ResultSet
-from httpx import AsyncClient, Response
+from httpx import Response
 
 from app.config import Settings
 from app.services.tft_api_fetcher.models.composition import Champion, Composition
@@ -7,16 +7,14 @@ from app.services.tft_api_fetcher.models.composition import Champion, Compositio
 settings = Settings()
 
 
-async def fetch_top_compositions(request_client: AsyncClient) -> list[Composition]:
+def fetch_top_compositions(response: Response) -> list[Composition]:
     """Fetch the top tier compositions in Team Fight Tactics and parse it as it comes in a html.
 
     Args:
     ----
-        request_client (AsyncClient): The AsyncClient used for the async requests.
+        response (Response): The Response in HTML format.
 
     """
-    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
-
     html_content = response.content.decode("utf-8", errors="ignore")
     soup: BeautifulSoup = BeautifulSoup(html_content, "html.parser")
     return parse_soup(soup)

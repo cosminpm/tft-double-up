@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from httpx import AsyncClient, Response
+from httpx import Response
 from mypy.checkpattern import defaultdict
 
 from app.config import Settings
@@ -8,16 +8,14 @@ from app.services.tft_api_fetcher.models.composition import Champion
 settings = Settings()
 
 
-async def fetch_repeated_champions(request_client: AsyncClient) -> dict[str, int]:
+def fetch_repeated_champions(response: Response) -> dict[str, int]:
     """Fetch the top most repeated champions in Team Fight Tactics and return the champion count.
 
     Args:
     ----
-        request_client (AsyncClient): The AsyncClient used for the async requests.
+        response (Response): The Response in HTML format.
 
     """
-    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
-
     html_content = response.content.decode("utf-8", errors="ignore")
     soup: BeautifulSoup = BeautifulSoup(html_content, "html.parser")
     return parse_soup(soup)

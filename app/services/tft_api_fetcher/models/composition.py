@@ -1,5 +1,5 @@
 from bs4 import Tag
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_serializer
 
 
 class Item(BaseModel):
@@ -9,6 +9,7 @@ class Item(BaseModel):
 class Champion(BaseModel):
     name: str
     items: list[Item] = Field(default_factory=list)
+    seen_in_other_builds: int = -1
 
     @classmethod
     def from_tag(cls, tag: Tag):
@@ -35,6 +36,18 @@ class Composition(BaseModel):
     champions: set[Champion] = Field(default_factory=set)
     tier: str
     play_style: str
+
+    @property
+    def champions_repeated_in_other_composition(self) -> int:
+        return sum([c.seen_in_other_builds for c in self.champions])
+
+    @model_serializer(mode="wrap")
+    def serialize(self, handler):
+        data = handler(self)
+        data["champions_repeated_in_other_composition"] = (
+            self.champions_repeated_in_other_composition
+        )
+        return data
 
     @classmethod
     def from_tag(cls, tag: Tag):

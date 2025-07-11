@@ -3,13 +3,16 @@ from typing import TYPE_CHECKING
 from fastapi import APIRouter
 from starlette.requests import Request
 
+from app.config import Settings
 from app.services.tft_api_fetcher.fetch_repeated_champions import fetch_repeated_champions
 from app.services.tft_api_fetcher.fetch_top_compositions import fetch_top_compositions
+from app.services.tft_api_fetcher.fetch_unique_compositions import fetch_unique_compositions
 from app.services.tft_api_fetcher.models.composition import Composition
 
 if TYPE_CHECKING:
-    from httpx import AsyncClient
+    from httpx import AsyncClient, Response
 
+settings = Settings()
 fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
@@ -26,8 +29,10 @@ async def get_top_compositions(request: Request) -> list[Composition]:
     A list of the top tier compositions.
 
     """
-    requests_client: AsyncClient = request.app.request_client
-    return await fetch_top_compositions(requests_client)
+    request_client: AsyncClient = request.app.request_client
+    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
+
+    return fetch_top_compositions(response)
 
 
 @fetch_router.get("/get_repeated_champions")
@@ -43,5 +48,28 @@ async def get_repeated_champions(request: Request) -> dict[str, int]:
     A dictionary containing the champion count.
 
     """
-    requests_client: AsyncClient = request.app.request_client
-    return await fetch_repeated_champions(requests_client)
+    request_client: AsyncClient = request.app.request_client
+    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
+
+    return fetch_repeated_champions(response)
+
+
+@fetch_router.get("/get_unique_compositions")
+async def get_unique_compositions(request: Request) -> list[Composition]:
+    """Get statistics about how many times a champion is repeated acros multiple compositions.
+
+    Args:
+    ----
+        request (Request): The request object.
+
+    Returns:
+    -------
+    A dictionary containing the champion count.
+
+    """
+    request_client: AsyncClient = request.app.request_client
+    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
+
+    top_compositions: list[Composition] = fetch_top_compositions(response)
+    repeated_champions: dict[str, int] = fetch_repeated_champions(response)
+    return fetch_unique_compositions(top_compositions, repeated_champions)
