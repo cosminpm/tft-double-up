@@ -28,11 +28,11 @@ async def lifespan(app: FastAPI) -> AsyncGenerator:
         None
 
     """
-    app.request_client = httpx.AsyncClient()
+    app.request_client = httpx.AsyncClient()  # type: ignore[attr-defined]
 
     yield
 
-    await app.request_client.aclose()
+    await app.request_client.aclose()  # type: ignore[attr-defined]
 
 
 app = FastAPI(lifespan=lifespan)

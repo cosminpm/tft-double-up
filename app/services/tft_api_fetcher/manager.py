@@ -1,18 +1,13 @@
-from typing import TYPE_CHECKING
-
-from bs4 import BeautifulSoup
-from httpx import AsyncClient
+from bs4 import BeautifulSoup, ResultSet
+from httpx import AsyncClient, Response
 
 from app.config import Settings
-from app.services.tft_api_fetcher.models.composition import Composition
-
-if TYPE_CHECKING:
-    from fastapi import Response
+from app.services.tft_api_fetcher.models.composition import Champion, Composition
 
 settings = Settings()
 
 
-async def fetch_tft_top_compositions(request_client: AsyncClient) -> list:
+async def fetch_tft_top_compositions(request_client: AsyncClient) -> list[Composition]:
     """Fetch the top tier compositions in Team Fight Tactics and parse it as it comes in a html.
 
     Args:
@@ -24,33 +19,44 @@ async def fetch_tft_top_compositions(request_client: AsyncClient) -> list:
 
     html_content = response.content.decode("utf-8", errors="ignore")
     soup: BeautifulSoup = BeautifulSoup(html_content, "html.parser")
-    parse_soup(soup)
-    return []
+    return parse_soup(soup)
 
 
 def parse_soup(soup: BeautifulSoup) -> list[Composition]:
-    """
-    Parse beautful soup and transform it into a list of Compositions
+    """Parse BeautifulSoup object and transform it into a list of Compositions.
+
     Args:
-        soup:
+    ----
+        soup (BeautifulSoup): The BeautifulSoup object.
 
     Returns:
+    -------
+    A list of Compositions.
 
     """
+    compositions: list[Composition] = []
     for team_div in soup.select(".team-portrait"):
-        composition = Composition.from_tag(team_div)
+        composition: Composition = Composition.from_tag(team_div)
+        composition.champions = get_champions(team_div.select(".characters-item"))
+        compositions.append(composition)
+    return compositions
 
-        champions = []
-        for champ_div in team_div.select(".characters-item"):
-            champ_name = champ_div.select_one(".team-character-name")
-            if not champ_name:
-                continue
 
-            name_text_champ = champ_name.text.strip()
+def get_champions(characters: ResultSet) -> set[Champion]:
+    """Get champions given a BeautifulSoup object.
 
-            # Items (if any)
-            items_div = champ_div.select(".character-items img")
-            items = [img["alt"].strip() for img in items_div] if items_div else []
+    Args:
+    ----
+        characters (ResultSet): The characters in a BeautifulSoup format
 
-            champions.append({"name": name_text_champ, "items": items})
-    return []
+    Returns:
+    -------
+    (set[Champion]) A set of Champions
+
+    """
+    champions: set[Champion] = set()
+    for champ_div in characters:
+        champion = Champion.from_tag(champ_div)
+        if champion:
+            champions.add(champion)
+    return champions

@@ -8,7 +8,17 @@ class Item(BaseModel):
 
 class Champion(BaseModel):
     name: str
-    items: set[Item] = Field(default_factory=set)
+    items: list[Item] = Field(default_factory=list)
+
+    @classmethod
+    def from_tag(cls, tag: Tag):
+        champ_name = tag.select_one(".team-character-name")
+        if not champ_name:
+            return None
+        name = champ_name.text.strip()
+        items_div = tag.select(".character-items img")
+        items: list = [Item(name=img["alt"].strip()) for img in items_div]
+        return cls(name=name, items=items)
 
     # Make comparison only between name
     def __hash__(self):
@@ -28,7 +38,7 @@ class Composition(BaseModel):
 
     @classmethod
     def from_tag(cls, tag: Tag):
-        tier_soup = tag.select_one(".team-rank.tone")
+        tier_soup = tag.select_one(".team-rank")
         tier = tier_soup.text.strip() if tag else None
 
         name_soup = tag.select_one(".team-name-elipsis")
