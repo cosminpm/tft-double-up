@@ -39,7 +39,29 @@ class Composition(BaseModel):
 
     @property
     def champions_repeated_in_other_composition(self) -> int:
-        return sum([c.seen_in_other_builds for c in self.champions])
+        return sum([c.seen_in_other_builds for c in self.champions if c.seen_in_other_builds != -1])
+
+    def compare_composition_similarity(self, composition: "Composition") -> int:
+        return -len(self.champions & composition.champions)
+
+    def __hash__(self):
+        return hash(self.name)
+
+    def __eq__(self, other):
+        if not isinstance(other, Champion):
+            return False
+        return self.name == other.name
+
+    def __lt__(self, other: "Composition"):
+        tier_order = {"S": 0, "A": 1, "B": 2, "C": 3, "D": 4, "F": 5}
+
+        self_tier_rank = tier_order.get(self.tier.upper(), 99)
+        other_tier_rank = tier_order.get(other.tier.upper(), 99)
+
+        if self_tier_rank != other_tier_rank:
+            return self_tier_rank < other_tier_rank
+        return self.name < other.name
+
 
     @model_serializer(mode="wrap")
     def serialize(self, handler):
