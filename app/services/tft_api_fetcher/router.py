@@ -9,7 +9,7 @@ from app.services.tft_api_fetcher.fetch_champion_weapon_images import fetch_cham
 from app.services.tft_api_fetcher.fetch_get_pairs import fetch_best_pairs
 from app.services.tft_api_fetcher.fetch_top_compositions import fetch_top_compositions
 from app.services.tft_api_fetcher.models.composition import Composition
-from app.services.tft_api_fetcher.models.response.best_pairs_model import BestPairs
+from app.services.tft_api_fetcher.models.response.best_pairs_model import BestPairs, CompositionSortedByChampionTier
 
 if TYPE_CHECKING:
     from httpx import AsyncClient, Response
@@ -25,8 +25,27 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
 
     top_compositions: list[Composition] = fetch_top_compositions(response)
     raw_pairs = fetch_best_pairs(top_compositions)
-    return [BestPairs(composition=key, pairs=pairs) for key, pairs in raw_pairs.items()]
 
+    result = []
+    for key, pairs in raw_pairs.items():
+        sorted_key = CompositionSortedByChampionTier(
+            name=key.name,
+            champions=list(key.champions),
+            tier=key.tier,
+            play_style=key.play_style,
+        )
+        sorted_pairs = [
+            CompositionSortedByChampionTier(
+                name=pair.name,
+                champions=list(pair.champions),
+                tier=pair.tier,
+                play_style=pair.play_style,
+            )
+            for pair in pairs
+        ]
+        result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
+
+    return result
 
 @fetch_router.get("/champion_weapon_images")
 async def get_best_pairs(request: Request) -> dict[str, str]:

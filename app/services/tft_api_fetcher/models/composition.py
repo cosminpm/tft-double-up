@@ -1,3 +1,5 @@
+import re
+
 from bs4 import Tag
 from pydantic import BaseModel, Field, model_serializer
 
@@ -9,7 +11,7 @@ class Item(BaseModel):
 class Champion(BaseModel):
     name: str
     items: list[Item] = Field(default_factory=list)
-    seen_in_other_builds: int = -1
+    tier: str = "0"
 
     @classmethod
     def from_tag(cls, tag: Tag):
@@ -19,7 +21,12 @@ class Champion(BaseModel):
         name = champ_name.text.strip()
         items_div = tag.select(".character-items img")
         items: list = [Item(name=img["alt"].strip()) for img in items_div]
-        return cls(name=name, items=items)
+
+        # get champion tier
+        tier_color_parse: list[str] = tag.get("class", [])
+        tier = next((cls for cls in tier_color_parse if re.match(r'^c\d+$', cls)), None)[1:]
+
+        return cls(name=name, items=items, tier=tier)
 
     # Make comparison only between name
     def __hash__(self):
@@ -36,10 +43,6 @@ class Composition(BaseModel):
     champions: set[Champion] = Field(default_factory=set)
     tier: str
     play_style: str
-
-    @property
-    def champions_repeated_in_other_composition(self) -> int:
-        return sum([c.seen_in_other_builds for c in self.champions if c.seen_in_other_builds != -1])
 
     def compare_composition_similarity(self, composition: "Composition") -> int:
         return -len(self.champions & composition.champions)
@@ -66,9 +69,6 @@ class Composition(BaseModel):
     @model_serializer(mode="wrap")
     def serialize(self, handler):
         data = handler(self)
-        data["champions_repeated_in_other_composition"] = (
-            self.champions_repeated_in_other_composition
-        )
         return data
 
     @classmethod
