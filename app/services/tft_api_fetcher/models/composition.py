@@ -26,6 +26,8 @@ class Champion(BaseModel):
         # get champion tier
         tier_color_parse: list[str] = tag.get("class", [])
         tier = next((cls for cls in tier_color_parse if re.match(r'^c\d+$', cls)), None)[1:]
+        is_3_star = bool(next((cls for cls in tier_color_parse if re.match(r'^l\d+$', cls)), None))
+
         return cls(name=name, items=items, tier=tier, is_3_star=is_3_star)
 
     # Make comparison only between name
