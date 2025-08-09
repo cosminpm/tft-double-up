@@ -11,7 +11,8 @@ class Item(BaseModel):
 class Champion(BaseModel):
     name: str
     items: list[Item] = Field(default_factory=list)
-    tier: str = "0"
+    tier: str = "Z"
+    is_3_star: bool = False
 
     @classmethod
     def from_tag(cls, tag: Tag):
@@ -25,8 +26,7 @@ class Champion(BaseModel):
         # get champion tier
         tier_color_parse: list[str] = tag.get("class", [])
         tier = next((cls for cls in tier_color_parse if re.match(r'^c\d+$', cls)), None)[1:]
-
-        return cls(name=name, items=items, tier=tier)
+        return cls(name=name, items=items, tier=tier, is_3_star=is_3_star)
 
     # Make comparison only between name
     def __hash__(self):
