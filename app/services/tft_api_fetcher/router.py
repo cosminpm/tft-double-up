@@ -1,7 +1,7 @@
-import json
 from typing import TYPE_CHECKING
 
 from fastapi import APIRouter
+from fastapi_cache.decorator import cache
 from starlette.requests import Request
 
 from app.config import Settings
@@ -19,6 +19,7 @@ fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
 @fetch_router.get("/best_pairs")
+@cache(expire=86400)
 async def get_best_pairs(request: Request) -> list[BestPairs]:
     request_client: AsyncClient = request.app.request_client
     response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
@@ -48,6 +49,7 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
     return result
 
 @fetch_router.get("/champion_weapon_images")
+@cache(expire=86400)  # Cache for 24 hours
 async def get_best_pairs(request: Request) -> dict[str, str]:
     request_client: AsyncClient = request.app.request_client
     response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")

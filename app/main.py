@@ -5,6 +5,8 @@ import httpx
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi_cache import FastAPICache
+from fastapi_cache.backends.inmemory import InMemoryBackend
 
 from app.config import Settings
 from app.services.tft_api_fetcher.router import fetch_router
@@ -29,6 +31,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator:
 
     """
     app.request_client = httpx.AsyncClient()  # type: ignore[attr-defined]
+    FastAPICache.init(InMemoryBackend())
 
     yield
 
