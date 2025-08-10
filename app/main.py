@@ -1,3 +1,4 @@
+from loguru import logger
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
@@ -12,7 +13,6 @@ from app.config import Settings
 from app.services.tft_api_fetcher.router import fetch_router
 
 settings = Settings()
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator:
@@ -48,6 +48,16 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
 ]
+
+
+@app.get("/health")
+def health():
+    try:
+        logger.info("OK: Everything is OK")
+    except Exception as e:
+        logger.error(e)
+        raise e
+
 
 app.add_middleware(
     CORSMiddleware,

@@ -4,3 +4,4 @@ httpx==0.28.1				# Make requests
 pydantic==2.10.6			# Create models
 beautifulsoup4==4.9.3		# Grep HTML
 fastapi-cache2==0.2.2		# cache the requests in memory
+loguru==0.7.3				# logging
