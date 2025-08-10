@@ -1,6 +1,6 @@
 from typing import TYPE_CHECKING
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from fastapi_cache.decorator import cache
 from loguru import logger
 from starlette.requests import Request
@@ -51,7 +51,7 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
         return result
     except Exception as e:
         logger.error(e)
-        return e
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @fetch_router.get("/champion_weapon_images")
