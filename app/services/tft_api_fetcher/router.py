@@ -49,8 +49,8 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
     return result
 
 @fetch_router.get("/champion_weapon_images")
-@cache(expire=86400)  # Cache for 24 hours
-async def get_best_pairs(request: Request) -> dict[str, str]:
+@cache(expire=86400)
+async def get_champion_weapon_images(request: Request) -> dict[str, str]:
     request_client: AsyncClient = request.app.request_client
     response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
     champion_images: dict[str, str] = fetch_champion_weapon_images(response)
