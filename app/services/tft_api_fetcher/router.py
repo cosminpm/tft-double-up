@@ -52,7 +52,7 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
     except Exception as e:
         logger.error(e)
         return e
-    
+
 
 @fetch_router.get("/champion_weapon_images")
 @cache(expire=86400)
