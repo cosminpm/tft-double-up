@@ -1,6 +1,7 @@
 from typing import TYPE_CHECKING
 
-from fastapi import APIRouter, HTTPException
+import httpx
+from fastapi import APIRouter, HTTPException, Depends
 from fastapi_cache.decorator import cache
 from loguru import logger
 from starlette.requests import Request
@@ -19,12 +20,16 @@ settings = Settings()
 fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
+async def get_http_client():
+    async with httpx.AsyncClient() as client:
+        yield client
+
 @fetch_router.get("/best_pairs")
 @cache(expire=86400)
-async def get_best_pairs(request: Request) -> list[BestPairs]:
+async def get_best_pairs(client: httpx.AsyncClient = Depends(get_http_client)) -> list[BestPairs]:
     try:
-        request_client: AsyncClient = request.app.request_client
-        response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
+        #request_client: AsyncClient = request.app.request_client
+        response: Response = await client.get(f"{settings.tft_url}/tierlist/team-comps/")
 
         top_compositions: list[Composition] = fetch_top_compositions(response)
         raw_pairs = fetch_best_pairs(top_compositions)
