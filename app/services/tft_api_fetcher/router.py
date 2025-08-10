@@ -1,9 +1,7 @@
 from typing import TYPE_CHECKING
 
-import httpx
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter
 from fastapi_cache.decorator import cache
-from loguru import logger
 from starlette.requests import Request
 
 from app.config import Settings
@@ -20,44 +18,35 @@ settings = Settings()
 fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
-async def get_http_client():
-    async with httpx.AsyncClient() as client:
-        yield client
-
 @fetch_router.get("/best_pairs")
 @cache(expire=86400)
-async def get_best_pairs(client: httpx.AsyncClient = Depends(get_http_client)) -> list[BestPairs]:
-    try:
-        #request_client: AsyncClient = request.app.request_client
-        response: Response = await client.get(f"{settings.tft_url}/tierlist/team-comps/")
+async def get_best_pairs(request: Request) -> list[BestPairs]:
+    request_client: AsyncClient = request.app.request_client
+    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
 
-        top_compositions: list[Composition] = fetch_top_compositions(response)
-        raw_pairs = fetch_best_pairs(top_compositions)
+    top_compositions: list[Composition] = fetch_top_compositions(response)
+    raw_pairs = fetch_best_pairs(top_compositions)
 
-        result = []
-        for key, pairs in raw_pairs.items():
-            sorted_key = CompositionSortedByChampionTier(
-                name=key.name,
-                champions=list(key.champions),
-                tier=key.tier,
-                play_style=key.play_style,
+    result = []
+    for key, pairs in raw_pairs.items():
+        sorted_key = CompositionSortedByChampionTier(
+            name=key.name,
+            champions=list(key.champions),
+            tier=key.tier,
+            play_style=key.play_style,
+        )
+        sorted_pairs = [
+            CompositionSortedByChampionTier(
+                name=pair.name,
+                champions=list(pair.champions),
+                tier=pair.tier,
+                play_style=pair.play_style,
             )
-            sorted_pairs = [
-                CompositionSortedByChampionTier(
-                    name=pair.name,
-                    champions=list(pair.champions),
-                    tier=pair.tier,
-                    play_style=pair.play_style,
-                )
-                for pair in pairs
-            ]
-            result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
+            for pair in pairs
+        ]
+        result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
 
-        return result
-    except Exception as e:
-        logger.error(e)
-        raise HTTPException(status_code=500, detail=str(e))
-
+    return result
 
 @fetch_router.get("/champion_weapon_images")
 @cache(expire=86400)
