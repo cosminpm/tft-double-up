@@ -54,9 +54,10 @@ origins = [
 def health():
     try:
         logger.info("OK: Everything is OK")
+        return "ok"
     except Exception as e:
         logger.error(e)
-        raise e
+        return e
 
 
 app.add_middleware(

@@ -2,6 +2,7 @@ from typing import TYPE_CHECKING
 
 from fastapi import APIRouter
 from fastapi_cache.decorator import cache
+from loguru import logger
 from starlette.requests import Request
 
 from app.config import Settings
@@ -21,32 +22,37 @@ fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 @fetch_router.get("/best_pairs")
 @cache(expire=86400)
 async def get_best_pairs(request: Request) -> list[BestPairs]:
-    request_client: AsyncClient = request.app.request_client
-    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
+    try:
+        request_client: AsyncClient = request.app.request_client
+        response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
 
-    top_compositions: list[Composition] = fetch_top_compositions(response)
-    raw_pairs = fetch_best_pairs(top_compositions)
+        top_compositions: list[Composition] = fetch_top_compositions(response)
+        raw_pairs = fetch_best_pairs(top_compositions)
 
-    result = []
-    for key, pairs in raw_pairs.items():
-        sorted_key = CompositionSortedByChampionTier(
-            name=key.name,
-            champions=list(key.champions),
-            tier=key.tier,
-            play_style=key.play_style,
-        )
-        sorted_pairs = [
-            CompositionSortedByChampionTier(
-                name=pair.name,
-                champions=list(pair.champions),
-                tier=pair.tier,
-                play_style=pair.play_style,
+        result = []
+        for key, pairs in raw_pairs.items():
+            sorted_key = CompositionSortedByChampionTier(
+                name=key.name,
+                champions=list(key.champions),
+                tier=key.tier,
+                play_style=key.play_style,
             )
-            for pair in pairs
-        ]
-        result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
+            sorted_pairs = [
+                CompositionSortedByChampionTier(
+                    name=pair.name,
+                    champions=list(pair.champions),
+                    tier=pair.tier,
+                    play_style=pair.play_style,
+                )
+                for pair in pairs
+            ]
+            result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
 
-    return result
+        return result
+    except Exception as e:
+        logger.error(e)
+        return e
+    
 
 @fetch_router.get("/champion_weapon_images")
 @cache(expire=86400)
