@@ -21,8 +21,11 @@ jobs:
       run: |
         sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << EOF
           export TMPDIR='/var/tmp' 
+          
+          mkdir -p app/tft-double-up-be
           cd app/tft-double-up-be/
-          git pull
+          git clone git@github.com:cosminpm/tft-double-up.git
+          
           docker system prune -af --volumes
           docker compose up --build -d
         EOF
