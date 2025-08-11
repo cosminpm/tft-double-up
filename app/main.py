@@ -15,6 +15,18 @@ from app.utils.logger_config import configure_logging
 
 settings = Settings()
 
+
+if settings.is_sentry:
+    import sentry_sdk
+
+    sentry_sdk.init(
+        dsn="https://0c9a7785d72172b768c679be0b185d10@o4507929979912192.ingest.de.sentry.io/4509826174419024",
+        traces_sample_rate=1.0,
+        _experiments={
+            "continuous_profiling_auto_start": True,
+        },
+    )
+
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator:
     """Do Setup and cleanup for the FastAPI app.
@@ -61,6 +73,9 @@ def health():
         logger.error(e)
         return e
 
+@app.get("/sentry-debug")
+async def trigger_error():
+    division_by_zero = 1 / 0
 
 app.add_middleware(
     CORSMiddleware,

@@ -3,5 +3,7 @@ from pydantic_settings import BaseSettings
 
 load_dotenv()
 
+
 class Settings(BaseSettings):
     tft_url: str = "https://tftactics.gg/"
+    is_sentry: bool = True

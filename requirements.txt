@@ -6,3 +6,4 @@ beautifulsoup4==4.9.3		# Grep HTML
 fastapi-cache2==0.2.2		# cache the requests in memory
 loguru==0.7.3				# logging
 asgi-correlation-id==4.3.4
+sentry-sdk==2.34.1
