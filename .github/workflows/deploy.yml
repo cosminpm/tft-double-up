@@ -1,0 +1,28 @@
+name: Deploy Backend
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Deploy Backend
+      env:
+        DEPLOY_SERVER_USER: ${{ secrets.DEPLOY_SERVER_USER }}
+        DEPLOY_SERVER_HOST: ${{ secrets.DEPLOY_SERVER_HOST }}
+        DEPLOY_SERVER_SECRET: ${{ secrets.DEPLOY_SERVER_SECRET }}
+
+      run: |
+        sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << EOF
+          export TMPDIR='/var/tmp' 
+          cd app/bottle-caps-backend/
+          git pull
+          docker system prune -af --volumes
+          docker compose up --build -d
+        EOF
