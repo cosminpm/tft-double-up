@@ -21,24 +21,51 @@ jobs:
         DEPLOY_SERVER_HOST: ${{ secrets.DEPLOY_SERVER_HOST }}
         DEPLOY_SERVER_SECRET: ${{ secrets.DEPLOY_SERVER_SECRET }}
         DEPLOY_REPOSITORY_SSH: ${{ secrets.DEPLOY_REPOSITORY_SSH }}
-
       run: |
-        sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST bash -s <<EOF
+        sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST bash -s <<'EOF'
           export TMPDIR='/var/tmp'
-          
+        
+          # Setup SSH key for git clone
           mkdir -p ~/.ssh
           echo "$DEPLOY_REPOSITORY_SSH" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          
+        
+          # Install Docker if missing
+          if ! command -v docker > /dev/null 2>&1; then
+            echo "Docker not found, installing..."
+            sudo apt-get update
+            sudo apt-get install -y \
+              ca-certificates \
+              curl \
+              gnupg \
+              lsb-release
+        
+            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+        
+            echo \
+              "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+              $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+        
+            sudo apt-get update
+            sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+        
+            # Allow current user to run docker without sudo
+            sudo usermod -aG docker $USER
+          fi
+        
           mkdir -p app/tft-double-up-be
           cd app/tft-double-up-be
-          
+        
+          # Clone or pull repo
           if [ -d ".git" ]; then
             GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519" git pull
           else
             GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519" git clone git@github.com:cosminpm/tft-double-up.git .
           fi
-          
-          docker system prune -af --volumes
-          docker compose up --build -d
+        
+          # Clean docker system
+          sudo docker system prune -af --volumes
+        
+          # Start docker compose
+          sudo docker compose up --build -d
         EOF
