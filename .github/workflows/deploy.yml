@@ -20,9 +20,6 @@ jobs:
         DEPLOY_SERVER_USER: ${{ secrets.DEPLOY_SERVER_USER }}
         DEPLOY_SERVER_HOST: ${{ secrets.DEPLOY_SERVER_HOST }}
         DEPLOY_SERVER_SECRET: ${{ secrets.DEPLOY_SERVER_SECRET }}
-        DEPLOY_REPOSITORY_SSH: ${{ secrets.DEPLOY_REPOSITORY_SSH }}
-        TFT_URL: ${{ env.TFT_URL }}
-
       run: |
         sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << EOF
           export TMPDIR='/var/tmp' 
