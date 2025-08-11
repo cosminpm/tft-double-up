@@ -11,6 +11,7 @@ from fastapi_cache.backends.inmemory import InMemoryBackend
 
 from app.config import Settings
 from app.services.tft_api_fetcher.router import fetch_router
+from app.utils.logger_config import configure_logging
 
 settings = Settings()
 
@@ -30,6 +31,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator:
         None
 
     """
+    configure_logging()
     app.request_client = httpx.AsyncClient()  # type: ignore[attr-defined]
     FastAPICache.init(InMemoryBackend())
 
