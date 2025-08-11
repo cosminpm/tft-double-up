@@ -24,7 +24,7 @@ jobs:
           export TMPDIR='/var/tmp'
         
           mkdir -p ~/.ssh
-          printf '%s\n' "$DEPLOY_REPOSITORY_SSH" > ~/.ssh/id_ed25519
+          echo "$DEPLOY_REPOSITORY_SSH" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
         
           mkdir -p app/tft-double-up-be
