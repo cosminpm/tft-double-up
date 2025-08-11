@@ -17,6 +17,7 @@ jobs:
         DEPLOY_SERVER_USER: ${{ secrets.DEPLOY_SERVER_USER }}
         DEPLOY_SERVER_HOST: ${{ secrets.DEPLOY_SERVER_HOST }}
         DEPLOY_SERVER_SECRET: ${{ secrets.DEPLOY_SERVER_SECRET }}
+        DEPLOY_REPOSITORY_SECRET: ${{ secrets.DEPLOY_REPOSITORY_SECRET }}
 
       run: |
         sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << EOF
@@ -24,7 +25,12 @@ jobs:
           
           mkdir -p app/tft-double-up-be
           cd app/tft-double-up-be/
-          git clone git@github.com:cosminpm/tft-double-up.git
+        
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_REPOSITORY_SECRET" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          
+          GIT_SSH_COMMAND='ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519' git clone git@github.com:cosminpm/tft-double-up.git
           
           docker system prune -af --volumes
           docker compose up --build -d
