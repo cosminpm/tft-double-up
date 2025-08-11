@@ -12,6 +12,9 @@ jobs:
     - name: Checkout Code
       uses: actions/checkout@v3
 
+    - name: Install sshpass
+      run: sudo apt-get update && sudo apt-get install -y sshpass
+
     - name: Deploy Backend
       env:
         DEPLOY_SERVER_USER: ${{ secrets.DEPLOY_SERVER_USER }}
@@ -20,18 +23,22 @@ jobs:
         DEPLOY_REPOSITORY_SSH: ${{ secrets.DEPLOY_REPOSITORY_SSH }}
 
       run: |
-        sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << 'EOF'
+        sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST bash -s <<EOF
           export TMPDIR='/var/tmp'
-        
+          
           mkdir -p ~/.ssh
           echo "$DEPLOY_REPOSITORY_SSH" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-        
+          
           mkdir -p app/tft-double-up-be
-          cd app/tft-double-up-be/
-        
-          GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519" git clone git@github.com:cosminpm/tft-double-up.git
-        
+          cd app/tft-double-up-be
+          
+          if [ -d ".git" ]; then
+            GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519" git pull
+          else
+            GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_ed25519" git clone git@github.com:cosminpm/tft-double-up.git .
+          fi
+          
           docker system prune -af --volumes
           docker compose up --build -d
         EOF
