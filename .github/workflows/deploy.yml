@@ -17,14 +17,14 @@ jobs:
         DEPLOY_SERVER_USER: ${{ secrets.DEPLOY_SERVER_USER }}
         DEPLOY_SERVER_HOST: ${{ secrets.DEPLOY_SERVER_HOST }}
         DEPLOY_SERVER_SECRET: ${{ secrets.DEPLOY_SERVER_SECRET }}
-        DEPLOY_REPOSITORY_SECRET: ${{ secrets.DEPLOY_REPOSITORY_SECRET }}
+        DEPLOY_REPOSITORY_SSH: ${{ secrets.DEPLOY_REPOSITORY_SSH }}
 
       run: |
         sshpass -p "$DEPLOY_SERVER_SECRET" ssh -o StrictHostKeyChecking=no $DEPLOY_SERVER_USER@$DEPLOY_SERVER_HOST << 'EOF'
           export TMPDIR='/var/tmp'
         
           mkdir -p ~/.ssh
-          printf '%s\n' "$DEPLOY_REPOSITORY_SECRET" > ~/.ssh/id_ed25519
+          printf '%s\n' "DEPLOY_REPOSITORY_SSH" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
         
           mkdir -p app/tft-double-up-be
@@ -34,6 +34,4 @@ jobs:
         
           docker system prune -af --volumes
           docker compose up --build -d
-        
-          rm -f ~/.ssh/id_ed25519
         EOF
