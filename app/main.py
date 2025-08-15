@@ -1,4 +1,3 @@
-from loguru import logger
 from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
 
@@ -8,6 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
+from loguru import logger
 
 from app.config import Settings
 from app.services.tft_api_fetcher.router import fetch_router
@@ -26,6 +26,7 @@ if settings.is_sentry:
             "continuous_profiling_auto_start": True,
         },
     )
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator:
@@ -66,16 +67,14 @@ origins = [
 
 @app.get("/health")
 def health():
+    """Health check."""
     try:
         logger.info("OK: Everything is OK")
-        return "ok"
-    except Exception as e:
+        return "ok"  # noqa: TRY300
+    except Exception as e:  # noqa: BLE001
         logger.error(e)
         return e
 
-@app.get("/sentry-debug")
-async def trigger_error():
-    division_by_zero = 1 / 0
 
 app.add_middleware(
     CORSMiddleware,
@@ -86,4 +85,4 @@ app.add_middleware(
 )
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8080)
+    uvicorn.run(app, host="0.0.0.0", port=8080)  # noqa: S104

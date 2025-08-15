@@ -1,7 +1,7 @@
 import re
 
 from bs4 import Tag
-from pydantic import BaseModel, Field, model_serializer
+from pydantic import BaseModel, Field
 
 
 class Item(BaseModel):
@@ -25,8 +25,8 @@ class Champion(BaseModel):
 
         # get champion tier
         tier_color_parse: list[str] = tag.get("class", [])
-        tier = next((cls for cls in tier_color_parse if re.match(r'^c\d+$', cls)), None)[1:]
-        is_3_star = bool(next((cls for cls in tier_color_parse if re.match(r'^l\d+$', cls)), None))
+        tier = next((cls for cls in tier_color_parse if re.match(r"^c\d+$", cls)), None)[1:]  # type: ignore[index]
+        is_3_star = bool(next((cls for cls in tier_color_parse if re.match(r"^l\d+$", cls)), None))
 
         return cls(name=name, items=items, tier=tier, is_3_star=is_3_star)
 
@@ -66,12 +66,6 @@ class Composition(BaseModel):
         if self_tier_rank != other_tier_rank:
             return self_tier_rank < other_tier_rank
         return self.name < other.name
-
-
-    @model_serializer(mode="wrap")
-    def serialize(self, handler):
-        data = handler(self)
-        return data
 
     @classmethod
     def from_tag(cls, tag: Tag):

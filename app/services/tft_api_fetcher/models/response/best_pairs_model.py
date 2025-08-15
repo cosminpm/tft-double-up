@@ -1,14 +1,14 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
-from app.services.tft_api_fetcher.models.composition import Composition, Champion
+from app.services.tft_api_fetcher.models.composition import Composition
 
 
 class CompositionSortedByChampionTier(Composition):
-    champions: list[Champion] = Field(default_factory=list)
-
     def __init__(self, **data):
         super().__init__(**data)
-        self.champions.sort(key=lambda c: int(c.tier) if c.tier.isdigit() else 99)
+        self.sorted_champions = sorted(
+            self.champions, key=lambda c: int(c.tier) if c.tier.isdigit() else 99
+        )
 
 
 class BestPairs(BaseModel):

@@ -4,7 +4,7 @@ from asgi_correlation_id.context import correlation_id
 from loguru import logger
 
 
-def correlation_id_filter(record) -> bool:  # type: ignore[no-untyped-def]
+def correlation_id_filter(record) -> bool:
     """Generate unique id for each request."""
     cid = correlation_id.get() or "no-cid"
     record["correlation_id"] = cid[:10]
