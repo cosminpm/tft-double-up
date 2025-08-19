@@ -6,7 +6,7 @@ from app.services.tft_api_fetcher.models.planner_champ import PlannerChamp
 
 def get_tft_set(response: Response) -> str:
     """Get TFT Set name given the response from the Raw Dragon API."""
-    return next(iter(response.json().keys()))
+    return next(iter(response.json().keys()))  # type: ignore[no-any-return]
 
 
 def fetch_planner_composition(response: Response) -> dict[str, PlannerChamp]:

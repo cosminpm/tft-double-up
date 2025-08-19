@@ -4,7 +4,7 @@ from app.services.tft_api_fetcher.models.composition import Champion, Compositio
 
 
 class CompositionSortedByChampionTier(Composition):
-    champions: list[Champion] = ""
+    champions: list[Champion] = ""  # type: ignore[assignment]
 
     def __init__(self, **data):
         super().__init__(**data)
