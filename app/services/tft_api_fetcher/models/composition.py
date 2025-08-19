@@ -23,7 +23,7 @@ class Champion(BaseModel):
             return None
         name = normalize_champ_name(champ_name.text.strip())
         items_div = tag.select(".character-items img")
-        items: list = [Item(name=img["alt"].strip()) for img in items_div]
+        items: list = [Item(name=normalize_champ_name(img["alt"].strip())) for img in items_div]
 
         # get champion tier
         tier_color_parse: list[str] = tag.get("class", [])
