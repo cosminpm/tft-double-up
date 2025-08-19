@@ -1,3 +1,4 @@
+import asyncio
 from typing import TYPE_CHECKING
 
 from fastapi import APIRouter
@@ -36,9 +37,14 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
 
     """
     request_client: AsyncClient = request.app.request_client
-    response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
 
-    top_compositions: list[Composition] = fetch_top_compositions(response)
+    top_compositions_response, planner_codes_response = await asyncio.gather(
+        request_client.get(f"{settings.tft_url}/tierlist/team-comps/"),
+        request_client.get(
+            f"{settings.tft_champion_url}/latest/plugins/rcp-be-lol-game-data/global/default/v1/tftchampions-teamplanner.json"
+        ),
+    )
+    top_compositions: list[Composition] = fetch_top_compositions(top_compositions_response)
     raw_pairs = fetch_best_pairs(top_compositions)
 
     return sorted_best_pairs(raw_pairs)

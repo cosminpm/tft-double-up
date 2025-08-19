@@ -13,6 +13,7 @@ class Champion(BaseModel):
     items: list[Item] = Field(default_factory=list)
     tier: str = "Z"
     is_3_star: bool = False
+    planner_hex: str = ""
 
     @classmethod
     def from_tag(cls, tag: Tag):
