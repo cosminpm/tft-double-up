@@ -1,4 +1,5 @@
 import asyncio
+from fastapi_cache.decorator import cache
 from typing import TYPE_CHECKING
 
 from fastapi import APIRouter
@@ -27,7 +28,7 @@ fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
 @fetch_router.get("/best_pairs")
-# @cache(expire=86400)
+@cache(expire=86400)
 async def get_best_pairs(request: Request) -> list[BestPairs]:
     """Retrieve and return the best composition pairings from the TFT tier list.
 
@@ -61,7 +62,7 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
 
 
 @fetch_router.get("/champion_weapon_images")
-# @cache(expire=86400)
+@cache(expire=86400)
 async def get_champion_weapon_images(request: Request) -> dict[str, str]:
     """Fetch champion weapon image URLs from the TFT tier list endpoint.
 
