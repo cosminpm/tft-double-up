@@ -78,6 +78,7 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> list[B
             champions=list(key.champions),
             tier=key.tier,
             play_style=key.play_style,
+            planner_code=key.planner_code,
         )
         sorted_pairs = [
             CompositionSortedByChampionTier(
@@ -85,6 +86,7 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> list[B
                 champions=list(pair.champions),
                 tier=pair.tier,
                 play_style=pair.play_style,
+                planner_code=pair.planner_code,
             )
             for pair in pairs
         ]

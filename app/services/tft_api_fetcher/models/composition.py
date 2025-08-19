@@ -3,6 +3,8 @@ import re
 from bs4 import Tag
 from pydantic import BaseModel, Field
 
+from app.utils.normalize import normalize_champ_name
+
 
 class Item(BaseModel):
     name: str
@@ -13,14 +15,13 @@ class Champion(BaseModel):
     items: list[Item] = Field(default_factory=list)
     tier: str = "Z"
     is_3_star: bool = False
-    planner_hex: str = ""
 
     @classmethod
     def from_tag(cls, tag: Tag):
         champ_name = tag.select_one(".team-character-name")
         if not champ_name:
             return None
-        name = champ_name.text.strip()
+        name = normalize_champ_name(champ_name.text.strip())
         items_div = tag.select(".character-items img")
         items: list = [Item(name=img["alt"].strip()) for img in items_div]
 
@@ -46,6 +47,7 @@ class Composition(BaseModel):
     champions: set[Champion] = Field(default_factory=set)
     tier: str
     play_style: str
+    planner_code: str = ""
 
     def compare_composition_similarity(self, composition: "Composition") -> int:
         return -len(self.champions & composition.champions)
