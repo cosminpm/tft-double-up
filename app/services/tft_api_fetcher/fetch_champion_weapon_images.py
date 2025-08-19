@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 from httpx import Response
 
+from app.utils.normalize import normalize_champ_name
+
 
 def fetch_champion_weapon_images(response: Response) -> dict[str, str]:
     """Parse a TFT tier list response to extract champion weapon image URLs.
@@ -34,6 +36,6 @@ def parse_soup(soup: BeautifulSoup) -> dict[str, str]:
     champion_images: dict[str, str] = {}
     for team_div in soup.select(".team-portrait"):
         for character in team_div.select(".character-icon"):
-            if (name := character.get("alt")) not in champion_images:
+            if (name := normalize_champ_name(character.get("alt"))) not in champion_images:
                 champion_images[name] = character.get("src")
     return champion_images
