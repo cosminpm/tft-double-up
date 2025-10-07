@@ -1,7 +1,7 @@
 import re
 
 from bs4 import Tag
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, computed_field
 
 from app.utils.normalize import normalize_champ_name
 
@@ -14,6 +14,7 @@ class Champion(BaseModel):
     name: str
     items: list[Item] = Field(default_factory=list)
     tier: str = "Z"
+
     is_3_star: bool = False
 
     @classmethod
@@ -31,6 +32,10 @@ class Champion(BaseModel):
         is_3_star = bool(next((cls for cls in tier_color_parse if re.match(r"^l\d+$", cls)), None))
 
         return cls(name=name, items=items, tier=tier, is_3_star=is_3_star)
+
+    @computed_field
+    def is_carry(self) -> bool:
+        return len(self.items) >= 2
 
     # Make comparison only between name
     def __hash__(self):

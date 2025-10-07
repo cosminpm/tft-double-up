@@ -28,7 +28,7 @@ fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 
 @fetch_router.get("/best_pairs")
-@cache(expire=86400)
+@cache(expire=86400) if not settings.debug else (lambda f: f)
 async def get_best_pairs(request: Request) -> list[BestPairs]:
     """Retrieve and return the best composition pairings from the TFT tier list.
 

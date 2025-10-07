@@ -10,3 +10,5 @@ class Settings(BaseSettings):
     is_sentry: bool = True
     host: str = "0.0.0.0"
     port: int = 8080
+
+    debug: bool = False
