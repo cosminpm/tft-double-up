@@ -6,53 +6,67 @@ from app.services.tft_api_fetcher.models.response.best_pairs_model import (
     BestPairs,
     CompositionSortedByChampionTier,
 )
+from app.utils.consts import TIER_ORDER
 
 
 def fetch_best_pairs(
-    top_compositions: list[Composition], top_n: int = 3
+        top_compositions: list[Composition], top_n: int = 3
 ) -> dict[Composition, list[Composition]]:
-    """Get the best pairs for all the compositions.
+    """Get the best pairs for all the compositions based on multiple scoring factors."""
+    def number_of_collisions(c1: Composition, c2: Composition) -> float:
+        # More than 2 collisions
+        overlap = c1.champions & c2.champions
 
-    Args:
-    ----
-        top_compositions (list[Composition]): All the compositions
-        top_n (int): The number of top compositions to return
+        if len(overlap) > 2:
+            return -1
+        # At least one of the collision is the carry
+        if any(champ.is_carry for champ in overlap):
+            return -1
+        return 1.0 / (1 + len(overlap))
 
-    Returns:
-    -------
-    dict[Composition, list[Composition]]
+    def last_b_tiers(c1: Composition, c2: Composition) -> float:
+        if TIER_ORDER["B"] > c1.tier_value or TIER_ORDER["B"] > c2.tier_value:
+            return -1
+        return (c1.tier_value + c2.tier_value) / 2.0
 
-    """
-    result: dict[Composition, list[Composition]] = defaultdict(list)
+    def reroll_vs_fast_8(c1: Composition, c2: Composition) -> float:
+        if "Roll" in c2.play_style and "Roll" in c1.play_style:
+            return 1
+        if "Roll" not in c2.play_style and not "Roll" in c1.play_style:
+            return 1
+        return 0
 
-    tier_order = {"S": 5, "A": 4, "B": 3, "C": 2, "D": 1, "F": 0}
+    def total_pair_score(c1: Composition, c2: Composition) -> float:
+        """Combine all valid scoring factors. If any return -1 → skip pair."""
+        scores = [
+            number_of_collisions(c1, c2) * 100,
+            last_b_tiers(c1, c2) * 10,
+            reroll_vs_fast_8(c1, c2),
+        ]
+
+        if any(s == -1 for s in scores):
+            return -1
+        return sum(scores)
+
+    result: dict[Composition, list[tuple[float, Composition]]] = defaultdict(list)
 
     for i, comp_1 in enumerate(top_compositions):
         for j in range(i + 1, len(top_compositions)):
             comp_2 = top_compositions[j]
+            score = total_pair_score(comp_1, comp_2)
+            if score == -1:
+                continue
 
-            shared = len(comp_1.champions & comp_2.champions)
-            score = -shared
-
-            tier_rank_2 = tier_order.get(comp_2.tier.upper(), -1)
-            tier_rank_1 = tier_order.get(comp_1.tier.upper(), -1)
-
-            heapq.heappush(result[comp_1], (score, tier_rank_2, comp_2))  # type: ignore[misc]
+            heapq.heappush(result[comp_1], (score, comp_2))
             if len(result[comp_1]) > top_n:
                 heapq.heappop(result[comp_1])
 
-            heapq.heappush(result[comp_2], (score, tier_rank_1, comp_1))  # type: ignore[misc]
+            heapq.heappush(result[comp_2], (score, comp_1))
             if len(result[comp_2]) > top_n:
                 heapq.heappop(result[comp_2])
 
     final_result: dict[Composition, list[Composition]] = {
-        comp: [
-            comp_obj  # type: ignore[misc]
-            for score, tier_rank, comp_obj in sorted(
-                heap,
-                key=lambda x: (x[0], -x[1]),  # type: ignore[index]
-            )
-        ]
+        comp: [comp_obj for _, comp_obj in sorted(heap, key=lambda x: -x[0])]
         for comp, heap in result.items()
     }
 

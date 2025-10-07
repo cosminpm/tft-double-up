@@ -3,6 +3,7 @@ import re
 from bs4 import Tag
 from pydantic import BaseModel, Field, computed_field
 
+from app.utils.consts import TIER_ORDER
 from app.utils.normalize import normalize_champ_name
 
 
@@ -53,6 +54,10 @@ class Composition(BaseModel):
     tier: str
     play_style: str
     planner_code: str = ""
+
+    @computed_field
+    def tier_value(self) -> float:
+        return TIER_ORDER[self.tier]
 
     def compare_composition_similarity(self, composition: "Composition") -> int:
         return -len(self.champions & composition.champions)
