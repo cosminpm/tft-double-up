@@ -3,7 +3,7 @@ import re
 from bs4 import Tag
 from pydantic import BaseModel, Field, computed_field
 
-from app.utils.consts import TIER_ORDER
+from app.utils.consts import NUMBER_OF_COLLISIONS, TIER_ORDER
 from app.utils.normalize import normalize_champ_name
 
 
@@ -36,7 +36,7 @@ class Champion(BaseModel):
 
     @computed_field
     def is_carry(self) -> bool:
-        return len(self.items) >= 2
+        return len(self.items) >= NUMBER_OF_COLLISIONS
 
     # Make comparison only between name
     def __hash__(self):

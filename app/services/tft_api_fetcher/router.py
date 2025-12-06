@@ -1,8 +1,12 @@
 import asyncio
-from fastapi_cache.decorator import cache
+import hashlib
+import json
 from typing import TYPE_CHECKING
 
 from fastapi import APIRouter
+from fastapi.responses import JSONResponse
+from fastapi_cache.decorator import cache
+from starlette import status
 from starlette.requests import Request
 
 from app.config import Settings
@@ -11,17 +15,15 @@ from app.services.tft_api_fetcher.fetch_extended_champs import (
     fetch_planner_composition,
     get_tft_set,
 )
-from app.services.tft_api_fetcher.fetch_get_pairs import fetch_best_pairs, sorted_best_pairs
+from app.services.tft_api_fetcher.fetch_get_pairs import fetch_pairs, sorted_best_pairs
 from app.services.tft_api_fetcher.fetch_top_compositions import fetch_top_compositions
-from app.services.tft_api_fetcher.models.response.best_pairs_model import (
-    BestPairs,
-)
 
 if TYPE_CHECKING:
     from httpx import AsyncClient, Response
 
     from app.services.tft_api_fetcher.models.composition import Composition
     from app.services.tft_api_fetcher.models.planner_champ import PlannerChamp
+    from app.services.tft_api_fetcher.models.response.best_pairs_model import BestPairs
 
 settings = Settings()
 fetch_router: APIRouter = APIRouter(tags=["Fetch"])
@@ -29,7 +31,7 @@ fetch_router: APIRouter = APIRouter(tags=["Fetch"])
 
 @fetch_router.get("/best_pairs")
 @cache(expire=86400) if not settings.debug else (lambda f: f)
-async def get_best_pairs(request: Request) -> list[BestPairs]:
+async def get_best_pairs(request: Request) -> JSONResponse:
     """Retrieve and return the best composition pairings from the TFT tier list.
 
     Args:
@@ -56,14 +58,22 @@ async def get_best_pairs(request: Request) -> list[BestPairs]:
         top_compositions_response, planner_champs, tft_set
     )
 
-    raw_pairs = fetch_best_pairs(top_compositions)
+    raw_pairs = fetch_pairs(top_compositions)
 
-    return sorted_best_pairs(raw_pairs)
+    sorted_pairs: list[BestPairs] = sorted_best_pairs(raw_pairs)
+
+    serializable_pairs = [pair.model_dump() for pair in sorted_pairs]  # Pydantic v2
+    content_bytes = json.dumps(serializable_pairs).encode("utf-8")
+    etag = hashlib.md5(content_bytes).hexdigest()
+
+    if request.headers.get("if-none-match") == etag:
+        return JSONResponse(status_code=status.HTTP_304_NOT_MODIFIED, content=None)
+    return JSONResponse(content=serializable_pairs, headers={"ETag": etag})
 
 
 @fetch_router.get("/champion_weapon_images")
 @cache(expire=86400)
-async def get_champion_weapon_images(request: Request) -> dict[str, str]:
+async def get_champion_weapon_images(request: Request) -> JSONResponse:
     """Fetch champion weapon image URLs from the TFT tier list endpoint.
 
     Args:
@@ -78,4 +88,11 @@ async def get_champion_weapon_images(request: Request) -> dict[str, str]:
     request_client: AsyncClient = request.app.request_client
     response: Response = await request_client.get(f"{settings.tft_url}/tierlist/team-comps/")
     champion_images: dict[str, str] = fetch_champion_weapon_images(response)
-    return champion_images
+
+    content_bytes = json.dumps(champion_images).encode("utf-8")
+    etag = hashlib.md5(content_bytes).hexdigest()
+
+    if request.headers.get("if-none-match") == etag:
+        return JSONResponse(status_code=status.HTTP_304_NOT_MODIFIED, content=None)
+
+    return JSONResponse(content=champion_images, headers={"ETag": etag})

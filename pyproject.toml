@@ -44,5 +44,8 @@ lint.ignore = [
     "TD003",    # "Missing issue link on the line following this TODO"
     "FBT001",   # Boolean-typed positional argument in function definition
     "PLR0913",  # Too many arguments in function definition (7 > 5)
-    "SLF001",   # Private member accessed: `_initialize`
+    "SLF001",   # Private member accessed: `_initialize`,
+    "C901",     # is too complex (16 > 10)
+    "S104",     # Possible binding to all interfaces
+    "S324"      # Probable use of insecure hash functions in `hashlib`: `md5`
 ]

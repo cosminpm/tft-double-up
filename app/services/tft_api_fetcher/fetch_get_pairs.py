@@ -6,18 +6,17 @@ from app.services.tft_api_fetcher.models.response.best_pairs_model import (
     BestPairs,
     CompositionSortedByChampionTier,
 )
-from app.utils.consts import TIER_ORDER
+from app.utils.consts import NUMBER_OF_COLLISIONS, TIER_ORDER
 
 
-def fetch_best_pairs(
-        top_compositions: list[Composition], top_n: int = 3
-) -> dict[Composition, list[Composition]]:
+def fetch_pairs(comps: list[Composition], top_n: int = 3) -> dict[Composition, list[Composition]]:
     """Get the best pairs for all the compositions based on multiple scoring factors."""
+
     def number_of_collisions(c1: Composition, c2: Composition) -> float:
         # More than 2 collisions
         overlap = c1.champions & c2.champions
 
-        if len(overlap) > 2:
+        if len(overlap) > NUMBER_OF_COLLISIONS:
             return -1
         # At least one of the collision is the carry
         if any(champ.is_carry for champ in overlap):
@@ -32,7 +31,7 @@ def fetch_best_pairs(
     def reroll_vs_fast_8(c1: Composition, c2: Composition) -> float:
         if "Roll" in c2.play_style and "Roll" in c1.play_style:
             return 1
-        if "Roll" not in c2.play_style and not "Roll" in c1.play_style:
+        if "Roll" not in c2.play_style and "Roll" not in c1.play_style:
             return 1
         return 0
 
@@ -50,9 +49,9 @@ def fetch_best_pairs(
 
     result: dict[Composition, list[tuple[float, Composition]]] = defaultdict(list)
 
-    for i, comp_1 in enumerate(top_compositions):
-        for j in range(i + 1, len(top_compositions)):
-            comp_2 = top_compositions[j]
+    for i, comp_1 in enumerate(comps):
+        for j in range(i + 1, len(comps)):
+            comp_2 = comps[j]
             score = total_pair_score(comp_1, comp_2)
             if score == -1:
                 continue

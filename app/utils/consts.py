@@ -1,1 +1,2 @@
 TIER_ORDER = {"S": 1, "A": 0.8, "B": 0.6, "C": 0.4, "D": 0.2, "F": 0}
+NUMBER_OF_COLLISIONS: int = 2

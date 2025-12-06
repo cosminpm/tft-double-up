@@ -85,4 +85,4 @@ app.add_middleware(
 )
 
 if __name__ == "__main__":
-    uvicorn.run(app, host=settings.host, port=settings.port)  # noqa: S104
+    uvicorn.run(app, host=settings.host, port=settings.port)
