@@ -2,6 +2,7 @@ from httpx import Response
 
 from app.services.tft_api_fetcher.models.composition import Composition
 from app.services.tft_api_fetcher.models.planner_champ import PlannerChamp
+from app.utils.normalize import normalize_champ_name
 
 
 def get_tft_set(response: Response) -> str:
@@ -27,7 +28,7 @@ def fetch_planner_composition(response: Response) -> dict[str, PlannerChamp]:
     tft_characters: dict[str, PlannerChamp] = {}
     for character in tft_set:
         planner_champ: PlannerChamp = PlannerChamp(
-            name=character["display_name"],
+            name=normalize_champ_name(character["display_name"]),
             planner_code=character["team_planner_code"],
             planner_hex=character["team_planner_code"],
         )
@@ -57,7 +58,8 @@ def composition_to_planner_code(
 
     query = ""
     for champion in champions:
-        query += planner_champs[champion].planner_hex
+        if champion in planner_champs:
+            query += planner_champs[champion].planner_hex
 
     query = query.ljust(30, "0")
     return "02" + query + tft_set
