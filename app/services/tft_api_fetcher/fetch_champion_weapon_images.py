@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
-from httpx import Response
+from httpx import Response, AsyncClient
 
 from app.utils.normalize import normalize_champ_name
+from app.config import Settings
 
+settings = Settings()
 
-def fetch_champion_weapon_images(response: Response) -> dict[str, str]:
+async def fetch_champion_weapon_images(client: AsyncClient) -> dict[str, str]:
     """Parse a TFT tier list response to extract champion weapon image URLs.
 
     Args:
@@ -16,6 +18,7 @@ def fetch_champion_weapon_images(response: Response) -> dict[str, str]:
         Mapping of champion names to their weapon image URLs.
 
     """
+    response: Response = await client.get(f"{settings.tft_url}/tierlist/team-comps/")
     html_content = response.content.decode("utf-8", errors="ignore")
     soup: BeautifulSoup = BeautifulSoup(html_content, "html.parser")
     return parse_soup(soup)
