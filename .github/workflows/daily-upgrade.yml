@@ -32,6 +32,7 @@ jobs:
           git add data/current.json data/history
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "Update TFT data $(date +'%Y-%m-%d')"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             git push
           else
             echo "No changes detected"
