@@ -3,7 +3,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from httpx import AsyncClient
+from httpx import AsyncClient, Timeout
 
 from app.services.tft_api_fetcher.fetch_best_pairs import generate_best_pairs
 from app.services.tft_api_fetcher.fetch_champion_weapon_images import fetch_champion_weapon_images
@@ -13,7 +13,7 @@ HISTORY_DIR = Path("data/history")
 HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
 async def main():
-    async with AsyncClient() as client:
+    async with AsyncClient(timeout=Timeout(30.0)) as client:
         best_pairs, champion_weapon_images = await asyncio.gather(
             generate_best_pairs(client),
             fetch_champion_weapon_images(client),
