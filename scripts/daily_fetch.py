@@ -41,7 +41,5 @@ async def main():
         with CURRENT_FILE.open("w", encoding="utf-8") as f:
             json.dump(new_data, f, indent=2,)
 
-        print(best_pairs, champion_weapon_images)
-
 if __name__ == "__main__":
     asyncio.run(main())
