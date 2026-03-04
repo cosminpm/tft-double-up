@@ -1,4 +1,4 @@
-name: Deploy Backend
+name: Initialize Backend
 
 on:
   workflow_dispatch:
