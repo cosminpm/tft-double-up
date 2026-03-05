@@ -7,6 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
+from httpx import Timeout
 from loguru import logger
 
 from app.config import Settings
@@ -45,7 +46,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator:
 
     """
     configure_logging()
-    app.request_client = httpx.AsyncClient()  # type: ignore[attr-defined]
+    app.request_client = httpx.AsyncClient(timeout=Timeout(20.0, connect=10.0))  # type: ignore[attr-defined]
     FastAPICache.init(InMemoryBackend())
 
     yield
