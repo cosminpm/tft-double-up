@@ -9,7 +9,7 @@ class CompositionSortedByChampionTier(Composition):
     def __init__(self, **data):
         super().__init__(**data)
         self.champions = sorted(
-            self.champions, key=lambda c: int(c.tier) if c.tier.isdigit() else 99
+            self.champions, key=lambda c: (c.tier, c.name) if c.tier.isdigit() else 99
         )
 
 

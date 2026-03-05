@@ -47,6 +47,14 @@ class Champion(BaseModel):
             return False
         return self.name == other.name
 
+    def dict(self, *args, **kwargs):
+        sorted_champions = sorted(
+            self.champions,
+            key=lambda c: (c.tier, c.name)
+        )
+        d = super().model_dump(*args, **kwargs)
+        d["champions"] = [c.model_dump() for c in sorted_champions]
+        return d
 
 class Composition(BaseModel):
     name: str
