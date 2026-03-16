@@ -91,7 +91,7 @@
         ],
         "tier": "S",
         "play_style": "Fast 9",
-        "planner_code": "0202535b01233635d35633d343000000TFTSet16",
+        "planner_code": "0235635b33d34335d025012336000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -177,7 +177,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0202b34c34003436535901c020000000TFTSet16",
+          "planner_code": "0235934002003402b01c34c365000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -262,7 +262,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -347,7 +347,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -446,7 +446,7 @@
         ],
         "tier": "S",
         "play_style": "Fast 9",
-        "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+        "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -532,7 +532,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0235036c34f370372362035343000000TFTSet16",
+          "planner_code": "0237234f37003534336235036c000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -625,7 +625,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0237336334135701a34003535a342000TFTSet16",
+          "planner_code": "0234036303534134235701a37335a000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -710,7 +710,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -798,7 +798,7 @@
         ],
         "tier": "S",
         "play_style": "Fast 8",
-        "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+        "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -888,7 +888,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -973,7 +973,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -1065,7 +1065,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0234901335034b37033637136202f000TFTSet16",
+          "planner_code": "0234902f37001336233634b350371000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -1153,7 +1153,7 @@
         ],
         "tier": "S",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0235235534b34c334333336343000000TFTSet16",
+        "planner_code": "0235533435234334c33634b333000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -1239,7 +1239,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+          "planner_code": "0234f36b37003501735d025350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -1324,7 +1324,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -1409,7 +1409,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -1511,7 +1511,7 @@
         ],
         "tier": "S",
         "play_style": "Fast 9",
-        "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+        "planner_code": "0235b03432d32235735d360336350000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -1601,7 +1601,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -1686,7 +1686,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -1771,7 +1771,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -1866,7 +1866,7 @@
         ],
         "tier": "S",
         "play_style": "Fast 9",
-        "planner_code": "0233202535b01a03435833635d331000TFTSet16",
+        "planner_code": "0233233135b35803435d01a025336000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -1956,7 +1956,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234134b02b34c340359361020000000TFTSet16",
+          "planner_code": "0235934034102002b36134c34b000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -2041,7 +2041,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -2126,7 +2126,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -2214,7 +2214,7 @@
         ],
         "tier": "S",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+        "planner_code": "0233f34034802003436134b36d000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -2300,7 +2300,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+          "planner_code": "0234f36b37003501735d025350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -2385,7 +2385,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -2470,7 +2470,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -2558,7 +2558,7 @@
         ],
         "tier": "S",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0234302534b01401835d335020000000TFTSet16",
+        "planner_code": "0233501802034301435d02534b000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -2644,7 +2644,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -2729,7 +2729,7 @@
           ],
           "tier": "B",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0202732235836e32c32d323360000000TFTSet16",
+          "planner_code": "0236e02732c35832d322360323000000TFTSet16",
           "tier_value": 0.6
         },
         {
@@ -2814,7 +2814,7 @@
           ],
           "tier": "B",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0237334134033636e32c035360000000TFTSet16",
+          "planner_code": "0234036e32c035341360336373000000TFTSet16",
           "tier_value": 0.6
         }
       ]
@@ -2906,7 +2906,7 @@
         ],
         "tier": "S",
         "play_style": "Standard",
-        "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+        "planner_code": "0202f34835803435d36736d350000000TFTSet16",
         "tier_value": 1
       },
       "pairs": [
@@ -2992,7 +2992,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -3081,7 +3081,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -3166,7 +3166,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -3254,7 +3254,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0232e36b025358331035343017000000TFTSet16",
+        "planner_code": "0236b33135803501734332e025000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -3340,7 +3340,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -3425,7 +3425,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -3493,7 +3493,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235232234c354020000000000000000TFTSet16",
+          "planner_code": "0235402035232234c000000000000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -3581,7 +3581,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0235036c34f370372362035343000000TFTSet16",
+        "planner_code": "0237234f37003534336235036c000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -3674,7 +3674,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b01a03435833635d331000TFTSet16",
+          "planner_code": "0233233135b35803435d01a025336000TFTSet16",
           "tier_value": 1
         },
         {
@@ -3770,7 +3770,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         },
         {
@@ -3855,7 +3855,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -3947,7 +3947,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0237334135733e34036103535a000000TFTSet16",
+        "planner_code": "0233e34003534135736137335a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -4040,7 +4040,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b01a03435833635d331000TFTSet16",
+          "planner_code": "0233233135b35803435d01a025336000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4129,7 +4129,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4225,7 +4225,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -4313,7 +4313,7 @@
         ],
         "tier": "A",
         "play_style": "Standard",
-        "planner_code": "023202e032136f37036e0352df000000TFTSet16",
+        "planner_code": "0236e3700352e036f3213202df000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -4410,7 +4410,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4499,7 +4499,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4584,7 +4584,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -4672,7 +4672,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0232e37335035101832c035335000000TFTSet16",
+        "planner_code": "0233501832c03535132e373350000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -4758,7 +4758,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4843,7 +4843,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -4928,7 +4928,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -5020,7 +5020,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0233c02536f33a01033835a33d000000TFTSet16",
+        "planner_code": "0233c33833d36f33a02501035a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -5120,7 +5120,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -5209,7 +5209,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -5294,7 +5294,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -5386,7 +5386,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (5)",
-        "planner_code": "0233c02536f33a01033835a33d000000TFTSet16",
+        "planner_code": "0233c33833d36f33a02501035a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -5472,7 +5472,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -5557,7 +5557,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -5642,7 +5642,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -5730,7 +5730,7 @@
         ],
         "tier": "A",
         "play_style": "Standard",
-        "planner_code": "0200433c02536f01033801b33d000000TFTSet16",
+        "planner_code": "0233c33801b33d36f025004010000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -5830,7 +5830,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -5919,7 +5919,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -6004,7 +6004,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -6099,7 +6099,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0202233c01336f359370336010362000TFTSet16",
+        "planner_code": "0235933c37002236f013362336010000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -6189,7 +6189,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -6274,7 +6274,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -6359,7 +6359,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -6430,7 +6430,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0235232234c354020000000000000000TFTSet16",
+        "planner_code": "0235402035232234c000000000000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -6516,7 +6516,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+          "planner_code": "0234f36b37003501735d025350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -6601,7 +6601,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -6686,7 +6686,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -6781,7 +6781,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "02373013341350351370336361035000TFTSet16",
+        "planner_code": "02370035341013361351336373350000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -6867,7 +6867,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -6956,7 +6956,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -7041,7 +7041,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -7136,7 +7136,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0235734b33f340034358336361020000TFTSet16",
+        "planner_code": "0233f34035802003435736133634b000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -7222,7 +7222,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0237302535235536635401601b000000TFTSet16",
+          "planner_code": "0236635401b355352016025373000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -7311,7 +7311,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -7396,7 +7396,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -7484,7 +7484,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0202535034f35135836235d02a000000TFTSet16",
+        "planner_code": "0234f35836235135d02535002a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -7570,7 +7570,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -7655,7 +7655,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -7740,7 +7740,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -7828,7 +7828,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0236334b02b01a014018343342000000TFTSet16",
+        "planner_code": "0201836334234301402b01a34b000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -7918,7 +7918,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0201e02134c02435800f01d020000000TFTSet16",
+          "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -8003,7 +8003,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -8088,7 +8088,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -8184,7 +8184,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0237336334135701a34003535a342000TFTSet16",
+        "planner_code": "0234036303534134235701a37335a000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -8277,7 +8277,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0202535b01233635d35633d343000000TFTSet16",
+          "planner_code": "0235635b33d34335d025012336000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -8373,7 +8373,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         },
         {
@@ -8462,7 +8462,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -8550,7 +8550,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0202534b34c34a36735d015343000000TFTSet16",
+        "planner_code": "0234a01534334c35d36702534b000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -8636,7 +8636,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -8721,7 +8721,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0232e37335035101832c035335000000TFTSet16",
+          "planner_code": "0233501832c03535132e373350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -8806,7 +8806,7 @@
           ],
           "tier": "B",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0237334134033636e32c035360000000TFTSet16",
+          "planner_code": "0234036e32c035341360336373000000TFTSet16",
           "tier_value": 0.6
         }
       ]
@@ -8894,7 +8894,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+        "planner_code": "0234f36b37003501735d025350000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -8980,7 +8980,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -9065,7 +9065,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -9154,7 +9154,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0201e02134c02435800f01d020000000TFTSet16",
+          "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -9242,7 +9242,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0232e33236b02535b32f019331000000TFTSet16",
+        "planner_code": "0233232f36b33135b01932e025000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -9332,7 +9332,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -9417,7 +9417,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -9509,7 +9509,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0234901335034b37033637136202f000TFTSet16",
+          "planner_code": "0234902f37001336233634b350371000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -9601,7 +9601,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0234134b02b34c340359361020000000TFTSet16",
+        "planner_code": "0235934034102002b36134c34b000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -9701,7 +9701,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -9793,7 +9793,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b01a03435833635d331000TFTSet16",
+          "planner_code": "0233233135b35803435d01a025336000TFTSet16",
           "tier_value": 1
         },
         {
@@ -9882,7 +9882,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -9970,7 +9970,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0202b34c34003436535901c020000000TFTSet16",
+        "planner_code": "0235934002003402b01c34c365000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -10063,7 +10063,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0202535b01233635d35633d343000000TFTSet16",
+          "planner_code": "0235635b33d34335d025012336000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -10148,7 +10148,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -10240,7 +10240,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0234901335034b37033637136202f000TFTSet16",
+          "planner_code": "0234902f37001336233634b350371000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -10328,7 +10328,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0234135033f37033636103502a000000TFTSet16",
+        "planner_code": "0233f37003534136133635002a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -10414,7 +10414,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -10503,7 +10503,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -10588,7 +10588,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -10680,7 +10680,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (5)",
-        "planner_code": "0201e02134c02435800f01d020000000TFTSet16",
+        "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -10766,7 +10766,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0236334b02b01a014018343342000000TFTSet16",
+          "planner_code": "0201836334234301402b01a34b000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -10851,7 +10851,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+          "planner_code": "0234f36b37003501735d025350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -10936,7 +10936,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -11035,7 +11035,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0202202534b34c35933601c35d343000TFTSet16",
+        "planner_code": "0235902234301c34c35d02533634b000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -11125,7 +11125,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0237334135733e34036103535a000000TFTSet16",
+          "planner_code": "0233e34003534135736137335a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -11218,7 +11218,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0237336334135701a34003535a342000TFTSet16",
+          "planner_code": "0234036303534134235701a37335a000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -11303,7 +11303,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -11395,7 +11395,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0233202532f36632435437235d000000TFTSet16",
+        "planner_code": "0237233236632f35432435d025000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -11481,7 +11481,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -11566,7 +11566,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -11658,7 +11658,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0234901335034b37033637136202f000TFTSet16",
+          "planner_code": "0234902f37001336233634b350371000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -11757,7 +11757,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0202302534b34c35933635d368343000TFTSet16",
+        "planner_code": "0236835902334334c35d02533634b000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -11847,7 +11847,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0237334135733e34036103535a000000TFTSet16",
+          "planner_code": "0233e34003534135736137335a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -11940,7 +11940,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0237336334135701a34003535a342000TFTSet16",
+          "planner_code": "0234036303534134235701a37335a000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -12025,7 +12025,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -12117,7 +12117,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0202302534b34c35933635d343000000TFTSet16",
+        "planner_code": "0235902334334c35d02533634b000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -12207,7 +12207,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0237334135733e34036103535a000000TFTSet16",
+          "planner_code": "0233e34003534135736137335a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -12300,7 +12300,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0237336334135701a34003535a342000TFTSet16",
+          "planner_code": "0234036303534134235701a37335a000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -12385,7 +12385,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -12473,7 +12473,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+        "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -12559,7 +12559,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -12644,7 +12644,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -12733,7 +12733,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0201e02134c02435800f01d020000000TFTSet16",
+          "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -12821,7 +12821,7 @@
         ],
         "tier": "A",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+        "planner_code": "0235836235135034d36c02a030000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -12907,7 +12907,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -12992,7 +12992,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234302534b01401835d335020000000TFTSet16",
+          "planner_code": "0233501802034301435d02534b000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -13077,7 +13077,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -13169,7 +13169,7 @@
         ],
         "tier": "A",
         "play_style": "Standard",
-        "planner_code": "0232e33202532236635332432c000000TFTSet16",
+        "planner_code": "0233236632432c32235332e025000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -13259,7 +13259,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -13344,7 +13344,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -13436,7 +13436,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 9",
-          "planner_code": "0234901335034b37033637136202f000TFTSet16",
+          "planner_code": "0234902f37001336233634b350371000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -13524,7 +13524,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0237302535235536635401601b000000TFTSet16",
+        "planner_code": "0236635401b355352016025373000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -13624,7 +13624,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -13713,7 +13713,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -13798,7 +13798,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -13890,7 +13890,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0232e332025366353324354016000000TFTSet16",
+        "planner_code": "0233236635432435301632e025000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -13990,7 +13990,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14079,7 +14079,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14164,7 +14164,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -14252,7 +14252,7 @@
         ],
         "tier": "A",
         "play_style": "Standard",
-        "planner_code": "023202e032136f36937036e035000000TFTSet16",
+        "planner_code": "0236e3700352e036f321320369000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -14349,7 +14349,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14438,7 +14438,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14523,7 +14523,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -14611,7 +14611,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 8",
-        "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+        "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -14704,7 +14704,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0202535b01233635d35633d343000000TFTSet16",
+          "planner_code": "0235635b33d34335d025012336000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14796,7 +14796,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b01a03435833635d331000TFTSet16",
+          "planner_code": "0233233135b35803435d01a025336000TFTSet16",
           "tier_value": 1
         },
         {
@@ -14895,7 +14895,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -14990,7 +14990,7 @@
         ],
         "tier": "A",
         "play_style": "Fast 9",
-        "planner_code": "0234901335034b37033637136202f000TFTSet16",
+        "planner_code": "0234902f37001336233634b350371000TFTSet16",
         "tier_value": 0.8
       },
       "pairs": [
@@ -15076,7 +15076,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -15161,7 +15161,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0237302535235536635401601b000000TFTSet16",
+          "planner_code": "0236635401b355352016025373000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -15250,7 +15250,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -15345,7 +15345,7 @@
         ],
         "tier": "B",
         "play_style": "Fast 8",
-        "planner_code": "0202735732236e32c32d323360000000TFTSet16",
+        "planner_code": "0236e02732c32d322357360323000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -15442,7 +15442,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0233202535b34b34c01233635d019000TFTSet16",
+          "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
           "tier_value": 1
         },
         {
@@ -15531,7 +15531,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -15616,7 +15616,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -15704,7 +15704,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0202732235836e32c32d323360000000TFTSet16",
+        "planner_code": "0236e02732c35832d322360323000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -15790,7 +15790,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -15875,7 +15875,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234302534b01401835d335020000000TFTSet16",
+          "planner_code": "0233501802034301435d02534b000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -15960,7 +15960,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -16065,7 +16065,7 @@
         ],
         "tier": "B",
         "play_style": "Fast 9",
-        "planner_code": "0237301334134033636e32c035360000TFTSet16",
+        "planner_code": "0234036e32c035341013360336373000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -16155,7 +16155,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -16244,7 +16244,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0232e332025366353324354016000000TFTSet16",
+          "planner_code": "0233236635432435301632e025000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -16329,7 +16329,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234b34c34a34836d36702f015000000TFTSet16",
+          "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -16421,7 +16421,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0234302532f33f011358361331000000TFTSet16",
+        "planner_code": "0233f32f331358343361025011000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -16507,7 +16507,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -16592,7 +16592,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0232e37335035101832c035335000000TFTSet16",
+          "planner_code": "0233501832c03535132e373350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -16660,7 +16660,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235232234c354020000000000000000TFTSet16",
+          "planner_code": "0235402035232234c000000000000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -16748,7 +16748,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (7)",
-        "planner_code": "022e002535034f351370362343000000TFTSet16",
+        "planner_code": "0234f3702e0343362351025350000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -16834,7 +16834,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -16902,7 +16902,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235232234c354020000000000000000TFTSet16",
+          "planner_code": "0235402035232234c000000000000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -16991,7 +16991,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (5)",
-          "planner_code": "0201e02134c02435800f01d020000000TFTSet16",
+          "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -17083,7 +17083,7 @@
         ],
         "tier": "B",
         "play_style": "Fast 8",
-        "planner_code": "0236301201a014356343342000000000TFTSet16",
+        "planner_code": "0235636334234301401a012000000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -17183,7 +17183,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -17272,7 +17272,7 @@
           ],
           "tier": "S",
           "play_style": "Standard",
-          "planner_code": "0235003434835836d36735d02f000000TFTSet16",
+          "planner_code": "0202f34835803435d36736d350000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -17357,7 +17357,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         }
       ]
@@ -17445,7 +17445,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (5)",
-        "planner_code": "0237334134033636e32c035360000000TFTSet16",
+        "planner_code": "0234036e32c035341360336373000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -17531,7 +17531,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234302534b01401835d335020000000TFTSet16",
+          "planner_code": "0233501802034301435d02534b000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -17616,7 +17616,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -17701,7 +17701,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -17793,7 +17793,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0233202532232f324019323331000000TFTSet16",
+        "planner_code": "0233232f331324019322025323000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -17879,7 +17879,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -17964,7 +17964,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -18049,7 +18049,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -18141,7 +18141,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (7)",
-        "planner_code": "0236b332343025358336019331000000TFTSet16",
+        "planner_code": "0233236b331358019343025336000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -18227,7 +18227,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -18312,7 +18312,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0232e37335035101832c035335000000TFTSet16",
+          "planner_code": "0233501832c03535132e373350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -18380,7 +18380,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235232234c354020000000000000000TFTSet16",
+          "planner_code": "0235402035232234c000000000000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -18472,7 +18472,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (6)",
-        "planner_code": "0234134b02b34c340359361020000000TFTSet16",
+        "planner_code": "0235934034102002b36134c34b000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -18558,7 +18558,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0236b02535034f37035d035017000000TFTSet16",
+          "planner_code": "0234f36b37003501735d025350000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -18643,7 +18643,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -18728,7 +18728,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0233c02536f33a03033835a33d000000TFTSet16",
+          "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -18816,7 +18816,7 @@
         ],
         "tier": "B",
         "play_style": "Slow Roll (6)",
-        "planner_code": "023202e032102536f0183702df000000TFTSet16",
+        "planner_code": "020183702e036f3210253202df000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -18902,7 +18902,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0234b33f34003434836d361020000000TFTSet16",
+          "planner_code": "0233f34034802003436134b36d000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -18987,7 +18987,7 @@
           ],
           "tier": "S",
           "play_style": "Slow Roll (7)",
-          "planner_code": "0235235534b34c334333336343000000TFTSet16",
+          "planner_code": "0235533435234334c33634b333000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -19072,7 +19072,7 @@
           ],
           "tier": "A",
           "play_style": "Slow Roll (6)",
-          "planner_code": "0234d36c35035135803036202a000000TFTSet16",
+          "planner_code": "0235836235135034d36c02a030000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -19160,7 +19160,7 @@
         ],
         "tier": "B",
         "play_style": "Standard",
-        "planner_code": "0202535234b34c36701602f343000000TFTSet16",
+        "planner_code": "0202f35234301634c36702534b000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -19260,7 +19260,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 9",
-          "planner_code": "0235735b35032203433632d35d360000TFTSet16",
+          "planner_code": "0235b03432d32235735d360336350000TFTSet16",
           "tier_value": 1
         },
         {
@@ -19345,7 +19345,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234135033f37033636103502a000000TFTSet16",
+          "planner_code": "0233f37003534136133635002a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -19430,7 +19430,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]
@@ -19518,7 +19518,7 @@
         ],
         "tier": "B",
         "play_style": "Fast 8",
-        "planner_code": "0202534b32234a35436735d343000000TFTSet16",
+        "planner_code": "0234a35432234335d36702534b000000TFTSet16",
         "tier_value": 0.6
       },
       "pairs": [
@@ -19604,7 +19604,7 @@
           ],
           "tier": "S",
           "play_style": "Fast 8",
-          "planner_code": "0201e35b02134c34000f01d020000000TFTSet16",
+          "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
           "tier_value": 1
         },
         {
@@ -19689,7 +19689,7 @@
           ],
           "tier": "A",
           "play_style": "Fast 8",
-          "planner_code": "0234135033f37033636103502a000000TFTSet16",
+          "planner_code": "0233f37003534136133635002a000000TFTSet16",
           "tier_value": 0.8
         },
         {
@@ -19774,7 +19774,7 @@
           ],
           "tier": "A",
           "play_style": "Standard",
-          "planner_code": "023202e032136f36937036e035000000TFTSet16",
+          "planner_code": "0236e3700352e036f321320369000000TFTSet16",
           "tier_value": 0.8
         }
       ]

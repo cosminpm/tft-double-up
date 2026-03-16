@@ -14,16 +14,14 @@ HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
 async def main():
     async with AsyncClient(timeout=Timeout(30.0)) as client:
-        best_pairs, champion_weapon_images = await asyncio.gather(
+        new_best_pairs, champion_weapon_images = await asyncio.gather(
             generate_best_pairs(client),
             fetch_champion_weapon_images(client),
         )
 
-        today: str = date.today().isoformat()
-
         new_data: dict = {
-            "date": today,
-            "best_pairs": best_pairs,
+            "date": date.today().isoformat(),
+            "best_pairs": new_best_pairs,
             "champion_weapon_images": champion_weapon_images
         }
 
@@ -31,7 +29,7 @@ async def main():
             with CURRENT_FILE.open("r", encoding="utf-8") as f:
                 old_data = json.load(f)
 
-            if old_data != new_data:
+            if old_data["best_pairs"] != new_best_pairs:
                 old_date = old_data.get("date", "unknown")
                 backup_file = HISTORY_DIR / f"{old_date}.json"
                 with backup_file.open("w", encoding="utf-8") as f:

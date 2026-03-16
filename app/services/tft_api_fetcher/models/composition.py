@@ -100,3 +100,4 @@ class Composition(BaseModel):
         play_style = play_style_soup.text.strip() if play_style_soup else None
 
         return cls(name=name, play_style=play_style, tier=tier)
+

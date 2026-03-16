@@ -54,7 +54,7 @@ def composition_to_planner_code(
         str: The encoded planner code representing the given composition.
 
     """
-    champions = [champion.name for champion in composition.champions]
+    champions: list[str] = sorted([champion.name for champion in composition.champions])
 
     query = ""
     for champion in champions:
