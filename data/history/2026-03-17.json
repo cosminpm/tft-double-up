@@ -1,20 +1,13 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-17",
   "best_pairs": {
-    "0235633c33d34335d025012336000000TFTSet16": {
+    "Arcanists": {
       "name": "Arcanists",
       "champions": [
         {
           "name": "neeko",
           "items": [],
           "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "garen",
-          "items": [],
-          "tier": "4",
           "is_3_star": false,
           "is_carry": false
         },
@@ -57,6 +50,13 @@
           "is_carry": true
         },
         {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
           "name": "shyvana",
           "items": [],
           "tier": "5",
@@ -90,75 +90,38 @@
       ],
       "tier": "S",
       "play_style": "Fast 9",
-      "planner_code": "0235633c33d34335d025012336000000TFTSet16",
+      "planner_code": "0235635b33d34335d025012336000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "Piltover Gunslingers",
+        "Zaun",
+        "Yordle Arcanists"
       ]
     },
-    "0233c33801b35536f025336004000000TFTSet16": {
-      "name": "Demacian Longshots",
+    "Noxus Disruptors": {
+      "name": "Noxus Disruptors",
       "champions": [
         {
-          "name": "jarvan iv",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kogmaw",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "poppy",
+          "name": "vi",
           "items": [],
           "tier": "2",
           "is_3_star": false,
           "is_carry": false
         },
         {
-          "name": "vayne",
-          "items": [
-            {
-              "name": "hextech gunblade"
-            },
-            {
-              "name": "krakens fury"
-            },
-            {
-              "name": "krakens fury"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "garen",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "sunfire cape"
-            },
-            {
-              "name": "warmogs armor"
-            }
-          ],
+          "name": "ambessa",
+          "items": [],
           "tier": "4",
           "is_3_star": false,
-          "is_carry": true
+          "is_carry": false
         },
         {
-          "name": "kaisa",
-          "items": [],
+          "name": "seraphine",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
           "tier": "4",
           "is_3_star": false,
           "is_carry": false
@@ -172,41 +135,6 @@
         },
         {
           "name": "taric",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Standard",
-      "planner_code": "0233c33801b35536f025336004000000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0202f34835803435d36736d350000000TFTSet16"
-      ]
-    },
-    "0235936b01901c01335d025012336000TFTSet16": {
-      "name": "Noxus Shurima",
-      "champions": [
-        {
-          "name": "darius",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "renekton",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "swain",
           "items": [
             {
               "name": "bramble vest"
@@ -223,14 +151,7 @@
           "is_carry": true
         },
         {
-          "name": "taric",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "azir",
+          "name": "fiddlesticks",
           "items": [],
           "tier": "5",
           "is_3_star": false,
@@ -261,17 +182,6 @@
           "is_carry": false
         },
         {
-          "name": "ryze",
-          "items": [
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "7",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
           "name": "sylas",
           "items": [],
           "tier": "7",
@@ -281,15 +191,15 @@
       ],
       "tier": "S",
       "play_style": "Fast 9",
-      "planner_code": "0235936b01901c01335d025012336000TFTSet16",
+      "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "Ionian Slayers",
+        "Ixtal Invokers",
+        "Yordle Arcanists"
       ]
     },
-    "0234035b01d01e02034c02100f000000TFTSet16": {
+    "Shadow Isle Wardens": {
       "name": "Shadow Isle Wardens",
       "champions": [
         {
@@ -374,12 +284,12 @@
       "planner_code": "0234035b01d01e02034c02100f000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0235633c33d34335d025012336000000TFTSet16",
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Zaun Gunslingers",
+        "Yordle Arcanists",
+        "Zaun Ryze"
       ]
     },
-    "0235533435234334c33634b333000000TFTSet16": {
+    "Targon Disruptors": {
       "name": "Targon Disruptors",
       "champions": [
         {
@@ -464,12 +374,12 @@
       "planner_code": "0235533435234334c33634b333000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0234f36b37003501735d025350000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "Noxus Ionians",
+        "Trials of Twilight (Ionia)",
+        "Trials of Twilight (Demacia)"
       ]
     },
-    "0235b03432d32235735d360336350000TFTSet16": {
+    "Bilgewater Gunslingers": {
       "name": "Bilgewater Gunslingers",
       "champions": [
         {
@@ -568,203 +478,12 @@
       "planner_code": "0235b03432d32235735d360336350000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0233236635432435301632e025000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Void Vanquishers",
+        "Zaun",
+        "Yordle Arcanists"
       ]
     },
-    "0233f34034802003436134b36d000000TFTSet16": {
-      "name": "Freljord Quickstrikers",
-      "champions": [
-        {
-          "name": "ashe",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "vi",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "jinx",
-          "items": [
-            {
-              "name": "guinsoos rageblade"
-            },
-            {
-              "name": "krakens fury"
-            },
-            {
-              "name": "last whisper"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "loris",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sejuani",
-          "items": [
-            {
-              "name": "evenshroud"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "braum",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "warwick",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "lucian  senna",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Slow Roll (7)",
-      "planner_code": "0233f34034802003436134b36d000000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0234f36b37003501735d025350000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16"
-      ]
-    },
-    "0233235b01934c35d02501233634b000TFTSet16": {
-      "name": "Noxus Disruptors",
-      "champions": [
-        {
-          "name": "vi",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "ambessa",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "seraphine",
-          "items": [
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "swain",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "taric",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "sunfire cape"
-            },
-            {
-              "name": "spirit visage"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "fiddlesticks",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "mel",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "nashors tooth"
-            },
-            {
-              "name": "nashors tooth"
-            }
-          ],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "shyvana",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sylas",
-          "items": [],
-          "tier": "7",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Fast 9",
-      "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0237234f37003534336235036c000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
-      ]
-    },
-    "0233233135b35803435d01a025336000TFTSet16": {
+    "Eternal Noxus": {
       "name": "Eternal Noxus",
       "champions": [
         {
@@ -851,17 +570,107 @@
           "is_carry": false
         }
       ],
-      "tier": "A",
+      "tier": "S",
       "play_style": "Fast 9",
       "planner_code": "0233233135b35803435d01a025336000TFTSet16",
-      "tier_value": 0.8,
+      "tier_value": 1,
       "pairs": [
-        "0235934034102002b36134c34b000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Piltover Disruptors",
+        "Zaun",
+        "Yordle Arcanists"
       ]
     },
-    "0233501802034301435d02534b000000TFTSet16": {
+    "Freljord Quickstrikers": {
+      "name": "Freljord Quickstrikers",
+      "champions": [
+        {
+          "name": "ashe",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "jinx",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            },
+            {
+              "name": "last whisper"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "loris",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sejuani",
+          "items": [
+            {
+              "name": "evenshroud"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "braum",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "warwick",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lucian  senna",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0233f34034802003436134b36d000000TFTSet16",
+      "tier_value": 1,
+      "pairs": [
+        "Noxus Ionians",
+        "Trials of Twilight (Ionia)",
+        "Trials of Twilight (Demacia)"
+      ]
+    },
+    "Targon Reroll": {
       "name": "Targon Reroll",
       "champions": [
         {
@@ -941,17 +750,17 @@
           "is_carry": false
         }
       ],
-      "tier": "A",
+      "tier": "S",
       "play_style": "Slow Roll (6)",
       "planner_code": "0233501802034301435d02534b000000TFTSet16",
-      "tier_value": 0.8,
+      "tier_value": 1,
       "pairs": [
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0236e02732c35832d322360323000000TFTSet16",
-        "0234036e32c035341360336373000000TFTSet16"
+        "Trials of Twilight (Ionia)",
+        "Bilgewater Reroll",
+        "Leap of Faith"
       ]
     },
-    "0202f34835803435d36736d350000000TFTSet16": {
+    "Zaun Gunslingers": {
       "name": "Zaun Gunslingers",
       "champions": [
         {
@@ -1035,17 +844,291 @@
           "is_carry": false
         }
       ],
-      "tier": "A",
+      "tier": "S",
       "play_style": "Standard",
       "planner_code": "0202f34835803435d36736d350000000TFTSet16",
-      "tier_value": 0.8,
+      "tier_value": 1,
       "pairs": [
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Void Vanquishers",
+        "Yordle Arcanists"
       ]
     },
-    "0236e3700352e036f3213202df000000TFTSet16": {
+    "Noxus Invokers": {
+      "name": "Noxus Invokers",
+      "champions": [
+        {
+          "name": "neeko",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sion",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "darius",
+          "items": [
+            {
+              "name": "adaptive helm"
+            },
+            {
+              "name": "steraks gage"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "draven",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kobuko  yuumi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "leblanc",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "swain",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kindred",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0236b33135803501734332e025000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "Freljord Quickstrikers",
+        "Shadow Isle Wardens",
+        "Double Trouble"
+      ]
+    },
+    "Ionian Slayers": {
+      "name": "Ionian Slayers",
+      "champions": [
+        {
+          "name": "neeko",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ahri",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kobuko  yuumi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "wukong",
+          "items": [
+            {
+              "name": "evenshroud"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "yone",
+          "items": [
+            {
+              "name": "bloodthirster"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "aatrox",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sett",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0237234f37003534336235036c000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "Eternal Noxus",
+        "Noxus Disruptors",
+        "Shadow Isle Wardens"
+      ]
+    },
+    "Freljord Invokers": {
+      "name": "Freljord Invokers",
+      "champions": [
+        {
+          "name": "anivia",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kobuko  yuumi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "braum",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "spirit visage"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lissandra",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "volibear",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "zilean",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0233e34003534135736137335a000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "Eternal Noxus",
+        "Zaun Gunslingers",
+        "Noxus Disruptors"
+      ]
+    },
+    "Artillery Barrage": {
       "name": "Artillery Barrage",
       "champions": [
         {
@@ -1130,12 +1213,12 @@
       "planner_code": "0236e3700352e036f3213202df000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Noxus Disruptors",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0233501832c03535132e373350000000TFTSet16": {
+    "Bruiser Caretaker": {
       "name": "Bruiser Caretaker",
       "champions": [
         {
@@ -1220,12 +1303,12 @@
       "planner_code": "0233501832c03535132e373350000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Trials of Twilight (Demacia)"
       ]
     },
-    "0233c33833d36f33a02501035a000000TFTSet16": {
+    "Demacian Arcanists": {
       "name": "Demacian Arcanists",
       "champions": [
         {
@@ -1314,12 +1397,196 @@
       "planner_code": "0233c33833d36f33a02501035a000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0235933c37002236f013362336010000TFTSet16": {
+    "Demacian Invokers": {
+      "name": "Demacian Invokers",
+      "champions": [
+        {
+          "name": "jarvan iv",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sona",
+          "items": [
+            {
+              "name": "archangels staff"
+            },
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "poppy",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "xin zhao",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "garen",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "spirit visage"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lux",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "swain",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "zilean",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (5)",
+      "planner_code": "0233c33833d36f33a02501035a000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Trials of Twilight (Ionia)"
+      ]
+    },
+    "Demacian Longshots": {
+      "name": "Demacian Longshots",
+      "champions": [
+        {
+          "name": "jarvan iv",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "poppy",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "xin zhao",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vayne",
+          "items": [
+            {
+              "name": "hextech gunblade"
+            },
+            {
+              "name": "krakens fury"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "garen",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "kaisa",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lux",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "swain",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Standard",
+      "planner_code": "0233c33801b33d36f025004010000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "Bilgewater Gunslingers",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
+      ]
+    },
+    "Demacian Ryze": {
       "name": "Demacian Ryze",
       "champions": [
         {
@@ -1411,12 +1678,12 @@
       "planner_code": "0235933c37002236f013362336010000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0202f34835803435d36736d350000000TFTSet16"
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens",
+        "Zaun"
       ]
     },
-    "0235402035232234c000000000000000TFTSet16": {
+    "Double Trouble": {
       "name": "Double Trouble",
       "champions": [
         {
@@ -1484,106 +1751,12 @@
       "planner_code": "0235402035232234c000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234f36b37003501735d025350000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "Noxus Ionians",
+        "Trials of Twilight (Ionia)",
+        "Trials of Twilight (Demacia)"
       ]
     },
-    "0233e34003534135736137335a000000TFTSet16": {
-      "name": "Freljord Invokers",
-      "champions": [
-        {
-          "name": "anivia",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kobuko  yuumi",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sejuani",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "braum",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "sunfire cape"
-            },
-            {
-              "name": "spirit visage"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "lissandra",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "nashors tooth"
-            },
-            {
-              "name": "nashors tooth"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "ornn",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "volibear",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "zilean",
-          "items": [
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Fast 8",
-      "planner_code": "0233e34003534135736137335a000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
-      ]
-    },
-    "02370035341013361351336373350000TFTSet16": {
+    "Freljord Ryze": {
       "name": "Freljord Ryze",
       "champions": [
         {
@@ -1675,12 +1848,12 @@
       "planner_code": "02370035341013361351336373350000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233236635432435301632e025000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Void Vanquishers",
+        "Zaun"
       ]
     },
-    "0233f34035802003435736133634b000TFTSet16": {
+    "Freljord Wardens": {
       "name": "Freljord Wardens",
       "champions": [
         {
@@ -1772,12 +1945,12 @@
       "planner_code": "0233f34035802003435736133634b000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236635401b355352016025373000000TFTSet16",
-        "0233236635432435301632e025000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Void",
+        "Void Vanquishers",
+        "Yordle Arcanists"
       ]
     },
-    "0234f35836235135d02535002a000000TFTSet16": {
+    "Ionian Quickstrikers": {
       "name": "Ionian Quickstrikers",
       "champions": [
         {
@@ -1862,102 +2035,12 @@
       "planner_code": "0234f35836235135d02535002a000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Yordle Arcanists",
+        "Zaun"
       ]
     },
-    "0237234f37003534336235036c000000TFTSet16": {
-      "name": "Ionian Slayers",
-      "champions": [
-        {
-          "name": "neeko",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "ahri",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kennen",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kobuko  yuumi",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "wukong",
-          "items": [
-            {
-              "name": "evenshroud"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "yone",
-          "items": [
-            {
-              "name": "bloodthirster"
-            },
-            {
-              "name": "guinsoos rageblade"
-            },
-            {
-              "name": "titans resolve"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "aatrox",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sett",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Fast 8",
-      "planner_code": "0237234f37003534336235036c000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
-      ]
-    },
-    "0201836334234301402b01a34b000000TFTSet16": {
+    "Ixtal Caretaker": {
       "name": "Ixtal Caretaker",
       "champions": [
         {
@@ -2042,12 +2125,12 @@
       "planner_code": "0201836334234301402b01a34b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0201d01e35802034c02102400f000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "Ruined King",
+        "Trials of Twilight (Ionia)",
+        "Trials of Twilight (Demacia)"
       ]
     },
-    "0234036303534134235701a37335a000TFTSet16": {
+    "Ixtal Invokers": {
       "name": "Ixtal Invokers",
       "champions": [
         {
@@ -2140,12 +2223,12 @@
       "planner_code": "0234036303534134235701a37335a000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Arcanists",
+        "Noxus Disruptors",
+        "Zaun Gunslingers"
       ]
     },
-    "0234a01534334c35d36702534b000000TFTSet16": {
+    "Juggernaut Disruptors": {
       "name": "Juggernaut Disruptors",
       "champions": [
         {
@@ -2230,102 +2313,12 @@
       "planner_code": "0234a01534334c35d36702534b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233501832c03535132e373350000000TFTSet16",
-        "0234036e32c035341360336373000000TFTSet16"
+        "Trials of Twilight (Ionia)",
+        "Bruiser Caretaker",
+        "Leap of Faith"
       ]
     },
-    "0236b33135803501734332e025000000TFTSet16": {
-      "name": "Noxus Invokers",
-      "champions": [
-        {
-          "name": "neeko",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sion",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "darius",
-          "items": [
-            {
-              "name": "adaptive helm"
-            },
-            {
-              "name": "steraks gage"
-            },
-            {
-              "name": "titans resolve"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "draven",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kobuko  yuumi",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "leblanc",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "spear of shojin"
-            },
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "swain",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kindred",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Slow Roll (7)",
-      "planner_code": "0236b33135803501734332e025000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0235402035232234c000000000000000TFTSet16"
-      ]
-    },
-    "0234f36b37003501735d025350000000TFTSet16": {
+    "Noxus Ionians": {
       "name": "Noxus Ionians",
       "champions": [
         {
@@ -2410,12 +2403,12 @@
       "planner_code": "0234f36b37003501735d025350000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0201d01e35802034c02102400f000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Ruined King"
       ]
     },
-    "0233232f36b33135b01932e025000000TFTSet16": {
+    "Noxus Vanquishers": {
       "name": "Noxus Vanquishers",
       "champions": [
         {
@@ -2500,12 +2493,12 @@
       "planner_code": "0233232f36b33135b01932e025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16",
-        "0202f34835803435d36736d350000000TFTSet16"
+        "Zaun Gunslingers",
+        "Zaun",
+        "Zaun Ryze"
       ]
     },
-    "0235934034102002b36134c34b000000TFTSet16": {
+    "Piltover Disruptors": {
       "name": "Piltover Disruptors",
       "champions": [
         {
@@ -2594,12 +2587,12 @@
       "planner_code": "0235934034102002b36134c34b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235633c33d34335d025012336000000TFTSet16",
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0233c33801b35536f025336004000000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Eternal Noxus",
+        "Zaun Gunslingers"
       ]
     },
-    "0235934002003402b01c34c365000000TFTSet16": {
+    "Piltover Gunslingers": {
       "name": "Piltover Gunslingers",
       "champions": [
         {
@@ -2684,12 +2677,12 @@
       "planner_code": "0235934002003402b01c34c365000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0235633c33d34335d025012336000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16"
+        "Arcanists",
+        "Yordle Arcanists",
+        "Zaun Ryze"
       ]
     },
-    "0233f37003534136133635002a000000TFTSet16": {
+    "Region Quickstrikers": {
       "name": "Region Quickstrikers",
       "champions": [
         {
@@ -2774,12 +2767,12 @@
       "planner_code": "0233f37003534136133635002a000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233236635432435301632e025000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Void Vanquishers",
+        "Zaun"
       ]
     },
-    "0201d01e35802034c02102400f000000TFTSet16": {
+    "Ruined King": {
       "name": "Ruined King",
       "champions": [
         {
@@ -2868,12 +2861,12 @@
       "planner_code": "0201d01e35802034c02102400f000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0201836334234301402b01a34b000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16",
-        "0234f36b37003501735d025350000000TFTSet16"
+        "Ixtal Caretaker",
+        "Noxus Ionians",
+        "Trials of Twilight (Demacia)"
       ]
     },
-    "0235902234301c34c35d02533634b000TFTSet16": {
+    "Secrets of the Sands": {
       "name": "Secrets of the Sands",
       "champions": [
         {
@@ -2969,12 +2962,12 @@
       "planner_code": "0235902234301c34c35d02533634b000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16"
+        "Freljord Invokers",
+        "Ixtal Invokers",
+        "Yordle Arcanists"
       ]
     },
-    "0237233236632f35432435d025000000TFTSet16": {
+    "Slayer Vanquishers": {
       "name": "Slayer Vanquishers",
       "champions": [
         {
@@ -3063,12 +3056,12 @@
       "planner_code": "0237233236632f35432435d025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16"
+        "Shadow Isle Wardens",
+        "Zaun",
+        "Zaun Ryze"
       ]
     },
-    "0236835902334334c35d02533634b000TFTSet16": {
+    "Targon": {
       "name": "Targon",
       "champions": [
         {
@@ -3164,12 +3157,12 @@
       "planner_code": "0236835902334334c35d02533634b000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16"
+        "Freljord Invokers",
+        "Ixtal Invokers",
+        "Yordle Arcanists"
       ]
     },
-    "0235902334334c35d02533634b000000TFTSet16": {
+    "Targon Shurima": {
       "name": "Targon Shurima",
       "champions": [
         {
@@ -3258,12 +3251,12 @@
       "planner_code": "0235902334334c35d02533634b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16"
+        "Freljord Invokers",
+        "Ixtal Invokers",
+        "Yordle Arcanists"
       ]
     },
-    "0233c33833d36f33a02503035a000000TFTSet16": {
+    "Trials of Twilight (Demacia)": {
       "name": "Trials of Twilight (Demacia)",
       "champions": [
         {
@@ -3348,12 +3341,12 @@
       "planner_code": "0233c33833d36f33a02503035a000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0201d01e35802034c02102400f000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Ruined King"
       ]
     },
-    "0235836235135034d36c02a030000000TFTSet16": {
+    "Trials of Twilight (Ionia)": {
       "name": "Trials of Twilight (Ionia)",
       "champions": [
         {
@@ -3438,12 +3431,12 @@
       "planner_code": "0235836235135034d36c02a030000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0233501802034301435d02534b000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Reroll",
+        "Targon Disruptors"
       ]
     },
-    "0233236632432c32235332e025000000TFTSet16": {
+    "Vanquishers": {
       "name": "Vanquishers",
       "champions": [
         {
@@ -3532,12 +3525,12 @@
       "planner_code": "0233236632432c32235332e025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0202f34835803435d36736d350000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16"
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens",
+        "Zaun Ryze"
       ]
     },
-    "0236635401b355352016025373000000TFTSet16": {
+    "Void": {
       "name": "Void",
       "champions": [
         {
@@ -3622,12 +3615,12 @@
       "planner_code": "0236635401b355352016025373000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0233236635432435301632e025000000TFTSet16": {
+    "Void Vanquishers": {
       "name": "Void Vanquishers",
       "champions": [
         {
@@ -3716,12 +3709,12 @@
       "planner_code": "0233236635432435301632e025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0234902f37001336233634b350371000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0236e3700352e036f321320369000000TFTSet16": {
+    "Yordle Arcanists": {
       "name": "Yordle Arcanists",
       "champions": [
         {
@@ -3806,12 +3799,12 @@
       "planner_code": "0236e3700352e036f321320369000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Noxus Disruptors",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0234a02f01534834c36734b36d000000TFTSet16": {
+    "Zaun": {
       "name": "Zaun",
       "champions": [
         {
@@ -3896,12 +3889,12 @@
       "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Arcanists",
+        "Eternal Noxus",
+        "Bilgewater Gunslingers"
       ]
     },
-    "0234902f37001336233634b350371000TFTSet16": {
+    "Zaun Ryze": {
       "name": "Zaun Ryze",
       "champions": [
         {
@@ -3993,12 +3986,12 @@
       "planner_code": "0234902f37001336233634b350371000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236635401b355352016025373000000TFTSet16",
-        "0233236635432435301632e025000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Void",
+        "Void Vanquishers"
       ]
     },
-    "0236e02732c32d322357360323000000TFTSet16": {
+    "Bilgewater": {
       "name": "Bilgewater",
       "champions": [
         {
@@ -4090,12 +4083,12 @@
       "planner_code": "0236e02732c32d322357360323000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "Noxus Disruptors",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0236e02732c35832d322360323000000TFTSet16": {
+    "Bilgewater Reroll": {
       "name": "Bilgewater Reroll",
       "champions": [
         {
@@ -4180,12 +4173,12 @@
       "planner_code": "0236e02732c35832d322360323000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Reroll",
+        "Targon Disruptors"
       ]
     },
-    "0234036e32c035341013360336373000TFTSet16": {
+    "Bilgewater Ryze": {
       "name": "Bilgewater Ryze",
       "champions": [
         {
@@ -4287,12 +4280,12 @@
       "planner_code": "0234036e32c035341013360336373000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233236635432435301632e025000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16",
-        "0202f34835803435d36736d350000000TFTSet16"
+        "Zaun Gunslingers",
+        "Void Vanquishers",
+        "Zaun"
       ]
     },
-    "0233f32f331358343361025011000000TFTSet16": {
+    "Freljord Reroll": {
       "name": "Freljord Reroll",
       "champions": [
         {
@@ -4381,12 +4374,12 @@
       "planner_code": "0233f32f331358343361025011000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233501832c03535132e373350000000TFTSet16",
-        "0235402035232234c000000000000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Bruiser Caretaker",
+        "Double Trouble"
       ]
     },
-    "0234f3702e0343362351025350000000TFTSet16": {
+    "Ionian Arcanists": {
       "name": "Ionian Arcanists",
       "champions": [
         {
@@ -4471,12 +4464,12 @@
       "planner_code": "0234f3702e0343362351025350000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235402035232234c000000000000000TFTSet16",
-        "0201d01e35802034c02102400f000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Double Trouble",
+        "Ruined King"
       ]
     },
-    "0235636334234301401a012000000000TFTSet16": {
+    "Ixtal Huntress": {
       "name": "Ixtal Huntress",
       "champions": [
         {
@@ -4565,12 +4558,12 @@
       "planner_code": "0235636334234301401a012000000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0233c33801b35536f025336004000000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Zaun Gunslingers",
+        "Shadow Isle Wardens"
       ]
     },
-    "0234036e32c035341360336373000000TFTSet16": {
+    "Leap of Faith": {
       "name": "Leap of Faith",
       "champions": [
         {
@@ -4655,12 +4648,12 @@
       "planner_code": "0234036e32c035341360336373000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233501802034301435d02534b000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16"
+        "Targon Reroll",
+        "Trials of Twilight (Demacia)",
+        "Trials of Twilight (Ionia)"
       ]
     },
-    "0233232f331324019322025323000000TFTSet16": {
+    "Noxus Bilgewater": {
       "name": "Noxus Bilgewater",
       "champions": [
         {
@@ -4749,12 +4742,12 @@
       "planner_code": "0233232f331324019322025323000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Trials of Twilight (Ionia)"
       ]
     },
-    "0233236b331358019343025336000000TFTSet16": {
+    "Noxus Quickstrikers": {
       "name": "Noxus Quickstrikers",
       "champions": [
         {
@@ -4843,12 +4836,106 @@
       "planner_code": "0233236b331358019343025336000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0233501832c03535132e373350000000TFTSet16",
-        "0235402035232234c000000000000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Bruiser Caretaker",
+        "Double Trouble"
       ]
     },
-    "020183702e036f3210253202df000000TFTSet16": {
+    "Piltover Invokers": {
+      "name": "Piltover Invokers",
+      "champions": [
+        {
+          "name": "orianna",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "loris",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "spirit visage"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "braum",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lissandra",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "seraphine",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "azir",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "B",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0235934034102002b36134c34b000000TFTSet16",
+      "tier_value": 0.6,
+      "pairs": [
+        "Noxus Ionians",
+        "Trials of Twilight (Ionia)",
+        "Trials of Twilight (Demacia)"
+      ]
+    },
+    "Yordle Caretaker": {
       "name": "Yordle Caretaker",
       "champions": [
         {
@@ -4933,12 +5020,12 @@
       "planner_code": "020183702e036f3210253202df000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233f34034802003436134b36d000000TFTSet16",
-        "0235533435234334c33634b333000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16"
+        "Freljord Quickstrikers",
+        "Targon Disruptors",
+        "Trials of Twilight (Ionia)"
       ]
     },
-    "0202f35234301634c36702534b000000TFTSet16": {
+    "Zaun Disruptors": {
       "name": "Zaun Disruptors",
       "champions": [
         {
@@ -5023,12 +5110,12 @@
       "planner_code": "0202f35234301634c36702534b000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
-        "0233f37003534136133635002a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Bilgewater Gunslingers",
+        "Region Quickstrikers",
+        "Yordle Arcanists"
       ]
     },
-    "0234a35432234335d36702534b000000TFTSet16": {
+    "Zaun Juggernauts": {
       "name": "Zaun Juggernauts",
       "champions": [
         {
@@ -5113,9 +5200,9 @@
       "planner_code": "0234a35432234335d36702534b000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233f37003534136133635002a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "Shadow Isle Wardens",
+        "Region Quickstrikers",
+        "Yordle Arcanists"
       ]
     }
   },
@@ -5128,29 +5215,20 @@
     "adaptive helm": "https://sunderarmor.com/items/AdaptiveHelm.png",
     "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
     "void staff": "https://sunderarmor.com/items/VoidStaff.png",
-    "garen": "https://sunderarmor.com/characters/Skin/16/Garen.png",
+    "fiddlesticks": "https://sunderarmor.com/characters/Skin/16/Fiddlesticks.png",
     "shyvana": "https://sunderarmor.com/characters/Skin/16/Shyvana.png",
     "tibbers": "https://sunderarmor.com/characters/Skin/16/Tibbers.png",
     "bramble vest": "https://sunderarmor.com/items/BrambleVest.png",
     "dragons claw": "https://sunderarmor.com/items/DragonsClaw.png",
     "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
     "sylas": "https://sunderarmor.com/characters/Skin/16/Sylas.png",
-    "jarvan iv": "https://sunderarmor.com/characters/Skin/16/JarvanIV.png",
-    "kogmaw": "https://sunderarmor.com/characters/Skin/16/Kogmaw.png",
-    "poppy": "https://sunderarmor.com/characters/Skin/16/Poppy.png",
-    "vayne": "https://sunderarmor.com/characters/Skin/16/Vayne.png",
-    "hextech gunblade": "https://sunderarmor.com/items/HextechGunblade.png",
-    "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
+    "vi": "https://sunderarmor.com/characters/Skin/16/Vi.png",
+    "ambessa": "https://sunderarmor.com/characters/Skin/16/Ambessa.png",
+    "seraphine": "https://sunderarmor.com/characters/Skin/16/Seraphine.png",
     "sunfire cape": "https://sunderarmor.com/items/SunfireCape.png",
-    "warmogs armor": "https://sunderarmor.com/items/WarmogsArmor.png",
-    "kaisa": "https://sunderarmor.com/characters/Skin/16/Kaisa.png",
-    "darius": "https://sunderarmor.com/characters/Skin/16/Darius.png",
-    "renekton": "https://sunderarmor.com/characters/Skin/16/Renekton.png",
-    "azir": "https://sunderarmor.com/characters/Skin/16/Azir.png",
     "mel": "https://sunderarmor.com/characters/Skin/16/Mel.png",
     "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
     "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
-    "ryze": "https://sunderarmor.com/characters/Skin/16/Ryze.png",
     "yorick": "https://sunderarmor.com/characters/Skin/16/Yorick.png",
     "gwen": "https://sunderarmor.com/characters/Skin/16/Gwen.png",
     "loris": "https://sunderarmor.com/characters/Skin/16/Loris.png",
@@ -5158,12 +5236,10 @@
     "kalista": "https://sunderarmor.com/characters/Skin/16/Kalista.png",
     "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
     "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
-    "seraphine": "https://sunderarmor.com/characters/Skin/16/Seraphine.png",
-    "fiddlesticks": "https://sunderarmor.com/characters/Skin/16/Fiddlesticks.png",
     "thresh": "https://sunderarmor.com/characters/Skin/16/Thresh.png",
     "bloodthirster": "https://sunderarmor.com/items/Bloodthirster.png",
     "morellonomicon": "https://sunderarmor.com/items/Morellonomicon.png",
-    "vi": "https://sunderarmor.com/characters/Skin/16/Vi.png",
+    "kogmaw": "https://sunderarmor.com/characters/Skin/16/Kogmaw.png",
     "leona": "https://sunderarmor.com/characters/Skin/16/Leona.png",
     "malzahar": "https://sunderarmor.com/characters/Skin/16/Malzahar.png",
     "zoe": "https://sunderarmor.com/characters/Skin/16/Zoe.png",
@@ -5179,18 +5255,18 @@
     "barknuckles": "https://sunderarmor.com/items/Barknuckles.png",
     "pile o citrus": "https://sunderarmor.com/items/PileOCitrus.png",
     "protectors vow": "https://sunderarmor.com/items/ProtectorsVow.png",
-    "ashe": "https://sunderarmor.com/characters/Skin/16/Ashe.png",
-    "jinx": "https://sunderarmor.com/characters/Skin/16/Jinx.png",
-    "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
-    "sejuani": "https://sunderarmor.com/characters/Skin/16/Sejuani.png",
-    "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
-    "warwick": "https://sunderarmor.com/characters/Skin/16/Warwick.png",
-    "ambessa": "https://sunderarmor.com/characters/Skin/16/Ambessa.png",
     "draven": "https://sunderarmor.com/characters/Skin/16/Draven.png",
     "skarner": "https://sunderarmor.com/characters/Skin/16/Skarner.png",
+    "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
     "gargoyle stoneplate": "https://sunderarmor.com/items/GargoyleStoneplate.png",
     "kindred": "https://sunderarmor.com/characters/Skin/16/Kindred.png",
     "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
+    "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
+    "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
+    "ashe": "https://sunderarmor.com/characters/Skin/16/Ashe.png",
+    "jinx": "https://sunderarmor.com/characters/Skin/16/Jinx.png",
+    "sejuani": "https://sunderarmor.com/characters/Skin/16/Sejuani.png",
+    "warwick": "https://sunderarmor.com/characters/Skin/16/Warwick.png",
     "aphelios": "https://sunderarmor.com/characters/Skin/16/Aphelios.png",
     "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
     "bard": "https://sunderarmor.com/characters/Skin/16/Bard.png",
@@ -5200,38 +5276,49 @@
     "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
     "titans resolve": "https://sunderarmor.com/items/TitansResolve.png",
     "zaun emblem": "https://sunderarmor.com/items/ZaunEmblem.png",
+    "sion": "https://sunderarmor.com/characters/Skin/16/Sion.png",
+    "darius": "https://sunderarmor.com/characters/Skin/16/Darius.png",
+    "kobuko  yuumi": "https://sunderarmor.com/characters/Skin/16/Kobuko&Yuumi.png",
+    "leblanc": "https://sunderarmor.com/characters/Skin/16/Leblanc.png",
+    "ahri": "https://sunderarmor.com/characters/Skin/16/Ahri.png",
+    "kennen": "https://sunderarmor.com/characters/Skin/16/Kennen.png",
+    "yone": "https://sunderarmor.com/characters/Skin/16/Yone.png",
+    "aatrox": "https://sunderarmor.com/characters/Skin/16/Aatrox.png",
+    "sett": "https://sunderarmor.com/characters/Skin/16/Sett.png",
+    "anivia": "https://sunderarmor.com/characters/Skin/16/Anivia.png",
+    "lissandra": "https://sunderarmor.com/characters/Skin/16/Lissandra.png",
+    "volibear": "https://sunderarmor.com/characters/Skin/16/Volibear.png",
+    "zilean": "https://sunderarmor.com/characters/Skin/16/Zilean.png",
     "lulu": "https://sunderarmor.com/characters/Skin/16/Lulu.png",
     "rumble": "https://sunderarmor.com/characters/Skin/16/Rumble.png",
     "archangels staff": "https://sunderarmor.com/items/ArchangelsStaff.png",
+    "poppy": "https://sunderarmor.com/characters/Skin/16/Poppy.png",
     "teemo": "https://sunderarmor.com/characters/Skin/16/Teemo.png",
     "tristana": "https://sunderarmor.com/characters/Skin/16/Tristana.png",
-    "kobuko  yuumi": "https://sunderarmor.com/characters/Skin/16/Kobuko&Yuumi.png",
-    "kennen": "https://sunderarmor.com/characters/Skin/16/Kennen.png",
     "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
     "fizz": "https://sunderarmor.com/characters/Skin/16/Fizz.png",
     "illaoi": "https://sunderarmor.com/characters/Skin/16/Illaoi.png",
     "shen": "https://sunderarmor.com/characters/Skin/16/Shen.png",
-    "sion": "https://sunderarmor.com/characters/Skin/16/Sion.png",
-    "volibear": "https://sunderarmor.com/characters/Skin/16/Volibear.png",
+    "jarvan iv": "https://sunderarmor.com/characters/Skin/16/JarvanIV.png",
     "sona": "https://sunderarmor.com/characters/Skin/16/Sona.png",
     "xin zhao": "https://sunderarmor.com/characters/Skin/16/XinZhao.png",
-    "zilean": "https://sunderarmor.com/characters/Skin/16/Zilean.png",
+    "garen": "https://sunderarmor.com/characters/Skin/16/Garen.png",
+    "vayne": "https://sunderarmor.com/characters/Skin/16/Vayne.png",
+    "hextech gunblade": "https://sunderarmor.com/items/HextechGunblade.png",
+    "warmogs armor": "https://sunderarmor.com/items/WarmogsArmor.png",
+    "kaisa": "https://sunderarmor.com/characters/Skin/16/Kaisa.png",
     "nasus": "https://sunderarmor.com/characters/Skin/16/Nasus.png",
-    "sett": "https://sunderarmor.com/characters/Skin/16/Sett.png",
+    "azir": "https://sunderarmor.com/characters/Skin/16/Azir.png",
+    "ryze": "https://sunderarmor.com/characters/Skin/16/Ryze.png",
     "chogath": "https://sunderarmor.com/characters/Skin/16/Chogath.png",
-    "anivia": "https://sunderarmor.com/characters/Skin/16/Anivia.png",
-    "lissandra": "https://sunderarmor.com/characters/Skin/16/Lissandra.png",
-    "ahri": "https://sunderarmor.com/characters/Skin/16/Ahri.png",
     "yunara": "https://sunderarmor.com/characters/Skin/16/Yunara.png",
-    "yone": "https://sunderarmor.com/characters/Skin/16/Yone.png",
-    "aatrox": "https://sunderarmor.com/characters/Skin/16/Aatrox.png",
     "orianna": "https://sunderarmor.com/characters/Skin/16/Orianna.png",
     "milio": "https://sunderarmor.com/characters/Skin/16/Milio.png",
     "brock": "https://sunderarmor.com/characters/Skin/16/Brock.png",
     "blitzcrank": "https://sunderarmor.com/characters/Skin/16/Blitzcrank.png",
     "ekko": "https://sunderarmor.com/characters/Skin/16/Ekko.png",
-    "leblanc": "https://sunderarmor.com/characters/Skin/16/Leblanc.png",
     "briar": "https://sunderarmor.com/characters/Skin/16/Briar.png",
+    "renekton": "https://sunderarmor.com/characters/Skin/16/Renekton.png",
     "thex": "https://sunderarmor.com/characters/Skin/16/T-Hex.png",
     "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
     "viego": "https://sunderarmor.com/characters/Skin/16/Viego.png",

@@ -72,7 +72,7 @@ def fetch_pairs(comps: list[Composition], top_n: int = 3) -> dict[Composition, l
 
 
 def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> dict[str, dict]:
-    """Convert a mapping of compositions to a dict keyed by composition name.
+    """Convert a mapping of compositions to a dict keyed by planner code.
 
     Args:
     ----
@@ -80,7 +80,7 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> dict[s
 
     Returns:
     -------
-        Dict of composition name → composition data with `pairs` as a list of paired names.
+        Dict of planner code → composition data with `pairs` as a list of paired planner codes.
 
     """
     result: dict[str, dict] = {}
@@ -92,8 +92,8 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> dict[s
             play_style=key.play_style,
             planner_code=key.planner_code,
         )
-        result[key.name] = {
+        result[key.planner_code] = {
             **sorted_key.model_dump(),
-            "pairs": [pair.name for pair in pairs],
+            "pairs": [pair.planner_code for pair in pairs],
         }
     return result
