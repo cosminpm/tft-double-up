@@ -31,12 +31,12 @@ async def get_best_pairs(request: Request) -> JSONResponse:
 
     Returns:
     -------
-        List of `BestPairs` with sorted main and paired compositions.
+        Dict of composition name to composition data with paired composition names.
 
     """
     request_client: AsyncClient = request.app.request_client
 
-    serializable_pairs: list[dict] = await generate_best_pairs(client=request_client)
+    serializable_pairs: dict[str, dict] = await generate_best_pairs(client=request_client)
     content_bytes = json.dumps(serializable_pairs).encode("utf-8")
     etag = hashlib.md5(content_bytes).hexdigest()
 
