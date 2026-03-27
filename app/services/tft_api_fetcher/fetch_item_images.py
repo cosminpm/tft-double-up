@@ -29,6 +29,7 @@ async def fetch_item_images(client: AsyncClient) -> dict[str, str]:
 
         key = normalize_champ_name(name)
         if key and key not in item_images:
-            item_images[key] = settings.tft_champion_url + icon_path.lower()
+            relative = icon_path.removeprefix("/lol-game-data/assets/")
+            item_images[key] = f"{settings.tft_champion_url}/latest/game/{relative.lower()}"
 
     return item_images

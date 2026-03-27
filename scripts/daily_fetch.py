@@ -8,6 +8,7 @@ from httpx import AsyncClient, Timeout
 from app.services.tft_api_fetcher.fetch_best_pairs import generate_best_pairs
 from app.services.tft_api_fetcher.fetch_champion_weapon_images import fetch_champion_weapon_images
 from app.services.tft_api_fetcher.fetch_item_components import fetch_item_components
+from app.services.tft_api_fetcher.fetch_item_images import fetch_item_images
 
 CURRENT_FILE = Path("data/current.json")
 HISTORY_DIR = Path("data/history")
@@ -15,10 +16,11 @@ HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
 async def main():
     async with AsyncClient(timeout=Timeout(30.0)) as client:
-        new_best_pairs, champion_weapon_images, item_components = await asyncio.gather(
+        new_best_pairs, champion_weapon_images, item_components, item_images = await asyncio.gather(
             generate_best_pairs(client),
             fetch_champion_weapon_images(client),
             fetch_item_components(client),
+            fetch_item_images(client),
         )
 
         new_data: dict = {
@@ -26,6 +28,7 @@ async def main():
             "best_pairs": new_best_pairs,
             "champion_weapon_images": champion_weapon_images,
             "item_components": item_components,
+            "item_images": item_images,
         }
 
         if CURRENT_FILE.exists():
