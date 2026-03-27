@@ -1,8 +1,11 @@
 from httpx import AsyncClient
 
+from app.config import Settings
 from app.utils.normalize import normalize_champ_name
 
-TFT_DATA_URL = "https://raw.communitydragon.org/latest/cdragon/tft/en_us.json"
+settings = Settings()
+
+TFT_DATA_PATH: str = "/latest/cdragon/tft/en_us.json"
 
 
 async def fetch_item_components(client: AsyncClient) -> dict[str, list[str]]:
@@ -11,7 +14,9 @@ async def fetch_item_components(client: AsyncClient) -> dict[str, list[str]]:
     Returns:
         Mapping of normalized item names to their two component item names.
     """
-    response = await client.get(TFT_DATA_URL)
+    response = await client.get(
+        f"{settings.tft_champion_url}{TFT_DATA_PATH}"
+    )
     data = response.json()
     items = data.get("items", [])
 

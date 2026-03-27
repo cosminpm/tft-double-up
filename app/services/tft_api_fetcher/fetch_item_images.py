@@ -5,8 +5,6 @@ from app.utils.normalize import normalize_champ_name
 
 settings = Settings()
 
-ITEMS_PATH = "/latest/plugins/rcp-be-lol-game-data/global/default/v1/tftitems.json"
-
 
 async def fetch_item_images(client: AsyncClient) -> dict[str, str]:
     """Fetch TFT item icons from CommunityDragon.
@@ -14,8 +12,9 @@ async def fetch_item_images(client: AsyncClient) -> dict[str, str]:
     Returns:
         Mapping of normalized item names to their icon URLs.
     """
-    url = settings.tft_champion_url + ITEMS_PATH
-    response = await client.get(url)
+    response = await client.get(
+        f"{settings.tft_champion_url}/latest/plugins/rcp-be-lol-game-data/global/default/v1/tftitems.json"
+    )
     items = response.json()
 
     item_images: dict[str, str] = {}
