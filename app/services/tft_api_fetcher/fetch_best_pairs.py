@@ -9,7 +9,7 @@ from app.services.tft_api_fetcher.fetch_top_compositions import fetch_top_compos
 
 settings = Settings()
 
-async def generate_best_pairs(client: AsyncClient) -> list[dict]:
+async def generate_best_pairs(client: AsyncClient) -> dict[str, dict]:
     top_compositions_response, planner_codes_response = await asyncio.gather(
         client.get(f"{settings.tft_url}/tierlist/team-comps/"),
         client.get(
@@ -28,4 +28,4 @@ async def generate_best_pairs(client: AsyncClient) -> list[dict]:
     raw_pairs = fetch_pairs(top_compositions)
     sorted_pairs = sorted_best_pairs(raw_pairs)
 
-    return [pair.model_dump() for pair in sorted_pairs]
+    return sorted_pairs

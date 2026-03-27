@@ -3,7 +3,6 @@ from collections import defaultdict
 
 from app.services.tft_api_fetcher.models.composition import Composition
 from app.services.tft_api_fetcher.models.response.best_pairs_model import (
-    BestPairs,
     CompositionSortedByChampionTier,
 )
 from app.utils.consts import NUMBER_OF_COLLISIONS, TIER_ORDER
@@ -72,8 +71,8 @@ def fetch_pairs(comps: list[Composition], top_n: int = 3) -> dict[Composition, l
     return final_result
 
 
-def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> list[BestPairs]:
-    """Convert a mapping of compositions to `BestPairs`.
+def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> dict[str, dict]:
+    """Convert a mapping of compositions to a dict keyed by composition name.
 
     Args:
     ----
@@ -81,10 +80,10 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> list[B
 
     Returns:
     -------
-        List of `BestPairs` with sorted main and paired compositions.
+        Dict of composition name → composition data with `pairs` as a list of paired names.
 
     """
-    result: list = []
+    result: dict[str, dict] = {}
     for key, pairs in raw_pairs.items():
         sorted_key = CompositionSortedByChampionTier(
             name=key.name,
@@ -93,15 +92,8 @@ def sorted_best_pairs(raw_pairs: dict[Composition, list[Composition]]) -> list[B
             play_style=key.play_style,
             planner_code=key.planner_code,
         )
-        sorted_pairs = [
-            CompositionSortedByChampionTier(
-                name=pair.name,
-                champions=list(pair.champions),
-                tier=pair.tier,
-                play_style=pair.play_style,
-                planner_code=pair.planner_code,
-            )
-            for pair in pairs
-        ]
-        result.append(BestPairs(composition=sorted_key, pairs=sorted_pairs))
+        result[key.name] = {
+            **sorted_key.model_dump(),
+            "pairs": [pair.name for pair in pairs],
+        }
     return result
