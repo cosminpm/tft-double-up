@@ -1,201 +1,6 @@
 {
-  "date": "2026-04-02",
+  "date": "2026-04-01",
   "best_pairs": {
-    "0233e34003534135736137335a000000TFTSet16": {
-      "name": "Freljord Invokers",
-      "champions": [
-        {
-          "name": "anivia",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kobuko  yuumi",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "sejuani",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "braum",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "lissandra",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "nashors tooth"
-            },
-            {
-              "name": "nashors tooth"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "ornn",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "volibear",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "zilean",
-          "items": [
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Fast 8",
-      "planner_code": "0233e34003534135736137335a000000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16",
-        "0236835902334334c35d02533634b000TFTSet16"
-      ]
-    },
-    "0236835902334334c35d02533634b000TFTSet16": {
-      "name": "Targon",
-      "champions": [
-        {
-          "name": "neeko",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "vi",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "diana",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "seraphine",
-          "items": [
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "swain",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "taric",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "azir",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "shyvana",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "aurelion sol",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "nashors tooth"
-            },
-            {
-              "name": "nashors tooth"
-            }
-          ],
-          "tier": "7",
-          "is_3_star": false,
-          "is_carry": true
-        }
-      ],
-      "tier": "S",
-      "play_style": "Fast 9",
-      "planner_code": "0236835902334334c35d02533634b000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
-      ]
-    },
     "0235633c33d34335d025012336000000TFTSet16": {
       "name": "Arcanists",
       "champions": [
@@ -289,7 +94,7 @@
       "tier_value": 1,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16",
         "0234a02f01534834c36734b36d000000TFTSet16"
       ]
     },
@@ -680,7 +485,7 @@
       "planner_code": "0233235b01934c35d02501233634b000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
+        "0237234f37003534336235036c000000TFTSet16",
         "0234036303534134235701a37335a000TFTSet16",
         "0236e3700352e036f321320369000000TFTSet16"
       ]
@@ -872,7 +677,7 @@
       "tier_value": 1,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16",
         "0234a02f01534834c36734b36d000000TFTSet16"
       ]
     },
@@ -962,8 +767,8 @@
       "tier_value": 1,
       "pairs": [
         "0235633c33d34335d025012336000000TFTSet16",
-        "02370035341013361351336373350000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "0235936b01901c01335d025012336000TFTSet16",
+        "02370035341013361351336373350000TFTSet16"
       ]
     },
     "0235533435234334c33634b333000000TFTSet16": {
@@ -1052,8 +857,8 @@
       "tier_value": 1,
       "pairs": [
         "0234f36b37003501735d025350000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "0233c33833d36f33a02503035a000000TFTSet16",
+        "0235836235135034d36c02a030000000TFTSet16"
       ]
     },
     "0236e3700352e036f3213202df000000TFTSet16": {
@@ -1141,9 +946,9 @@
       "planner_code": "0236e3700352e036f3213202df000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
+        "0233235b01934c35d02501233634b000TFTSet16",
         "0235936b01901c01335d025012336000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236835902334334c35d02533634b000TFTSet16"
+        "0234035b01d01e02034c02100f000000TFTSet16"
       ]
     },
     "0233501832c03535132e373350000000TFTSet16": {
@@ -1416,7 +1221,7 @@
       "tier_value": 0.8,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0234a02f01534834c36734b36d000000TFTSet16",
         "0202f34835803435d36736d350000000TFTSet16"
       ]
     },
@@ -1513,7 +1318,7 @@
       "tier_value": 0.8,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0234a02f01534834c36734b36d000000TFTSet16",
         "0202f34835803435d36736d350000000TFTSet16"
       ]
     },
@@ -1682,9 +1487,103 @@
       "planner_code": "0233233135b35803435d01a025336000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16",
-        "0234a02f01534834c36734b36d000000TFTSet16"
+        "0235934034102002b36134c34b000000TFTSet16",
+        "0234a02f01534834c36734b36d000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16"
+      ]
+    },
+    "0233e34003534135736137335a000000TFTSet16": {
+      "name": "Freljord Invokers",
+      "champions": [
+        {
+          "name": "anivia",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kobuko  yuumi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "braum",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lissandra",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "volibear",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "zilean",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0233e34003534135736137335a000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0235633c33d34335d025012336000000TFTSet16",
+        "0235936b01901c01335d025012336000TFTSet16",
+        "0233235b01934c35d02501233634b000TFTSet16"
       ]
     },
     "0233f34035802003435736133634b000TFTSet16": {
@@ -1870,7 +1769,7 @@
       "tier_value": 0.8,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16",
         "0234a02f01534834c36734b36d000000TFTSet16"
       ]
     },
@@ -2050,8 +1949,8 @@
       "tier_value": 0.8,
       "pairs": [
         "0201d01e35802034c02102400f000000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16"
+        "0233c33833d36f33a02503035a000000TFTSet16",
+        "0235836235135034d36c02a030000000TFTSet16"
       ]
     },
     "0234036303534134235701a37335a000TFTSet16": {
@@ -2147,9 +2046,9 @@
       "planner_code": "0234036303534134235701a37335a000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233235b01934c35d02501233634b000TFTSet16",
+        "0235633c33d34335d025012336000000TFTSet16",
         "0235936b01901c01335d025012336000TFTSet16",
-        "0236835902334334c35d02533634b000TFTSet16"
+        "0233235b01934c35d02501233634b000TFTSet16"
       ]
     },
     "0234a01534334c35d36702534b000000TFTSet16": {
@@ -2238,8 +2137,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02370035341013361351336373350000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16",
-        "0233501832c03535132e373350000000TFTSet16"
+        "0233501832c03535132e373350000000TFTSet16",
+        "0235836235135034d36c02a030000000TFTSet16"
       ]
     },
     "0234f36b37003501735d025350000000TFTSet16": {
@@ -2418,7 +2317,7 @@
       "tier_value": 0.8,
       "pairs": [
         "02370035341013361351336373350000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0202f34835803435d36736d350000000TFTSet16",
         "0234902f37001336233634b350371000TFTSet16"
       ]
     },
@@ -2511,8 +2410,8 @@
       "planner_code": "0235934034102002b36134c34b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0235b03432d32235735d360336350000TFTSet16",
         "0235633c33d34335d025012336000000TFTSet16",
+        "0235b03432d32235735d360336350000TFTSet16",
         "0202f34835803435d36736d350000000TFTSet16"
       ]
     },
@@ -2601,8 +2500,8 @@
       "planner_code": "0235934002003402b01c34c365000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "02370035341013361351336373350000TFTSet16",
         "0235633c33d34335d025012336000000TFTSet16",
+        "02370035341013361351336373350000TFTSet16",
         "0234902f37001336233634b350371000TFTSet16"
       ]
     },
@@ -2786,8 +2685,8 @@
       "tier_value": 0.8,
       "pairs": [
         "0201836334234301402b01a34b000000TFTSet16",
-        "0233c33833d36f33a02503035a000000TFTSet16",
-        "0234f36b37003501735d025350000000TFTSet16"
+        "0234f36b37003501735d025350000000TFTSet16",
+        "0233c33833d36f33a02503035a000000TFTSet16"
       ]
     },
     "0235902234301c34c35d02533634b000TFTSet16": {
@@ -2887,8 +2786,8 @@
       "tier_value": 0.8,
       "pairs": [
         "0233e34003534135736137335a000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "0236e3700352e036f321320369000000TFTSet16",
+        "0234036303534134235701a37335a000TFTSet16"
       ]
     },
     "0237233236632f35432435d025000000TFTSet16": {
@@ -2980,9 +2879,110 @@
       "planner_code": "0237233236632f35432435d025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
         "02370035341013361351336373350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "0234035b01d01e02034c02100f000000TFTSet16",
+        "0234902f37001336233634b350371000TFTSet16"
+      ]
+    },
+    "0236835902334334c35d02533634b000TFTSet16": {
+      "name": "Targon",
+      "champions": [
+        {
+          "name": "neeko",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "seraphine",
+          "items": [
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "swain",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "taric",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "azir",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "shyvana",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aurelion sol",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "7",
+          "is_3_star": false,
+          "is_carry": true
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 9",
+      "planner_code": "0236835902334334c35d02533634b000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0233e34003534135736137335a000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16",
+        "0234036303534134235701a37335a000TFTSet16"
       ]
     },
     "0233501802034301435d02534b000000TFTSet16": {
@@ -3070,9 +3070,9 @@
       "planner_code": "0233501802034301435d02534b000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
+        "0235836235135034d36c02a030000000TFTSet16",
         "02370035341013361351336373350000TFTSet16",
-        "0235836235135034d36c02a030000000TFTSet16"
+        "0234036e32c035341360336373000000TFTSet16"
       ]
     },
     "0235902334334c35d02533634b000000TFTSet16": {
@@ -3165,8 +3165,8 @@
       "tier_value": 0.8,
       "pairs": [
         "0233e34003534135736137335a000000TFTSet16",
-        "0234036303534134235701a37335a000TFTSet16",
-        "0236e3700352e036f321320369000000TFTSet16"
+        "0236e3700352e036f321320369000000TFTSet16",
+        "0234036303534134235701a37335a000TFTSet16"
       ]
     },
     "0233c33833d36f33a02503035a000000TFTSet16": {
@@ -3438,9 +3438,9 @@
       "planner_code": "0233236632432c32235332e025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
         "02370035341013361351336373350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "0234035b01d01e02034c02100f000000TFTSet16",
+        "0234902f37001336233634b350371000TFTSet16"
       ]
     },
     "0236635401b355352016025373000000TFTSet16": {
@@ -3528,8 +3528,8 @@
       "planner_code": "0236635401b355352016025373000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234035b01d01e02034c02100f000000TFTSet16",
         "0235b03432d32235735d360336350000TFTSet16",
+        "0234035b01d01e02034c02100f000000TFTSet16",
         "0234902f37001336233634b350371000TFTSet16"
       ]
     },
@@ -3622,9 +3622,9 @@
       "planner_code": "0233236635432435301632e025000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "02370035341013361351336373350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "0235b03432d32235735d360336350000TFTSet16",
+        "0234035b01d01e02034c02100f000000TFTSet16",
+        "02370035341013361351336373350000TFTSet16"
       ]
     },
     "0236e3700352e036f321320369000000TFTSet16": {
@@ -3712,9 +3712,9 @@
       "planner_code": "0236e3700352e036f321320369000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
+        "0233235b01934c35d02501233634b000TFTSet16",
         "0235936b01901c01335d025012336000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236835902334334c35d02533634b000TFTSet16"
+        "0234035b01d01e02034c02100f000000TFTSet16"
       ]
     },
     "0234a02f01534834c36734b36d000000TFTSet16": {
@@ -3802,9 +3802,9 @@
       "planner_code": "0234a02f01534834c36734b36d000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "02370035341013361351336373350000TFTSet16",
-        "0235936b01901c01335d025012336000TFTSet16"
+        "0235b03432d32235735d360336350000TFTSet16",
+        "0235936b01901c01335d025012336000TFTSet16",
+        "02370035341013361351336373350000TFTSet16"
       ]
     },
     "0202f34835803435d36736d350000000TFTSet16": {
@@ -3896,8 +3896,8 @@
       "planner_code": "0202f34835803435d36736d350000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
         "0234035b01d01e02034c02100f000000TFTSet16",
+        "0233236635432435301632e025000000TFTSet16",
         "0236e3700352e036f321320369000000TFTSet16"
       ]
     },
@@ -3994,7 +3994,7 @@
       "tier_value": 0.8,
       "pairs": [
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16",
+        "0236635401b355352016025373000000TFTSet16",
         "0233236635432435301632e025000000TFTSet16"
       ]
     },
@@ -4090,9 +4090,9 @@
       "planner_code": "0236e02732c32d322357360323000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0235936b01901c01335d025012336000TFTSet16",
+        "0233235b01934c35d02501233634b000TFTSet16",
         "0234035b01d01e02034c02100f000000TFTSet16",
-        "0236835902334334c35d02533634b000TFTSet16"
+        "0235936b01901c01335d025012336000TFTSet16"
       ]
     },
     "0236e02732c35832d322360323000000TFTSet16": {
@@ -4565,9 +4565,9 @@
       "planner_code": "0235636334234301401a012000000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
-        "02370035341013361351336373350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "0235b03432d32235735d360336350000TFTSet16",
+        "0234035b01d01e02034c02100f000000TFTSet16",
+        "02370035341013361351336373350000TFTSet16"
       ]
     },
     "0234036e32c035341360336373000000TFTSet16": {
@@ -5025,7 +5025,7 @@
       "pairs": [
         "0235b03432d32235735d360336350000TFTSet16",
         "02370035341013361351336373350000TFTSet16",
-        "0233e34003534135736137335a000000TFTSet16"
+        "0236e3700352e036f321320369000000TFTSet16"
       ]
     },
     "0234a35432234335d36702534b000000TFTSet16": {
@@ -5113,43 +5113,27 @@
       "planner_code": "0234a35432234335d36702534b000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0233e34003534135736137335a000000TFTSet16",
         "02370035341013361351336373350000TFTSet16",
-        "0234035b01d01e02034c02100f000000TFTSet16"
+        "0234035b01d01e02034c02100f000000TFTSet16",
+        "0236e3700352e036f321320369000000TFTSet16"
       ]
     }
   },
   "champion_weapon_images": {
-    "anivia": "https://sunderarmor.com/characters/Skin/16/Anivia.png",
-    "kobuko  yuumi": "https://sunderarmor.com/characters/Skin/16/Kobuko&Yuumi.png",
-    "sejuani": "https://sunderarmor.com/characters/Skin/16/Sejuani.png",
-    "braum": "https://sunderarmor.com/characters/Skin/16/Braum.png",
-    "bramble vest": "https://sunderarmor.com/items/BrambleVest.png",
-    "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
-    "sunfire cape": "https://sunderarmor.com/items/SunfireCape.png",
-    "lissandra": "https://sunderarmor.com/characters/Skin/16/Lissandra.png",
-    "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
-    "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
-    "ornn": "https://sunderarmor.com/characters/Skin/16/Ornn.png",
-    "volibear": "https://sunderarmor.com/characters/Skin/16/Volibear.png",
-    "zilean": "https://sunderarmor.com/characters/Skin/16/Zilean.png",
-    "void staff": "https://sunderarmor.com/items/VoidStaff.png",
     "neeko": "https://sunderarmor.com/characters/Skin/16/Neeko.png",
-    "vi": "https://sunderarmor.com/characters/Skin/16/Vi.png",
-    "diana": "https://sunderarmor.com/characters/Skin/16/Diana.png",
-    "seraphine": "https://sunderarmor.com/characters/Skin/16/Seraphine.png",
+    "lux": "https://sunderarmor.com/characters/Skin/16/Lux.png",
     "swain": "https://sunderarmor.com/characters/Skin/16/Swain.png",
     "taric": "https://sunderarmor.com/characters/Skin/16/Taric.png",
-    "azir": "https://sunderarmor.com/characters/Skin/16/Azir.png",
-    "shyvana": "https://sunderarmor.com/characters/Skin/16/Shyvana.png",
-    "aurelion sol": "https://sunderarmor.com/characters/Skin/16/AurelionSol.png",
-    "lux": "https://sunderarmor.com/characters/Skin/16/Lux.png",
     "annie": "https://sunderarmor.com/characters/Skin/16/Annie.png",
     "adaptive helm": "https://sunderarmor.com/items/AdaptiveHelm.png",
     "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
+    "void staff": "https://sunderarmor.com/items/VoidStaff.png",
     "garen": "https://sunderarmor.com/characters/Skin/16/Garen.png",
+    "shyvana": "https://sunderarmor.com/characters/Skin/16/Shyvana.png",
     "tibbers": "https://sunderarmor.com/characters/Skin/16/Tibbers.png",
+    "bramble vest": "https://sunderarmor.com/items/BrambleVest.png",
     "dragons claw": "https://sunderarmor.com/items/DragonsClaw.png",
+    "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
     "sylas": "https://sunderarmor.com/characters/Skin/16/Sylas.png",
     "nautilus": "https://sunderarmor.com/characters/Skin/16/Nautilus.png",
     "miss fortune": "https://sunderarmor.com/characters/Skin/16/MissFortune.png",
@@ -5160,23 +5144,34 @@
     "lucian  senna": "https://sunderarmor.com/characters/Skin/16/Lucian&Senna.png",
     "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
     "red buff": "https://sunderarmor.com/items/RedBuff.png",
+    "ornn": "https://sunderarmor.com/characters/Skin/16/Ornn.png",
     "tahm kench": "https://sunderarmor.com/characters/Skin/16/TahmKench.png",
     "barknuckles": "https://sunderarmor.com/items/Barknuckles.png",
     "pile o citrus": "https://sunderarmor.com/items/PileOCitrus.png",
     "protectors vow": "https://sunderarmor.com/items/ProtectorsVow.png",
     "ashe": "https://sunderarmor.com/characters/Skin/16/Ashe.png",
+    "vi": "https://sunderarmor.com/characters/Skin/16/Vi.png",
     "jinx": "https://sunderarmor.com/characters/Skin/16/Jinx.png",
     "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
     "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
     "loris": "https://sunderarmor.com/characters/Skin/16/Loris.png",
+    "sejuani": "https://sunderarmor.com/characters/Skin/16/Sejuani.png",
     "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
+    "sunfire cape": "https://sunderarmor.com/items/SunfireCape.png",
+    "braum": "https://sunderarmor.com/characters/Skin/16/Braum.png",
     "warwick": "https://sunderarmor.com/characters/Skin/16/Warwick.png",
     "shen": "https://sunderarmor.com/characters/Skin/16/Shen.png",
     "kennen": "https://sunderarmor.com/characters/Skin/16/Kennen.png",
+    "kobuko  yuumi": "https://sunderarmor.com/characters/Skin/16/Kobuko&Yuumi.png",
+    "lissandra": "https://sunderarmor.com/characters/Skin/16/Lissandra.png",
     "ryze": "https://sunderarmor.com/characters/Skin/16/Ryze.png",
     "morellonomicon": "https://sunderarmor.com/items/Morellonomicon.png",
+    "volibear": "https://sunderarmor.com/characters/Skin/16/Volibear.png",
     "ambessa": "https://sunderarmor.com/characters/Skin/16/Ambessa.png",
+    "seraphine": "https://sunderarmor.com/characters/Skin/16/Seraphine.png",
     "mel": "https://sunderarmor.com/characters/Skin/16/Mel.png",
+    "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
+    "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
     "sion": "https://sunderarmor.com/characters/Skin/16/Sion.png",
     "darius": "https://sunderarmor.com/characters/Skin/16/Darius.png",
     "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
@@ -5185,6 +5180,7 @@
     "leblanc": "https://sunderarmor.com/characters/Skin/16/Leblanc.png",
     "kindred": "https://sunderarmor.com/characters/Skin/16/Kindred.png",
     "renekton": "https://sunderarmor.com/characters/Skin/16/Renekton.png",
+    "azir": "https://sunderarmor.com/characters/Skin/16/Azir.png",
     "yorick": "https://sunderarmor.com/characters/Skin/16/Yorick.png",
     "gwen": "https://sunderarmor.com/characters/Skin/16/Gwen.png",
     "kalista": "https://sunderarmor.com/characters/Skin/16/Kalista.png",
@@ -5209,6 +5205,7 @@
     "jarvan iv": "https://sunderarmor.com/characters/Skin/16/JarvanIV.png",
     "sona": "https://sunderarmor.com/characters/Skin/16/Sona.png",
     "xin zhao": "https://sunderarmor.com/characters/Skin/16/XinZhao.png",
+    "zilean": "https://sunderarmor.com/characters/Skin/16/Zilean.png",
     "vayne": "https://sunderarmor.com/characters/Skin/16/Vayne.png",
     "hextech gunblade": "https://sunderarmor.com/items/HextechGunblade.png",
     "warmogs armor": "https://sunderarmor.com/items/WarmogsArmor.png",
@@ -5219,6 +5216,7 @@
     "chogath": "https://sunderarmor.com/characters/Skin/16/Chogath.png",
     "skarner": "https://sunderarmor.com/characters/Skin/16/Skarner.png",
     "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
+    "anivia": "https://sunderarmor.com/characters/Skin/16/Anivia.png",
     "ahri": "https://sunderarmor.com/characters/Skin/16/Ahri.png",
     "yunara": "https://sunderarmor.com/characters/Skin/16/Yunara.png",
     "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
@@ -5240,6 +5238,8 @@
     "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
     "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
     "belveth": "https://sunderarmor.com/characters/Skin/16/Belveth.png",
+    "diana": "https://sunderarmor.com/characters/Skin/16/Diana.png",
+    "aurelion sol": "https://sunderarmor.com/characters/Skin/16/AurelionSol.png",
     "zaahen": "https://sunderarmor.com/characters/Skin/16/Zaahen.png",
     "yasuo": "https://sunderarmor.com/characters/Skin/16/Yasuo.png",
     "reksai": "https://sunderarmor.com/characters/Skin/16/RekSai.png",
@@ -5775,7 +5775,6 @@
     "lasercorps": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_lasercorps.png",
     "soul crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/sf/tft_event_sf_soulcrown_tournament.png",
     "imperfect soul crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/sf/tft_event_sf_soulcrown_training_1.png",
-    "hextech sniper rifle": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/caitlyn_aceinthehole.tft_event_pm.png",
     "tftitemnametftitemtrainerheimerdinger": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_trainer/tft7_dragonitems_ap.png",
     "tftitemnametftitemtrainerluluarmor": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_trainer/tft7_dragonitems_hp.png",
     "darkflight essence": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_darkflight/tft7_darkflightessence.png",
@@ -5911,6 +5910,7 @@
     "tftitemnamecursedblade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_cursedblade.png",
     "crest of cinders": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_supportitems/crest_of_cinders.png",
     "cursed blade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_cursedblade.png",
+    "hextech sniper rifle": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_shroud.tft_set13.png",
     "zhonyas paradox": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnzhonyasparadox.tft_set13.png",
     "charges": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set9_inventor/tft9_piltovercharges.png",
     "crown of demacia": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_regionitems/crownofdemacia.png",
