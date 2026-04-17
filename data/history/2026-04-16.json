@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17",
+  "date": "2026-04-16",
   "best_pairs": {
     "0201104601404e03702d02102e000000TFTSet17": {
       "name": "Psionic Conduits",
@@ -176,9 +176,9 @@
       "planner_code": "0201102204404201404e041000000000TFTSet17",
       "tier_value": 1,
       "pairs": [
-        "0203803503703602503c03b04f000000TFTSet17",
         "0201d00d01301f01e02f03b024000000TFTSet17",
-        "0201303102f02d03b02904f027000000TFTSet17"
+        "0201303102f02d03b02904f027000000TFTSet17",
+        "0203803503703602503c03b04f000000TFTSet17"
       ]
     },
     "0201901501403d01a01803c027000000TFTSet17": {
@@ -216,13 +216,13 @@
           "name": "corki",
           "items": [
             {
-              "name": "deathblade"
-            },
-            {
               "name": "blue buff"
             },
             {
               "name": "last whisper"
+            },
+            {
+              "name": "strikers flail"
             }
           ],
           "tier": "4",
@@ -539,100 +539,6 @@
         "0201502002201403601802103c000000TFTSet17",
         "0201104601404e03702d02102e000000TFTSet17",
         "0201c03802201404e01803b027000000TFTSet17"
-      ]
-    },
-    "0203803503703602503c03b04f000000TFTSet17": {
-      "name": "Space Groove Replicators",
-      "champions": [
-        {
-          "name": "gwen",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "pantheon",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "ornn",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "nami",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "nashors tooth"
-            },
-            {
-              "name": "spear of shojin"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "riven",
-          "items": [
-            {
-              "name": "space groove emblem"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "tahm kench",
-          "items": [
-            {
-              "name": "bramble vest"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "blitzcrank",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "shen",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Fast 8",
-      "planner_code": "0203803503703602503c03b04f000000TFTSet17",
-      "tier_value": 1,
-      "pairs": [
-        "0201102204404201404e041000000000TFTSet17",
-        "0201d00d00f00e01b01f01e068000000TFTSet17",
-        "02011044042046014029027000000000TFTSet17"
       ]
     },
     "0202c02304e03c03b02a03f000000000TFTSet17": {
@@ -987,8 +893,8 @@
       "planner_code": "02011044042046014029027000000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
+        "0202c02304e03c03b02a03f000000000TFTSet17",
         "0201d00d01301f01e02f03b024000000TFTSet17",
-        "0203803503703602503c03b04f000000TFTSet17",
         "0202c02304e03c03b02a03f000000000TFTSet17"
       ]
     },
@@ -1542,8 +1448,8 @@
       "planner_code": "0201d03501e00102502103c03b000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
-        "0204503102202f01402d029027000000TFTSet17",
         "0203801104404204e034033000000000TFTSet17",
+        "0204503102202f01402d029027000000TFTSet17",
         "0203801104404204e034033000000000TFTSet17"
       ]
     },
@@ -2085,6 +1991,96 @@
         "0201104601404e03702d02102e000000TFTSet17",
         "0204503102202f01402d029027000000TFTSet17",
         "0204503e02301e03d02503c04f000000TFTSet17"
+      ]
+    },
+    "0203803503703602503c03b04f000000TFTSet17": {
+      "name": "Space Groove Replicators",
+      "champions": [
+        {
+          "name": "gwen",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "pantheon",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "nami",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "spear of shojin"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "riven",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "tahm kench",
+          "items": [
+            {
+              "name": "bramble vest"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "blitzcrank",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0203803503703602503c03b04f000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "0201102204404201404e041000000000TFTSet17",
+        "0201d00d00f00e01b01f01e068000000TFTSet17",
+        "02011044042046014029027000000000TFTSet17"
       ]
     },
     "0201d01b01902c03d01a01802b000000TFTSet17": {
@@ -3022,9 +3018,9 @@
     "milio": "https://sunderarmor.com/characters/Skin/17/Milio.png",
     "fizz": "https://sunderarmor.com/characters/Skin/17/Fizz.png",
     "corki": "https://sunderarmor.com/characters/Skin/17/Corki.png",
-    "deathblade": "https://sunderarmor.com/items/Deathblade.png",
     "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
     "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
+    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
     "rammus": "https://sunderarmor.com/characters/Skin/17/Rammus.png",
     "bramble vest": "https://sunderarmor.com/items/BrambleVest.png",
     "riven": "https://sunderarmor.com/characters/Skin/17/Riven.png",
@@ -3033,7 +3029,6 @@
     "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
     "kaisa": "https://sunderarmor.com/characters/Skin/17/Kaisa.png",
     "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
-    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
     "ornn": "https://sunderarmor.com/characters/Skin/17/Ornn.png",
     "aatrox": "https://sunderarmor.com/characters/Skin/17/Aatrox.png",
     "akali": "https://sunderarmor.com/characters/Skin/17/Akali.png",
@@ -3052,12 +3047,6 @@
     "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
     "belveth": "https://sunderarmor.com/characters/Skin/17/Belveth.png",
     "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
-    "gwen": "https://sunderarmor.com/characters/Skin/17/Gwen.png",
-    "pantheon": "https://sunderarmor.com/characters/Skin/17/Pantheon.png",
-    "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
-    "space groove emblem": "https://sunderarmor.com/items/SpaceGrooveEmblem.png",
-    "tahm kench": "https://sunderarmor.com/characters/Skin/17/TahmKench.png",
-    "blitzcrank": "https://sunderarmor.com/characters/Skin/17/Blitzcrank.png",
     "talon": "https://sunderarmor.com/characters/Skin/17/Talon.png",
     "jax": "https://sunderarmor.com/characters/Skin/17/Jax.png",
     "xayah": "https://sunderarmor.com/characters/Skin/17/Xayah.png",
@@ -3073,15 +3062,21 @@
     "nasus": "https://sunderarmor.com/characters/Skin/17/Nasus.png",
     "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
     "teemo": "https://sunderarmor.com/characters/Skin/17/Teemo.png",
+    "blitzcrank": "https://sunderarmor.com/characters/Skin/17/Blitzcrank.png",
     "chogath": "https://sunderarmor.com/characters/Skin/17/Chogath.png",
     "gragas": "https://sunderarmor.com/characters/Skin/17/Gragas.png",
     "bard": "https://sunderarmor.com/characters/Skin/17/Bard.png",
+    "deathblade": "https://sunderarmor.com/items/Deathblade.png",
     "morgana": "https://sunderarmor.com/characters/Skin/17/Morgana.png",
     "vex": "https://sunderarmor.com/characters/Skin/17/Vex.png",
+    "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
     "miss fortune": "https://sunderarmor.com/characters/Skin/17/MissFortune.png",
+    "gwen": "https://sunderarmor.com/characters/Skin/17/Gwen.png",
+    "pantheon": "https://sunderarmor.com/characters/Skin/17/Pantheon.png",
     "zed": "https://sunderarmor.com/characters/Skin/17/Zed.png",
     "aurelion sol": "https://sunderarmor.com/characters/Skin/17/AurelionSol.png",
     "rabadons deathcap": "https://sunderarmor.com/items/RabadonsDeathcap.png",
+    "tahm kench": "https://sunderarmor.com/characters/Skin/17/TahmKench.png",
     "dragons claw": "https://sunderarmor.com/items/DragonsClaw.png",
     "gnar": "https://sunderarmor.com/characters/Skin/17/Gnar.png",
     "target lock optics": "https://sunderarmor.com/items/TargetLockOptics.png",
