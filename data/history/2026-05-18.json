@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-18",
   "best_pairs": {
     "0216f172019000000000000000000000TFTSet15": {
       "name": "Dark Stars",
@@ -20,13 +20,30 @@
         },
         {
           "name": "kaisa",
-          "items": [],
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
           "tier": "3",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "karma",
+          "items": [],
+          "tier": "4",
           "is_3_star": false,
           "is_carry": false
         },
         {
-          "name": "aurelion sol",
+          "name": "riven",
           "items": [
             {
               "name": "dark star emblem"
@@ -37,30 +54,13 @@
           "is_carry": false
         },
         {
-          "name": "karma",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "spear of shojin"
-            },
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
           "name": "tahm kench",
           "items": [
             {
               "name": "gargoyle stoneplate"
             },
             {
-              "name": "spirit visage"
+              "name": "ionic spark"
             },
             {
               "name": "sunfire cape"
@@ -2661,37 +2661,37 @@
     "chogath": "https://sunderarmor.com/characters/Skin/17/Chogath.png",
     "mordekaiser": "https://sunderarmor.com/characters/Skin/17/Mordekaiser.png",
     "kaisa": "https://sunderarmor.com/characters/Skin/17/Kaisa.png",
-    "aurelion sol": "https://sunderarmor.com/characters/Skin/17/AurelionSol.png",
-    "dark star emblem": "https://sunderarmor.com/items/DarkStarEmblem.png",
+    "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
+    "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
+    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
+    "the mighty mech": "https://sunderarmor.com/characters/Skin/17/TheMightyMech.png",
     "karma": "https://sunderarmor.com/characters/Skin/17/Karma.png",
-    "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
-    "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
-    "void staff": "https://sunderarmor.com/items/VoidStaff.png",
+    "riven": "https://sunderarmor.com/characters/Skin/17/Riven.png",
+    "dark star emblem": "https://sunderarmor.com/items/DarkStarEmblem.png",
     "tahm kench": "https://sunderarmor.com/characters/Skin/17/TahmKench.png",
     "gargoyle stoneplate": "https://sunderarmor.com/items/GargoyleStoneplate.png",
-    "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
+    "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
     "sunfire cape": "https://sunderarmor.com/items/SunfireCape.png",
-    "the mighty mech": "https://sunderarmor.com/characters/Skin/17/TheMightyMech.png",
     "jhin": "https://sunderarmor.com/characters/Skin/17/Jhin.png",
     "meepsie": "https://sunderarmor.com/characters/Skin/17/Meepsie.png",
     "illaoi": "https://sunderarmor.com/characters/Skin/17/Illaoi.png",
     "nunu": "https://sunderarmor.com/characters/Skin/17/Nunu.png",
     "protectors vow": "https://sunderarmor.com/items/ProtectorsVow.png",
+    "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
     "blitzcrank": "https://sunderarmor.com/characters/Skin/17/Blitzcrank.png",
     "bard": "https://sunderarmor.com/characters/Skin/17/Bard.png",
     "sona": "https://sunderarmor.com/characters/Skin/17/Sona.png",
     "vex": "https://sunderarmor.com/characters/Skin/17/Vex.png",
     "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
     "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
+    "void staff": "https://sunderarmor.com/items/VoidStaff.png",
     "poppy": "https://sunderarmor.com/characters/Skin/17/Poppy.png",
     "milio": "https://sunderarmor.com/characters/Skin/17/Milio.png",
     "fizz": "https://sunderarmor.com/characters/Skin/17/Fizz.png",
     "corki": "https://sunderarmor.com/characters/Skin/17/Corki.png",
     "deathblade": "https://sunderarmor.com/items/Deathblade.png",
-    "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
     "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
     "rammus": "https://sunderarmor.com/characters/Skin/17/Rammus.png",
-    "riven": "https://sunderarmor.com/characters/Skin/17/Riven.png",
     "belveth": "https://sunderarmor.com/characters/Skin/17/Belveth.png",
     "gragas": "https://sunderarmor.com/characters/Skin/17/Gragas.png",
     "maokai": "https://sunderarmor.com/characters/Skin/17/Maokai.png",
@@ -2703,10 +2703,10 @@
     "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
     "fiora": "https://sunderarmor.com/characters/Skin/17/Fiora.png",
     "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
+    "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
     "sympathetic implant": "https://sunderarmor.com/items/SympatheticImplant.png",
     "pantheon": "https://sunderarmor.com/characters/Skin/17/Pantheon.png",
     "pyke": "https://sunderarmor.com/characters/Skin/17/Pyke.png",
-    "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
     "leona": "https://sunderarmor.com/characters/Skin/17/Leona.png",
     "bloodthirster": "https://sunderarmor.com/items/Bloodthirster.png",
     "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
@@ -2732,8 +2732,6 @@
     "teemo": "https://sunderarmor.com/characters/Skin/17/Teemo.png",
     "rabadons deathcap": "https://sunderarmor.com/items/RabadonsDeathcap.png",
     "nami": "https://sunderarmor.com/characters/Skin/17/Nami.png",
-    "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
-    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
     "xayah": "https://sunderarmor.com/characters/Skin/17/Xayah.png",
     "morgana": "https://sunderarmor.com/characters/Skin/17/Morgana.png",
     "shen": "https://sunderarmor.com/characters/Skin/17/Shen.png",
@@ -2743,7 +2741,9 @@
     "viktor": "https://sunderarmor.com/characters/Skin/17/Viktor.png",
     "drone uplink": "https://sunderarmor.com/items/DroneUplink.png",
     "zed": "https://sunderarmor.com/characters/Skin/17/Zed.png",
+    "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
     "aurora": "https://sunderarmor.com/characters/Skin/17/Aurora.png",
+    "aurelion sol": "https://sunderarmor.com/characters/Skin/17/AurelionSol.png",
     "veigar": "https://sunderarmor.com/characters/Skin/17/Veigar.png",
     "gnar": "https://sunderarmor.com/characters/Skin/17/Gnar.png",
     "nova emblem": "https://sunderarmor.com/items/NOVAEmblem.png",
