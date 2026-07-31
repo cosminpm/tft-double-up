@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-07-30",
   "best_pairs": {
     "0236801834a334333000000000000000TFTSet16": {
       "name": "Arbiter Conduits",
@@ -91,176 +91,6 @@
         "02354374342360000000000000000000TFTSet16"
       ]
     },
-    "0237201832d357000000000000000000TFTSet16": {
-      "name": "Gun Goddess Conduits",
-      "champions": [
-        {
-          "name": "aatrox",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "gragas",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "maokai",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "miss fortune",
-          "items": [
-            {
-              "name": "blue buff"
-            },
-            {
-              "name": "infinity edge"
-            },
-            {
-              "name": "strikers flail"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "ornn",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "rhaast",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "viktor",
-          "items": [
-            {
-              "name": "drone uplink"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": false
-        },
-        {
-          "name": "bard",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Slow Roll (7)",
-      "planner_code": "0237201832d357000000000000000000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "0235432c37401b341000000000000000TFTSet16",
-        "0232c334341022320333000000000000TFTSet16",
-        "0232c017334333000000000000000000TFTSet16"
-      ]
-    },
-    "0236834a000000000000000000000000TFTSet16": {
-      "name": "Mecha Conduits",
-      "champions": [
-        {
-          "name": "mordekaiser",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "rhaast",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "aurelion sol",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "rabadons deathcap"
-            },
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "karma",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "the mighty mech",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "steraks gage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "blitzcrank",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "S",
-      "play_style": "Fast 8",
-      "planner_code": "0236834a000000000000000000000000TFTSet16",
-      "tier_value": 1,
-      "pairs": [
-        "02372349358000000000000000000000TFTSet16",
-        "02372366358351360000000000000000TFTSet16",
-        "02366358360000000000000000000000TFTSet16"
-      ]
-    },
     "02372349358000000000000000000000TFTSet16": {
       "name": "N.O.V.A. Marauders",
       "champions": [
@@ -346,8 +176,8 @@
       "planner_code": "02372349358000000000000000000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "0201834a351000000000000000000000TFTSet16",
         "0236801834a334333000000000000000TFTSet16",
+        "0201834a351000000000000000000000TFTSet16",
         "0234a01d022357351320000000000000TFTSet16"
       ]
     },
@@ -437,8 +267,8 @@
       "tier_value": 1,
       "pairs": [
         "0236801834a334333000000000000000TFTSet16",
-        "0201834a351000000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0201834a351000000000000000000000TFTSet16"
       ]
     },
     "0234a01d357351360000000000000000TFTSet16": {
@@ -791,6 +621,284 @@
         "02354374342360000000000000000000TFTSet16"
       ]
     },
+    "0236835437401b360000000000000000TFTSet16": {
+      "name": "Dark Stars",
+      "champions": [
+        {
+          "name": "chogath",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "mordekaiser",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kaisa",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aurelion sol",
+          "items": [
+            {
+              "name": "dark star emblem"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "karma",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "tahm kench",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "the mighty mech",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "jhin",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0236835437401b360000000000000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16",
+        "0237234a351000000000000000000000TFTSet16"
+      ]
+    },
+    "02372366358351360000000000000000TFTSet16": {
+      "name": "N.O.V.A. Challengers",
+      "champions": [
+        {
+          "name": "aatrox",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "akali",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "belveth",
+          "items": [
+            {
+              "name": "nova emblem"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "maokai",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kindred",
+          "items": [
+            {
+              "name": "giant slayer"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "tahm kench",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "morgana",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02372366358351360000000000000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0232c017334333000000000000000000TFTSet16",
+        "0236e34236f000000000000000000000TFTSet16",
+        "0201834a32c33a000000000000000000TFTSet16"
+      ]
+    },
+    "02366358360000000000000000000000TFTSet16": {
+      "name": "Psionic Marauders",
+      "champions": [
+        {
+          "name": "belveth",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gragas",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "maokai",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "urgot",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kindred",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "master yi",
+          "items": [
+            {
+              "name": "malware matrix"
+            },
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "giant slayer"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "tahm kench",
+          "items": [
+            {
+              "name": "evenshroud"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "fiora",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02366358360000000000000000000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0236e34236f000000000000000000000TFTSet16",
+        "0201834a374351000000000000000000TFTSet16",
+        "02374351000000000000000000000000TFTSet16"
+      ]
+    },
     "0232c01733434133a000000000000000TFTSet16": {
       "name": "Arbiter Shepherds",
       "champions": [
@@ -869,8 +977,8 @@
       "planner_code": "0232c01733434133a000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "02372374360000000000000000000000TFTSet16",
         "0234a01d357351360000000000000000TFTSet16",
+        "02372374360000000000000000000000TFTSet16",
         "02374351000000000000000000000000TFTSet16"
       ]
     },
@@ -960,8 +1068,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0234a01d357351360000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a01d357351360000000000000000TFTSet16"
       ]
     },
     "0234a32c017334022320000000000000TFTSet16": {
@@ -1049,9 +1157,9 @@
       "planner_code": "0234a32c017334022320000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
+        "02372349358000000000000000000000TFTSet16",
         "0236632f348358353000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16"
+        "02354374342360000000000000000000TFTSet16"
       ]
     },
     "0237236602334835832d000000000000TFTSet16": {
@@ -1230,8 +1338,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0235432c37401b341000000000000000TFTSet16": {
@@ -1320,8 +1428,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "02018374351000000000000000000000TFTSet16": {
@@ -1416,103 +1524,9 @@
       "planner_code": "02018374351000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0232c01733434133a000000000000000TFTSet16",
-        "02366358360000000000000000000000TFTSet16",
-        "0236e34236f000000000000000000000TFTSet16"
-      ]
-    },
-    "0236835437401b360000000000000000TFTSet16": {
-      "name": "Dark Stars",
-      "champions": [
-        {
-          "name": "chogath",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "mordekaiser",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kaisa",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "aurelion sol",
-          "items": [
-            {
-              "name": "dark star emblem"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "karma",
-          "items": [
-            {
-              "name": "jeweled gauntlet"
-            },
-            {
-              "name": "spear of shojin"
-            },
-            {
-              "name": "void staff"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "tahm kench",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "the mighty mech",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "jhin",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Fast 8",
-      "planner_code": "0236835437401b360000000000000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0236632f348358353000000000000000TFTSet16",
-        "0237234a351000000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "02368360000000000000000000000000TFTSet16",
+        "0236e34236f000000000000000000000TFTSet16",
+        "02366358360000000000000000000000TFTSet16"
       ]
     },
     "0201834a32c33a000000000000000000TFTSet16": {
@@ -1607,9 +1621,9 @@
       "planner_code": "0201834a32c33a000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236632f348358353000000000000000TFTSet16",
-        "02366358360000000000000000000000TFTSet16",
-        "02372366358351360000000000000000TFTSet16"
+        "02368360000000000000000000000000TFTSet16",
+        "02372366358351360000000000000000TFTSet16",
+        "02366358360000000000000000000000TFTSet16"
       ]
     },
     "0237236635832d357000000000000000TFTSet16": {
@@ -1699,6 +1713,100 @@
       "pairs": [
         "0236801834a334333000000000000000TFTSet16",
         "0201834a351000000000000000000000TFTSet16",
+        "0232c017334333000000000000000000TFTSet16"
+      ]
+    },
+    "0237201832d357000000000000000000TFTSet16": {
+      "name": "Gun Goddess Conduits",
+      "champions": [
+        {
+          "name": "aatrox",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gragas",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "maokai",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "miss fortune",
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "ornn",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "rhaast",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "viktor",
+          "items": [
+            {
+              "name": "drone uplink"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "bard",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0237201832d357000000000000000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0235432c37401b341000000000000000TFTSet16",
+        "0232c334341022320333000000000000TFTSet16",
         "0232c017334333000000000000000000TFTSet16"
       ]
     },
@@ -1794,8 +1902,8 @@
       "planner_code": "0237234a351000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0232c01733434133a000000000000000TFTSet16",
         "0236835437401b360000000000000000TFTSet16",
+        "02368360000000000000000000000000TFTSet16",
         "0236e34236f000000000000000000000TFTSet16"
       ]
     },
@@ -1873,6 +1981,82 @@
         "0234a357000000000000000000000000TFTSet16",
         "0236801834a334333000000000000000TFTSet16",
         "0237234935736f351000000000000000TFTSet16"
+      ]
+    },
+    "02368360000000000000000000000000TFTSet16": {
+      "name": "Mecha Conduits",
+      "champions": [
+        {
+          "name": "urgot",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "viktor",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aurelion sol",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "rabadons deathcap"
+            },
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "master yi",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "tahm kench",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "the mighty mech",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "steraks gage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02368360000000000000000000000000TFTSet16",
+      "tier_value": 0.8,
+      "pairs": [
+        "0237234a351000000000000000000000TFTSet16",
+        "0201834a374351000000000000000000TFTSet16",
+        "02374351000000000000000000000000TFTSet16"
       ]
     },
     "0236e34236f000000000000000000000TFTSet16": {
@@ -2055,8 +2239,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0236e01b357000000000000000000000TFTSet16": {
@@ -2144,8 +2328,8 @@
       "planner_code": "0236e01b357000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236801834a334333000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
+        "0236801834a334333000000000000000TFTSet16",
         "0232c334341022320333000000000000TFTSet16"
       ]
     },
@@ -2241,8 +2425,8 @@
       "planner_code": "0201834a374351000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236632f348358353000000000000000TFTSet16",
         "0232c01733434133a000000000000000TFTSet16",
+        "02368360000000000000000000000000TFTSet16",
         "02366358360000000000000000000000TFTSet16"
       ]
     },
@@ -2332,102 +2516,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
-      ]
-    },
-    "02372366358351360000000000000000TFTSet16": {
-      "name": "N.O.V.A. Challengers",
-      "champions": [
-        {
-          "name": "aatrox",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "akali",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "belveth",
-          "items": [
-            {
-              "name": "nova emblem"
-            }
-          ],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "maokai",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kindred",
-          "items": [
-            {
-              "name": "giant slayer"
-            },
-            {
-              "name": "guinsoos rageblade"
-            },
-            {
-              "name": "krakens fury"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "tahm kench",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "morgana",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "shen",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Fast 8",
-      "planner_code": "02372366358351360000000000000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0236834a000000000000000000000000TFTSet16",
-        "0201834a32c33a000000000000000000TFTSet16",
-        "0236e34236f000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0236632f35401b358353000000000000TFTSet16": {
@@ -2612,99 +2702,9 @@
       "planner_code": "0232c341000000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234a357000000000000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
-      ]
-    },
-    "02366358360000000000000000000000TFTSet16": {
-      "name": "Psionic Marauders",
-      "champions": [
-        {
-          "name": "belveth",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "gragas",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "maokai",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "urgot",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kindred",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "master yi",
-          "items": [
-            {
-              "name": "malware matrix"
-            },
-            {
-              "name": "edge of night"
-            },
-            {
-              "name": "giant slayer"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "tahm kench",
-          "items": [
-            {
-              "name": "evenshroud"
-            },
-            {
-              "name": "spirit visage"
-            },
-            {
-              "name": "sunfire cape"
-            }
-          ],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": true
-        },
-        {
-          "name": "fiora",
-          "items": [],
-          "tier": "5",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Fast 8",
-      "planner_code": "02366358360000000000000000000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0236834a000000000000000000000000TFTSet16",
-        "0201834a374351000000000000000000TFTSet16",
-        "02374351000000000000000000000000TFTSet16"
       ]
     },
     "023722e0342323000000000000000000TFTSet16": {
@@ -2988,8 +2988,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0234a01d022357351320000000000000TFTSet16": {
@@ -3077,8 +3077,8 @@
       "planner_code": "0234a01d022357351320000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236632f348358353000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
       ]
     },
@@ -3257,8 +3257,8 @@
       "planner_code": "02374351000000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236632f348358353000000000000000TFTSet16",
         "0232c01733434133a000000000000000TFTSet16",
+        "02368360000000000000000000000000TFTSet16",
         "02366358360000000000000000000000TFTSet16"
       ]
     },
@@ -3622,8 +3622,8 @@
       "tier_value": 0.6,
       "pairs": [
         "02372349358000000000000000000000TFTSet16",
-        "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0234a357000000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0202332c348017334000000000000000TFTSet16": {
@@ -3711,9 +3711,9 @@
       "planner_code": "0202332c348017334000000000000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
         "0234a357000000000000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16"
+        "02372349358000000000000000000000TFTSet16",
+        "02354374342360000000000000000000TFTSet16"
       ]
     },
     "0237201d32d351000000000000000000TFTSet16": {
@@ -3896,8 +3896,8 @@
       "tier_value": 0.6,
       "pairs": [
         "0236632f348358353000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16",
-        "0201834a351000000000000000000000TFTSet16"
+        "0201834a351000000000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0236e01d01b342000000000000000000TFTSet16": {
@@ -3986,7 +3986,7 @@
       "tier_value": 0.6,
       "pairs": [
         "02372374360000000000000000000000TFTSet16",
-        "0236834a000000000000000000000000TFTSet16",
+        "02372366358351360000000000000000TFTSet16",
         "02366358360000000000000000000000TFTSet16"
       ]
     }
@@ -4007,24 +4007,14 @@
     "bard": "https://sunderarmor.com/characters/Skin/17/Bard.png",
     "blitzcrank": "https://sunderarmor.com/characters/Skin/17/Blitzcrank.png",
     "aatrox": "https://sunderarmor.com/characters/Skin/17/Aatrox.png",
-    "gragas": "https://sunderarmor.com/characters/Skin/17/Gragas.png",
-    "maokai": "https://sunderarmor.com/characters/Skin/17/Maokai.png",
-    "miss fortune": "https://sunderarmor.com/characters/Skin/17/MissFortune.png",
-    "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
-    "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
-    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
-    "ornn": "https://sunderarmor.com/characters/Skin/17/Ornn.png",
-    "rhaast": "https://sunderarmor.com/characters/Skin/17/Rhaast.png",
-    "drone uplink": "https://sunderarmor.com/items/DroneUplink.png",
-    "karma": "https://sunderarmor.com/characters/Skin/17/Karma.png",
-    "the mighty mech": "https://sunderarmor.com/characters/Skin/17/TheMightyMech.png",
-    "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
     "caitlyn": "https://sunderarmor.com/characters/Skin/17/Caitlyn.png",
     "akali": "https://sunderarmor.com/characters/Skin/17/Akali.png",
     "deathblade": "https://sunderarmor.com/items/Deathblade.png",
     "hextech gunblade": "https://sunderarmor.com/items/HextechGunblade.png",
+    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
     "jax": "https://sunderarmor.com/characters/Skin/17/Jax.png",
     "crownguard": "https://sunderarmor.com/items/Crownguard.png",
+    "maokai": "https://sunderarmor.com/characters/Skin/17/Maokai.png",
     "urgot": "https://sunderarmor.com/characters/Skin/17/Urgot.png",
     "kindred": "https://sunderarmor.com/characters/Skin/17/Kindred.png",
     "morgana": "https://sunderarmor.com/characters/Skin/17/Morgana.png",
@@ -4037,8 +4027,10 @@
     "jinx": "https://sunderarmor.com/characters/Skin/17/Jinx.png",
     "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
     "red buff": "https://sunderarmor.com/items/RedBuff.png",
+    "rhaast": "https://sunderarmor.com/characters/Skin/17/Rhaast.png",
     "gwen": "https://sunderarmor.com/characters/Skin/17/Gwen.png",
     "pantheon": "https://sunderarmor.com/characters/Skin/17/Pantheon.png",
+    "ornn": "https://sunderarmor.com/characters/Skin/17/Ornn.png",
     "nami": "https://sunderarmor.com/characters/Skin/17/Nami.png",
     "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
     "riven": "https://sunderarmor.com/characters/Skin/17/Riven.png",
@@ -4051,28 +4043,38 @@
     "meepsie": "https://sunderarmor.com/characters/Skin/17/Meepsie.png",
     "edge of night": "https://sunderarmor.com/items/EdgeofNight.png",
     "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
+    "karma": "https://sunderarmor.com/characters/Skin/17/Karma.png",
     "rammus": "https://sunderarmor.com/characters/Skin/17/Rammus.png",
     "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
+    "the mighty mech": "https://sunderarmor.com/characters/Skin/17/TheMightyMech.png",
     "samira": "https://sunderarmor.com/characters/Skin/17/Samira.png",
     "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
+    "chogath": "https://sunderarmor.com/characters/Skin/17/Chogath.png",
+    "kaisa": "https://sunderarmor.com/characters/Skin/17/Kaisa.png",
+    "dark star emblem": "https://sunderarmor.com/items/DarkStarEmblem.png",
+    "nova emblem": "https://sunderarmor.com/items/NOVAEmblem.png",
+    "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
+    "gragas": "https://sunderarmor.com/characters/Skin/17/Gragas.png",
+    "master yi": "https://sunderarmor.com/characters/Skin/17/MasterYi.png",
+    "malware matrix": "https://sunderarmor.com/items/MalwareMatrix.png",
+    "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
+    "fiora": "https://sunderarmor.com/characters/Skin/17/Fiora.png",
     "lissandra": "https://sunderarmor.com/characters/Skin/17/Lissandra.png",
     "illaoi": "https://sunderarmor.com/characters/Skin/17/Illaoi.png",
     "leblanc": "https://sunderarmor.com/characters/Skin/17/Leblanc.png",
-    "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
     "sona": "https://sunderarmor.com/characters/Skin/17/Sona.png",
     "nasus": "https://sunderarmor.com/characters/Skin/17/Nasus.png",
     "bloodthirster": "https://sunderarmor.com/items/Bloodthirster.png",
+    "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
     "titans resolve": "https://sunderarmor.com/items/TitansResolve.png",
     "teemo": "https://sunderarmor.com/characters/Skin/17/Teemo.png",
-    "evenshroud": "https://sunderarmor.com/items/Evenshroud.png",
     "diana": "https://sunderarmor.com/characters/Skin/17/Diana.png",
-    "chogath": "https://sunderarmor.com/characters/Skin/17/Chogath.png",
+    "miss fortune": "https://sunderarmor.com/characters/Skin/17/MissFortune.png",
     "pyke": "https://sunderarmor.com/characters/Skin/17/Pyke.png",
-    "master yi": "https://sunderarmor.com/characters/Skin/17/MasterYi.png",
-    "kaisa": "https://sunderarmor.com/characters/Skin/17/Kaisa.png",
+    "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
+    "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
     "vex": "https://sunderarmor.com/characters/Skin/17/Vex.png",
-    "dark star emblem": "https://sunderarmor.com/items/DarkStarEmblem.png",
-    "fiora": "https://sunderarmor.com/characters/Skin/17/Fiora.png",
+    "drone uplink": "https://sunderarmor.com/items/DroneUplink.png",
     "zed": "https://sunderarmor.com/characters/Skin/17/Zed.png",
     "aurora": "https://sunderarmor.com/characters/Skin/17/Aurora.png",
     "poppy": "https://sunderarmor.com/characters/Skin/17/Poppy.png",
@@ -4081,8 +4083,6 @@
     "corki": "https://sunderarmor.com/characters/Skin/17/Corki.png",
     "veigar": "https://sunderarmor.com/characters/Skin/17/Veigar.png",
     "gnar": "https://sunderarmor.com/characters/Skin/17/Gnar.png",
-    "nova emblem": "https://sunderarmor.com/items/NOVAEmblem.png",
-    "malware matrix": "https://sunderarmor.com/items/MalwareMatrix.png",
     "twisted fate": "https://sunderarmor.com/characters/Skin/17/TwistedFate.png",
     "morellonomicon": "https://sunderarmor.com/items/Morellonomicon.png",
     "lulu": "https://sunderarmor.com/characters/Skin/17/Lulu.png",
