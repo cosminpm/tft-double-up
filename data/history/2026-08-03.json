@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-03",
   "best_pairs": {
     "0236801834a334333000000000000000TFTSet16": {
       "name": "Arbiter Conduits",
@@ -86,8 +86,8 @@
       "planner_code": "0236801834a334333000000000000000TFTSet16",
       "tier_value": 1,
       "pairs": [
+        "0236632f348358353000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "0237234935736f351000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
       ]
     },
@@ -181,8 +181,8 @@
       "tier_value": 1,
       "pairs": [
         "0235432c37401b341000000000000000TFTSet16",
-        "0232c017334333000000000000000000TFTSet16",
-        "0232c334341022320333000000000000TFTSet16"
+        "0232c334341022320333000000000000TFTSet16",
+        "0232c017334333000000000000000000TFTSet16"
       ]
     },
     "0236834a000000000000000000000000TFTSet16": {
@@ -351,6 +351,96 @@
         "0234a01d022357351320000000000000TFTSet16"
       ]
     },
+    "0236632f348358353000000000000000TFTSet16": {
+      "name": "Primordian Challengers",
+      "champions": [
+        {
+          "name": "briar",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "reksai",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "akali",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "belveth",
+          "items": [
+            {
+              "name": "giant slayer"
+            },
+            {
+              "name": "krakens fury"
+            },
+            {
+              "name": "quicksilver"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "jinx",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "last whisper"
+            },
+            {
+              "name": "red buff"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "maokai",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rhaast",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kindred",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0236632f348358353000000000000000TFTSet16",
+      "tier_value": 1,
+      "pairs": [
+        "0236801834a334333000000000000000TFTSet16",
+        "0201834a351000000000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
+      ]
+    },
     "0234a01d357351360000000000000000TFTSet16": {
       "name": "Space Groove Replicators",
       "champions": [
@@ -440,7 +530,7 @@
       "planner_code": "0234a01d357351360000000000000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "02372349358000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
         "0232c01733434133a000000000000000TFTSet16",
         "0232c017334333000000000000000000TFTSet16"
       ]
@@ -620,8 +710,8 @@
       "planner_code": "0201834a351000000000000000000000TFTSet16",
       "tier_value": 1,
       "pairs": [
+        "0236632f348358353000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "023722e0342323000000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
       ]
     },
@@ -696,99 +786,9 @@
       "planner_code": "0234a357000000000000000000000000TFTSet16",
       "tier_value": 1,
       "pairs": [
-        "02354360000000000000000000000000TFTSet16",
-        "02354374342360000000000000000000TFTSet16",
-        "0232c334341022320333000000000000TFTSet16"
-      ]
-    },
-    "0236632f348358353000000000000000TFTSet16": {
-      "name": "Primordian Challengers",
-      "champions": [
-        {
-          "name": "briar",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "reksai",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "akali",
-          "items": [],
-          "tier": "2",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "belveth",
-          "items": [
-            {
-              "name": "giant slayer"
-            },
-            {
-              "name": "krakens fury"
-            },
-            {
-              "name": "quicksilver"
-            }
-          ],
-          "tier": "2",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "jinx",
-          "items": [
-            {
-              "name": "deathblade"
-            },
-            {
-              "name": "last whisper"
-            },
-            {
-              "name": "red buff"
-            }
-          ],
-          "tier": "2",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "maokai",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "rhaast",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "kindred",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Slow Roll (6)",
-      "planner_code": "0236632f348358353000000000000000TFTSet16",
-      "tier_value": 0.8,
-      "pairs": [
-        "0236801834a334333000000000000000TFTSet16",
-        "0201834a351000000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0232c334341022320333000000000000TFTSet16",
+        "02354374342360000000000000000000TFTSet16"
       ]
     },
     "0232c01733434133a000000000000000TFTSet16": {
@@ -869,8 +869,8 @@
       "planner_code": "0232c01733434133a000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234a01d357351360000000000000000TFTSet16",
         "02372374360000000000000000000000TFTSet16",
+        "0234a01d357351360000000000000000TFTSet16",
         "02374351000000000000000000000000TFTSet16"
       ]
     },
@@ -959,9 +959,9 @@
       "planner_code": "0232c017334333000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "0234a01d357351360000000000000000TFTSet16"
+        "0234a01d357351360000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "0234a32c017334022320000000000000TFTSet16": {
@@ -1050,8 +1050,8 @@
       "tier_value": 0.8,
       "pairs": [
         "0237201832d357000000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16",
-        "02354374342360000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "02372349358000000000000000000000TFTSet16"
       ]
     },
     "0237236602334835832d000000000000TFTSet16": {
@@ -1229,9 +1229,9 @@
       "planner_code": "0235433a000000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0236801834a334333000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16"
+        "02372349358000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0235432c37401b341000000000000000TFTSet16": {
@@ -1319,9 +1319,9 @@
       "planner_code": "0235432c37401b341000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16"
+        "02372349358000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "02018374351000000000000000000000TFTSet16": {
@@ -1510,9 +1510,9 @@
       "planner_code": "0236835437401b360000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "02372349358000000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16",
-        "0237234a351000000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0237234a351000000000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0201834a32c33a000000000000000000TFTSet16": {
@@ -1607,9 +1607,9 @@
       "planner_code": "0201834a32c33a000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "02372349358000000000000000000000TFTSet16",
-        "02372366358351360000000000000000TFTSet16",
-        "02366358360000000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "02366358360000000000000000000000TFTSet16",
+        "02372366358351360000000000000000TFTSet16"
       ]
     },
     "0237236635832d357000000000000000TFTSet16": {
@@ -2054,9 +2054,9 @@
       "planner_code": "0201832c34136f369000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234a357000000000000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "02354374342360000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0236e01b357000000000000000000000TFTSet16": {
@@ -2241,9 +2241,9 @@
       "planner_code": "0201834a374351000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "02366358360000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
         "0232c01733434133a000000000000000TFTSet16",
-        "0236e01d01b342000000000000000000TFTSet16"
+        "02366358360000000000000000000000TFTSet16"
       ]
     },
     "0201837436f000000000000000000000TFTSet16": {
@@ -2331,9 +2331,9 @@
       "planner_code": "0201837436f000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0234a357000000000000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "023722e0342323000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "02372366358351360000000000000000TFTSet16": {
@@ -2987,9 +2987,9 @@
       "planner_code": "0232c334341022320333000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16",
-        "02372349358000000000000000000000TFTSet16"
+        "02372349358000000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0234a01d022357351320000000000000TFTSet16": {
@@ -3077,8 +3077,8 @@
       "planner_code": "0234a01d022357351320000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
+        "0236632f348358353000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "023722e0342323000000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
       ]
     },
@@ -3169,7 +3169,7 @@
       "pairs": [
         "0236801834a334333000000000000000TFTSet16",
         "0201834a351000000000000000000000TFTSet16",
-        "0234a01d022357351320000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16"
       ]
     },
     "02374351000000000000000000000000TFTSet16": {
@@ -3257,7 +3257,7 @@
       "planner_code": "02374351000000000000000000000000TFTSet16",
       "tier_value": 0.8,
       "pairs": [
-        "0237201832d357000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
         "0232c01733434133a000000000000000TFTSet16",
         "02366358360000000000000000000000TFTSet16"
       ]
@@ -3438,7 +3438,7 @@
       "tier_value": 0.8,
       "pairs": [
         "0236801834a334333000000000000000TFTSet16",
-        "0232c017334333000000000000000000TFTSet16",
+        "0236632f348358353000000000000000TFTSet16",
         "02354374342360000000000000000000TFTSet16"
       ]
     },
@@ -3621,9 +3621,9 @@
       "planner_code": "0232c000000000000000000000000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "0234a357000000000000000000000000TFTSet16",
         "02372349358000000000000000000000TFTSet16",
-        "02354374342360000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16"
       ]
     },
     "0202332c348017334000000000000000TFTSet16": {
@@ -3895,9 +3895,9 @@
       "planner_code": "022e0342360323000000000000000000TFTSet16",
       "tier_value": 0.6,
       "pairs": [
-        "02372349358000000000000000000000TFTSet16",
-        "0201834a351000000000000000000000TFTSet16",
-        "0234a357000000000000000000000000TFTSet16"
+        "0236632f348358353000000000000000TFTSet16",
+        "0234a357000000000000000000000000TFTSet16",
+        "0201834a351000000000000000000000TFTSet16"
       ]
     },
     "0236e01d01b342000000000000000000TFTSet16": {
@@ -4028,6 +4028,15 @@
     "urgot": "https://sunderarmor.com/characters/Skin/17/Urgot.png",
     "kindred": "https://sunderarmor.com/characters/Skin/17/Kindred.png",
     "morgana": "https://sunderarmor.com/characters/Skin/17/Morgana.png",
+    "briar": "https://sunderarmor.com/characters/Skin/17/Briar.png",
+    "reksai": "https://sunderarmor.com/characters/Skin/17/RekSai.png",
+    "belveth": "https://sunderarmor.com/characters/Skin/17/Belveth.png",
+    "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
+    "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
+    "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
+    "jinx": "https://sunderarmor.com/characters/Skin/17/Jinx.png",
+    "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
+    "red buff": "https://sunderarmor.com/items/RedBuff.png",
     "gwen": "https://sunderarmor.com/characters/Skin/17/Gwen.png",
     "pantheon": "https://sunderarmor.com/characters/Skin/17/Pantheon.png",
     "nami": "https://sunderarmor.com/characters/Skin/17/Nami.png",
@@ -4038,8 +4047,6 @@
     "protectors vow": "https://sunderarmor.com/items/ProtectorsVow.png",
     "shen": "https://sunderarmor.com/characters/Skin/17/Shen.png",
     "xayah": "https://sunderarmor.com/characters/Skin/17/Xayah.png",
-    "red buff": "https://sunderarmor.com/items/RedBuff.png",
-    "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
     "jhin": "https://sunderarmor.com/characters/Skin/17/Jhin.png",
     "meepsie": "https://sunderarmor.com/characters/Skin/17/Meepsie.png",
     "edge of night": "https://sunderarmor.com/items/EdgeofNight.png",
@@ -4047,14 +4054,7 @@
     "rammus": "https://sunderarmor.com/characters/Skin/17/Rammus.png",
     "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
     "samira": "https://sunderarmor.com/characters/Skin/17/Samira.png",
-    "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
     "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
-    "briar": "https://sunderarmor.com/characters/Skin/17/Briar.png",
-    "reksai": "https://sunderarmor.com/characters/Skin/17/RekSai.png",
-    "belveth": "https://sunderarmor.com/characters/Skin/17/Belveth.png",
-    "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
-    "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
-    "jinx": "https://sunderarmor.com/characters/Skin/17/Jinx.png",
     "lissandra": "https://sunderarmor.com/characters/Skin/17/Lissandra.png",
     "illaoi": "https://sunderarmor.com/characters/Skin/17/Illaoi.png",
     "leblanc": "https://sunderarmor.com/characters/Skin/17/Leblanc.png",
