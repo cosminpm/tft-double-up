@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-25",
   "best_pairs": {
     "02044036068016000000000000000000TFTSet17": {
       "name": "Elderwood Blackthorn",
@@ -176,7 +176,7 @@
       "planner_code": "02043058000000000000000000000000TFTSet17",
       "tier_value": 1,
       "pairs": [
-        "0201e000000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17",
         "02000000000000000000000000000000TFTSet17",
         "0203b000000000000000000000000000TFTSet17"
       ]
@@ -266,7 +266,7 @@
       "planner_code": "02022058000000000000000000000000TFTSet17",
       "tier_value": 1,
       "pairs": [
-        "0201e000000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17",
         "02000000000000000000000000000000TFTSet17",
         "0203b000000000000000000000000000TFTSet17"
       ]
@@ -363,9 +363,9 @@
       "planner_code": "0201e000000000000000000000000000TFTSet17",
       "tier_value": 1,
       "pairs": [
-        "02022058000000000000000000000000TFTSet17",
-        "02043058000000000000000000000000TFTSet17",
-        "02000000000000000000000000000000TFTSet17"
+        "0204303e036000000000000000000000TFTSet17",
+        "0201704403603f000000000000000000TFTSet17",
+        "0203e017036000000000000000000000TFTSet17"
       ]
     },
     "02043000000000000000000000000000TFTSet17": {
@@ -401,17 +401,10 @@
         },
         {
           "name": "amumu",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "warmogs armor"
-            }
-          ],
+          "items": [],
           "tier": "4",
           "is_3_star": false,
-          "is_carry": true
+          "is_carry": false
         },
         {
           "name": "aphelios",
@@ -443,10 +436,17 @@
         },
         {
           "name": "sentinel",
-          "items": [],
+          "items": [
+            {
+              "name": "protectors vow"
+            },
+            {
+              "name": "protectors vow"
+            }
+          ],
           "tier": "4",
           "is_3_star": false,
-          "is_carry": false
+          "is_carry": true
         }
       ],
       "tier": "S",
@@ -457,6 +457,96 @@
         "02044036068016000000000000000000TFTSet17",
         "02044036068016000000000000000000TFTSet17",
         "0203e017036000000000000000000000TFTSet17"
+      ]
+    },
+    "0204303e036000000000000000000000TFTSet17": {
+      "name": "Rivals Khazix",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "hecarim",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "khazix",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "hand of justice"
+            },
+            {
+              "name": "rabadons deathcap"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "aphelios",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0204303e036000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
       ]
     },
     "02018068016000000000000000000000TFTSet17": {
@@ -733,96 +823,6 @@
         "02000000000000000000000000000000TFTSet17"
       ]
     },
-    "0204303e036000000000000000000000TFTSet17": {
-      "name": "Rivals Khazix",
-      "champions": [
-        {
-          "name": "ornn",
-          "items": [],
-          "tier": "1",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "diana",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "fiddlesticks",
-          "items": [],
-          "tier": "3",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "hecarim",
-          "items": [
-            {
-              "name": "gargoyle stoneplate"
-            },
-            {
-              "name": "sunfire cape"
-            },
-            {
-              "name": "warmogs armor"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "khazix",
-          "items": [
-            {
-              "name": "edge of night"
-            },
-            {
-              "name": "hand of justice"
-            },
-            {
-              "name": "rabadons deathcap"
-            }
-          ],
-          "tier": "3",
-          "is_3_star": true,
-          "is_carry": true
-        },
-        {
-          "name": "aphelios",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "ezreal",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        },
-        {
-          "name": "soraka",
-          "items": [],
-          "tier": "4",
-          "is_3_star": false,
-          "is_carry": false
-        }
-      ],
-      "tier": "A",
-      "play_style": "Slow Roll (7)",
-      "planner_code": "0204303e036000000000000000000000TFTSet17",
-      "tier_value": 0.8,
-      "pairs": [
-        "02017000000000000000000000000000TFTSet17",
-        "02017018033000000000000000000000TFTSet17",
-        "02017018033000000000000000000000TFTSet17"
-      ]
-    },
     "02017000000000000000000000000000TFTSet17": {
       "name": "Apex Predator",
       "champions": [
@@ -908,7 +908,7 @@
       "planner_code": "02017000000000000000000000000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
-        "0201e000000000000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
         "02044036068016000000000000000000TFTSet17",
         "0204303e044000000000000000000000TFTSet17"
       ]
@@ -1093,7 +1093,7 @@
       "tier_value": 0.8,
       "pairs": [
         "02043058000000000000000000000000TFTSet17",
-        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
         "02000000000000000000000000000000TFTSet17"
       ]
     },
@@ -1182,8 +1182,8 @@
       "planner_code": "0201702f000000000000000000000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
+        "0204303e036000000000000000000000TFTSet17",
         "02044036068016000000000000000000TFTSet17",
-        "0204203601803b000000000000000000TFTSet17",
         "0204303e044000000000000000000000TFTSet17"
       ]
     },
@@ -1272,9 +1272,9 @@
       "planner_code": "0201704403603f000000000000000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
-        "02022058000000000000000000000000TFTSet17",
+        "02043058000000000000000000000000TFTSet17",
         "0201e000000000000000000000000000TFTSet17",
-        "0201e000000000000000000000000000TFTSet17"
+        "02022058000000000000000000000000TFTSet17"
       ]
     },
     "0203e017036000000000000000000000TFTSet17": {
@@ -1362,9 +1362,9 @@
       "planner_code": "0203e017036000000000000000000000TFTSet17",
       "tier_value": 0.8,
       "pairs": [
-        "0201e000000000000000000000000000TFTSet17",
-        "0201e000000000000000000000000000TFTSet17",
-        "02043000000000000000000000000000TFTSet17"
+        "02043058000000000000000000000000TFTSet17",
+        "02043000000000000000000000000000TFTSet17",
+        "0201e000000000000000000000000000TFTSet17"
       ]
     },
     "0201701803f000000000000000000000TFTSet17": {
@@ -1457,7 +1457,7 @@
       "tier_value": 0.8,
       "pairs": [
         "02044036068016000000000000000000TFTSet17",
-        "0204304203b000000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
         "0204303e044000000000000000000000TFTSet17"
       ]
     },
@@ -1638,7 +1638,7 @@
       "pairs": [
         "02043058000000000000000000000000TFTSet17",
         "02022058000000000000000000000000TFTSet17",
-        "0201e000000000000000000000000000TFTSet17"
+        "02022058000000000000000000000000TFTSet17"
       ]
     },
     "0201b000000000000000000000000000TFTSet17": {
@@ -1731,7 +1731,7 @@
       "tier_value": 0.8,
       "pairs": [
         "02044036068016000000000000000000TFTSet17",
-        "0204203601803b000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
         "0204303e044000000000000000000000TFTSet17"
       ]
     },
@@ -2091,8 +2091,8 @@
       "tier_value": 0.8,
       "pairs": [
         "02044036068016000000000000000000TFTSet17",
-        "02044036068016000000000000000000TFTSet17",
-        "0204303e044000000000000000000000TFTSet17"
+        "0204303e036000000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17"
       ]
     },
     "0204303e044000000000000000000000TFTSet17": {
@@ -2454,7 +2454,7 @@
       "planner_code": "0203e01704403603f000000000000000TFTSet17",
       "tier_value": 0.6,
       "pairs": [
-        "0201e000000000000000000000000000TFTSet17",
+        "02022058000000000000000000000000TFTSet17",
         "0201e000000000000000000000000000TFTSet17",
         "02043000000000000000000000000000TFTSet17"
       ]
@@ -2544,9 +2544,9 @@
       "planner_code": "0203603f000000000000000000000000TFTSet17",
       "tier_value": 0.6,
       "pairs": [
-        "0201702f000000000000000000000000TFTSet17",
-        "02017000000000000000000000000000TFTSet17",
-        "02018068016000000000000000000000TFTSet17"
+        "02018068016000000000000000000000TFTSet17",
+        "02018068016000000000000000000000TFTSet17",
+        "02017000000000000000000000000000TFTSet17"
       ]
     },
     "0200d04203b000000000000000000000TFTSet17": {
@@ -2634,8 +2634,8 @@
       "planner_code": "0200d04203b000000000000000000000TFTSet17",
       "tier_value": 0.6,
       "pairs": [
+        "0204303e036000000000000000000000TFTSet17",
         "02044036068016000000000000000000TFTSet17",
-        "02017018033000000000000000000000TFTSet17",
         "0204303e044000000000000000000000TFTSet17"
       ]
     }
@@ -2685,34 +2685,30 @@
     "kennen": "https://sunderarmor.com/characters/Skin/18/Kennen.png",
     "maokai": "https://sunderarmor.com/characters/Skin/18/Maokai.png",
     "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
-    "yorick": "https://sunderarmor.com/characters/Skin/18/Yorick.png",
-    "scuttlecrab": "https://sunderarmor.com/characters/Skin/18/Scuttlecrab.png",
-    "sejuani": "https://sunderarmor.com/characters/Skin/18/Sejuani.png",
-    "zyra": "https://sunderarmor.com/characters/Skin/18/Zyra.png",
-    "archangels staff": "https://sunderarmor.com/items/ArchangelsStaff.png",
     "varus": "https://sunderarmor.com/characters/Skin/18/Varus.png",
     "aphelios": "https://sunderarmor.com/characters/Skin/18/Aphelios.png",
     "deathblade": "https://sunderarmor.com/items/Deathblade.png",
     "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
     "nidalee": "https://sunderarmor.com/characters/Skin/18/Nidalee.png",
     "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
+    "khazix": "https://sunderarmor.com/characters/Skin/18/Khazix.png",
+    "edge of night": "https://sunderarmor.com/items/EdgeofNight.png",
+    "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
+    "ezreal": "https://sunderarmor.com/characters/Skin/18/Ezreal.png",
     "kobuko": "https://sunderarmor.com/characters/Skin/18/Kobuko.png",
     "azir": "https://sunderarmor.com/characters/Skin/18/Azir.png",
     "rammus": "https://sunderarmor.com/characters/Skin/18/Rammus.png",
     "malphite": "https://sunderarmor.com/characters/Skin/18/Malphite.png",
-    "ezreal": "https://sunderarmor.com/characters/Skin/18/Ezreal.png",
     "draven": "https://sunderarmor.com/characters/Skin/18/Draven.png",
     "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
     "gnar": "https://sunderarmor.com/characters/Skin/18/Gnar.png",
     "shen": "https://sunderarmor.com/characters/Skin/18/Shen.png",
     "tristana": "https://sunderarmor.com/characters/Skin/18/Tristana.png",
     "lillia": "https://sunderarmor.com/characters/Skin/18/Lillia.png",
-    "khazix": "https://sunderarmor.com/characters/Skin/18/Khazix.png",
-    "edge of night": "https://sunderarmor.com/items/EdgeofNight.png",
-    "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
     "murkwolf": "https://sunderarmor.com/characters/Skin/18/Murkwolf.png",
     "elder dragon": "https://sunderarmor.com/characters/Skin/18/ElderDragon.png",
     "yunara": "https://sunderarmor.com/characters/Skin/18/Yunara.png",
+    "yorick": "https://sunderarmor.com/characters/Skin/18/Yorick.png",
     "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
     "master yi": "https://sunderarmor.com/characters/Skin/18/MasterYi.png",
     "titans resolve": "https://sunderarmor.com/items/TitansResolve.png",
@@ -2721,7 +2717,10 @@
     "executioner emblem": "https://sunderarmor.com/items/ExecutionerEmblem.png",
     "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
     "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
+    "zyra": "https://sunderarmor.com/characters/Skin/18/Zyra.png",
     "caitlyn": "https://sunderarmor.com/characters/Skin/18/Caitlyn.png",
+    "scuttlecrab": "https://sunderarmor.com/characters/Skin/18/Scuttlecrab.png",
+    "sejuani": "https://sunderarmor.com/characters/Skin/18/Sejuani.png",
     "akali": "https://sunderarmor.com/characters/Skin/18/Akali.png",
     "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
     "cinderling": "https://sunderarmor.com/characters/Skin/18/Cinderling.png",
@@ -2729,6 +2728,7 @@
     "rengar": "https://sunderarmor.com/characters/Skin/18/Rengar.png",
     "leona": "https://sunderarmor.com/characters/Skin/18/Leona.png",
     "kayle": "https://sunderarmor.com/characters/Skin/18/Kayle.png",
+    "archangels staff": "https://sunderarmor.com/items/ArchangelsStaff.png",
     "teemo": "https://sunderarmor.com/characters/Skin/18/Teemo.png",
     "warwick": "https://sunderarmor.com/characters/Skin/18/Warwick.png",
     "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
