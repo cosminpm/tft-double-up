@@ -1,0 +1,3536 @@
+{
+  "date": "2026-10-24",
+  "best_pairs": {
+    "0203e018033016000000000000000000TFTSet17": {
+      "name": "Sprykin Summoners",
+      "champions": [
+        {
+          "name": "veigar",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "teemo",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "azir",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "hextech gunblade"
+            },
+            {
+              "name": "rabadons deathcap"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rammus",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "zyra",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0203e018033016000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02043000000000000000000000000000TFTSet17",
+        "0204304203b000000000000000000000TFTSet17"
+      ]
+    },
+    "02044036068016000000000000000000TFTSet17": {
+      "name": "Elderwood Blackthorn",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "reksai",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "veigar",
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "hextech gunblade"
+            },
+            {
+              "name": "jeweled gauntlet"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "alistar",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "leblanc",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "cassiopeia",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (5)",
+      "planner_code": "02044036068016000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
+      ]
+    },
+    "02022058000000000000000000000000TFTSet17": {
+      "name": "Invoker Spellweavers",
+      "champions": [
+        {
+          "name": "karma",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "pebbles",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "krug",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ahri",
+          "items": [
+            {
+              "name": "invoker emblem"
+            },
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "morgana",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sentinel",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sett",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "taric",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Fast 8",
+      "planner_code": "02022058000000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02000000000000000000000000000000TFTSet17",
+        "0201e000000000000000000000000000TFTSet17",
+        "0203b000000000000000000000000000TFTSet17"
+      ]
+    },
+    "02043058000000000000000000000000TFTSet17": {
+      "name": "Lunar Invokers",
+      "champions": [
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "hecarim",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "morgana",
+          "items": [
+            {
+              "name": "morellonomicon"
+            },
+            {
+              "name": "rabadons deathcap"
+            },
+            {
+              "name": "void staff"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sentinel",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "protectors vow"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "taric",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Fast 8",
+      "planner_code": "02043058000000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "0201e000000000000000000000000000TFTSet17",
+        "02017022000000000000000000000000TFTSet17",
+        "0203b000000000000000000000000000TFTSet17"
+      ]
+    },
+    "02043000000000000000000000000000TFTSet17": {
+      "name": "Lunar Rapidfire",
+      "champions": [
+        {
+          "name": "varus",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kogmaw",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "aphelios",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "guinsoos rageblade"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "nidalee",
+          "items": [
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "spear of shojin"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sentinel",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Fast 8",
+      "planner_code": "02043000000000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "0203e018033016000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17",
+        "0203e017036000000000000000000000TFTSet17"
+      ]
+    },
+    "02017000000000000000000000000000TFTSet17": {
+      "name": "Riftbeasts Reroll",
+      "champions": [
+        {
+          "name": "cinderling",
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "last whisper"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "pebbles",
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "jeweled gauntlet"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "murkwolf",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "scuttlecrab",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "krug",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "brambleback",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sentinel",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (5)",
+      "planner_code": "02017000000000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17"
+      ]
+    },
+    "0204303e036000000000000000000000TFTSet17": {
+      "name": "Rivals Khazix",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "hecarim",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "khazix",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "hand of justice"
+            },
+            {
+              "name": "rabadons deathcap"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "aphelios",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "S",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0204303e036000000000000000000000TFTSet17",
+      "tier_value": 1,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
+      ]
+    },
+    "0202f000000000000000000000000000TFTSet17": {
+      "name": "Caustic Adaptors",
+      "champions": [
+        {
+          "name": "yorick",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kogmaw",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "krug",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "master yi",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "rengar",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "nidalee",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sett",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0202f000000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17"
+      ]
+    },
+    "02018068016000000000000000000000TFTSet17": {
+      "name": "Blackthorn Sprykin",
+      "champions": [
+        {
+          "name": "kobuko",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "reksai",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "veigar",
+          "items": [
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "hextech gunblade"
+            },
+            {
+              "name": "jeweled gauntlet"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "azir",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rammus",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "malphite",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (5)",
+      "planner_code": "02018068016000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017000000000000000000000000000TFTSet17",
+        "0204303e044000000000000000000000TFTSet17"
+      ]
+    },
+    "0203e044000000000000000000000000TFTSet17": {
+      "name": "Blossom Executioners",
+      "champions": [
+        {
+          "name": "alistar",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "leblanc",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "yunara",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "ahri",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ezreal",
+          "items": [
+            {
+              "name": "last whisper"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sett",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0203e044000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
+      ]
+    },
+    "02017022000000000000000000000000TFTSet17": {
+      "name": "Blossom Spellweavers",
+      "champions": [
+        {
+          "name": "karma",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "yorick",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ahri",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sett",
+          "items": [
+            {
+              "name": "ionic spark"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sivir",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ashe",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02017022000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02043058000000000000000000000000TFTSet17",
+        "02043058000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0203e01701e000000000000000000000TFTSet17": {
+      "name": "Elderwood Executioners",
+      "champions": [
+        {
+          "name": "alistar",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "draven",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ivern",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "maokai",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "protectors vow"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "taric",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 9",
+      "planner_code": "0203e01701e000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02043022000000000000000000000000TFTSet17",
+        "0204203601803b000000000000000000TFTSet17",
+        "02043042000000000000000000000000TFTSet17"
+      ]
+    },
+    "0201704403603f000000000000000000TFTSet17": {
+      "name": "Elderwood Rapidfire",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "xayah",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "alistar",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "leblanc",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aphelios",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lillia",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0201704403603f000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02022058000000000000000000000000TFTSet17",
+        "0200d04302f000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0203e017036000000000000000000000TFTSet17": {
+      "name": "Elderwood Spellweavers",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "yunara",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ahri",
+          "items": [
+            {
+              "name": "executioner emblem"
+            },
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "spear of shojin"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sett",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0203e017036000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02043000000000000000000000000000TFTSet17",
+        "0203b000000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0201701803f000000000000000000000TFTSet17": {
+      "name": "Fae Hunters",
+      "champions": [
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "xayah",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rammus",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "tristana",
+          "items": [
+            {
+              "name": "giant slayer"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sivir",
+          "items": [
+            {
+              "name": "last whisper"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0201701803f000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0204303e044000000000000000000000TFTSet17"
+      ]
+    },
+    "02043022000000000000000000000000TFTSet17": {
+      "name": "Fae Spellweavers",
+      "champions": [
+        {
+          "name": "karma",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "yorick",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ahri",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lillia",
+          "items": [
+            {
+              "name": "ionic spark"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02043022000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17",
+        "0203e01701e000000000000000000000TFTSet17"
+      ]
+    },
+    "02000000000000000000000000000000TFTSet17": {
+      "name": "Flora Executioners",
+      "champions": [
+        {
+          "name": "yorick",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "azir",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "malphite",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "protectors vow"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "soraka",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "zyra",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "02000000000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02022058000000000000000000000000TFTSet17",
+        "0201e000000000000000000000000000TFTSet17",
+        "0203b000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0201e000000000000000000000000000TFTSet17": {
+      "name": "Juggernaut Hunters",
+      "champions": [
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sivir",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ashe",
+          "items": [
+            {
+              "name": "last whisper"
+            },
+            {
+              "name": "red buff"
+            },
+            {
+              "name": "spear of shojin"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ivern",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "maokai",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "protectors vow"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "taric",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 9",
+      "planner_code": "0201e000000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02022058000000000000000000000000TFTSet17",
+        "02043058000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0201b000000000000000000000000000TFTSet17": {
+      "name": "Juggernaut Hunters Reroll",
+      "champions": [
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "caitlyn",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "scuttlecrab",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "tristana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sivir",
+          "items": [
+            {
+              "name": "last whisper"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ashe",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0201b000000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17"
+      ]
+    },
+    "0200d04302f000000000000000000000TFTSet17": {
+      "name": "Primal Adaptors",
+      "champions": [
+        {
+          "name": "akali",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kogmaw",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "master yi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "nidalee",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "sentinel",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0200d04302f000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "0203e018033016000000000000000000TFTSet17",
+        "0203e017036000000000000000000000TFTSet17",
+        "0201704403603f000000000000000000TFTSet17"
+      ]
+    },
+    "0203b000000000000000000000000000TFTSet17": {
+      "name": "Primal Hunters",
+      "champions": [
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "tristana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "vi",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sivir",
+          "items": [
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "strikers flail"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ashe",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kennen",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Fast 8",
+      "planner_code": "0203b000000000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02022058000000000000000000000000TFTSet17",
+        "0203e017036000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0204304203b000000000000000000000TFTSet17": {
+      "name": "Solar Rapidfire",
+      "champions": [
+        {
+          "name": "leona",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "varus",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "kayle",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "jeweled gauntlet"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "sejuani",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aphelios",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0204304203b000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "02017000000000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17"
+      ]
+    },
+    "0204203601803b000000000000000000TFTSet17": {
+      "name": "Spellweaver Defenders",
+      "champions": [
+        {
+          "name": "leona",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "cassiopeia",
+          "items": [
+            {
+              "name": "archangels staff"
+            },
+            {
+              "name": "blue buff"
+            },
+            {
+              "name": "hextech gunblade"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "fiddlesticks",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "rammus",
+          "items": [],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0204203601803b000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02043000000000000000000000000000TFTSet17",
+        "0204303e044000000000000000000000TFTSet17"
+      ]
+    },
+    "02017018033000000000000000000000TFTSet17": {
+      "name": "Sprykin Hunters",
+      "champions": [
+        {
+          "name": "kobuko",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "teemo",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rammus",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "tristana",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sentinel",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ashe",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "02017018033000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17"
+      ]
+    },
+    "0204303e044000000000000000000000TFTSet17": {
+      "name": "Unrivaled",
+      "champions": [
+        {
+          "name": "leblanc",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "hecarim",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "khazix",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "hand of justice"
+            },
+            {
+              "name": "rabadons deathcap"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "rengar",
+          "items": [
+            {
+              "name": "edge of night"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "aphelios",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "ezreal",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "A",
+      "play_style": "Slow Roll (7)",
+      "planner_code": "0204303e044000000000000000000000TFTSet17",
+      "tier_value": 0.8,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
+      ]
+    },
+    "02043068000000000000000000000000TFTSet17": {
+      "name": "Blackthorn Ravagers",
+      "champions": [
+        {
+          "name": "reksai",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "murkwolf",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "warwick",
+          "items": [
+            {
+              "name": "spear of shojin"
+            },
+            {
+              "name": "steraks gage"
+            },
+            {
+              "name": "titans resolve"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "azir",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "krug",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "brambleback",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "malphite",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        }
+      ],
+      "tier": "B",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "02043068000000000000000000000000TFTSet17",
+      "tier_value": 0.6,
+      "pairs": [
+        "0204203601803b000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17",
+        "02017018033000000000000000000000TFTSet17"
+      ]
+    },
+    "02043042000000000000000000000000TFTSet17": {
+      "name": "Eclipse Rapidfire",
+      "champions": [
+        {
+          "name": "leona",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "kayle",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "diana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "aphelios",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "lillia",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "sunfire cape"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "alune",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "B",
+      "play_style": "Fast 8",
+      "planner_code": "02043042000000000000000000000000TFTSet17",
+      "tier_value": 0.6,
+      "pairs": [
+        "02022058000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0203e01704403603f000000000000000TFTSet17": {
+      "name": "Elderwood",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "xayah",
+          "items": [],
+          "tier": "1",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "alistar",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "leblanc",
+          "items": [],
+          "tier": "2",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "hecarim",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "warmogs armor"
+            },
+            {
+              "name": "sunfire cape"
+            }
+          ],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "ezreal",
+          "items": [
+            {
+              "name": "deathblade"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "spear of shojin"
+            }
+          ],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": true
+        },
+        {
+          "name": "soraka",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "gnar",
+          "items": [],
+          "tier": "5",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "B",
+      "play_style": "Standard",
+      "planner_code": "0203e01704403603f000000000000000TFTSet17",
+      "tier_value": 0.6,
+      "pairs": [
+        "02043000000000000000000000000000TFTSet17",
+        "02022058000000000000000000000000TFTSet17",
+        "02000000000000000000000000000000TFTSet17"
+      ]
+    },
+    "0203603f000000000000000000000000TFTSet17": {
+      "name": "Fae Rapidfire",
+      "champions": [
+        {
+          "name": "ornn",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "rakan",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "varus",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "xayah",
+          "items": [
+            {
+              "name": "guinsoos rageblade"
+            },
+            {
+              "name": "infinity edge"
+            },
+            {
+              "name": "krakens fury"
+            }
+          ],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "hecarim",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "tristana",
+          "items": [],
+          "tier": "3",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "amumu",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        },
+        {
+          "name": "lillia",
+          "items": [],
+          "tier": "4",
+          "is_3_star": false,
+          "is_carry": false
+        }
+      ],
+      "tier": "B",
+      "play_style": "Slow Roll (5)",
+      "planner_code": "0203603f000000000000000000000000TFTSet17",
+      "tier_value": 0.6,
+      "pairs": [
+        "02017000000000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17",
+        "02018068016000000000000000000000TFTSet17"
+      ]
+    },
+    "0200d04203b000000000000000000000TFTSet17": {
+      "name": "Solar Riftbeasts",
+      "champions": [
+        {
+          "name": "akali",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "leona",
+          "items": [],
+          "tier": "1",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "gromp",
+          "items": [
+            {
+              "name": "jeweled gauntlet"
+            },
+            {
+              "name": "nashors tooth"
+            },
+            {
+              "name": "nashors tooth"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "kayle",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "murkwolf",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "scuttlecrab",
+          "items": [
+            {
+              "name": "gargoyle stoneplate"
+            },
+            {
+              "name": "spirit visage"
+            },
+            {
+              "name": "warmogs armor"
+            }
+          ],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": true
+        },
+        {
+          "name": "sejuani",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        },
+        {
+          "name": "shen",
+          "items": [],
+          "tier": "2",
+          "is_3_star": true,
+          "is_carry": false
+        }
+      ],
+      "tier": "B",
+      "play_style": "Slow Roll (6)",
+      "planner_code": "0200d04203b000000000000000000000TFTSet17",
+      "tier_value": 0.6,
+      "pairs": [
+        "02044036068016000000000000000000TFTSet17",
+        "0204303e036000000000000000000000TFTSet17",
+        "0203e018033016000000000000000000TFTSet17"
+      ]
+    }
+  },
+  "champion_weapon_images": {
+    "veigar": "https://sunderarmor.com/characters/Skin/18/Veigar.png",
+    "teemo": "https://sunderarmor.com/characters/Skin/18/Teemo.png",
+    "azir": "https://sunderarmor.com/characters/Skin/18/Azir.png",
+    "guinsoos rageblade": "https://sunderarmor.com/items/GuinsoosRageblade.png",
+    "hextech gunblade": "https://sunderarmor.com/items/HextechGunblade.png",
+    "rabadons deathcap": "https://sunderarmor.com/items/RabadonsDeathcap.png",
+    "fiddlesticks": "https://sunderarmor.com/characters/Skin/18/Fiddlesticks.png",
+    "rammus": "https://sunderarmor.com/characters/Skin/18/Rammus.png",
+    "gargoyle stoneplate": "https://sunderarmor.com/items/GargoyleStoneplate.png",
+    "sunfire cape": "https://sunderarmor.com/items/SunfireCape.png",
+    "ezreal": "https://sunderarmor.com/characters/Skin/18/Ezreal.png",
+    "soraka": "https://sunderarmor.com/characters/Skin/18/Soraka.png",
+    "zyra": "https://sunderarmor.com/characters/Skin/18/Zyra.png",
+    "ornn": "https://sunderarmor.com/characters/Skin/18/Ornn.png",
+    "warmogs armor": "https://sunderarmor.com/items/WarmogsArmor.png",
+    "reksai": "https://sunderarmor.com/characters/Skin/18/RekSai.png",
+    "blue buff": "https://sunderarmor.com/items/BlueBuff.png",
+    "jeweled gauntlet": "https://sunderarmor.com/items/JeweledGauntlet.png",
+    "alistar": "https://sunderarmor.com/characters/Skin/18/Alistar.png",
+    "leblanc": "https://sunderarmor.com/characters/Skin/18/Leblanc.png",
+    "cassiopeia": "https://sunderarmor.com/characters/Skin/18/Cassiopeia.png",
+    "karma": "https://sunderarmor.com/characters/Skin/18/Karma.png",
+    "pebbles": "https://sunderarmor.com/characters/Skin/18/Pebbles.png",
+    "krug": "https://sunderarmor.com/characters/Skin/18/Krug.png",
+    "sett": "https://sunderarmor.com/characters/Skin/18/Sett.png",
+    "ahri": "https://sunderarmor.com/characters/Skin/18/Ahri.png",
+    "invoker emblem": "https://sunderarmor.com/items/InvokerEmblem.png",
+    "strikers flail": "https://sunderarmor.com/items/StrikersFlail.png",
+    "morgana": "https://sunderarmor.com/characters/Skin/18/Morgana.png",
+    "sentinel": "https://sunderarmor.com/characters/Skin/18/Sentinel.png",
+    "taric": "https://sunderarmor.com/characters/Skin/18/Taric.png",
+    "diana": "https://sunderarmor.com/characters/Skin/18/Diana.png",
+    "hecarim": "https://sunderarmor.com/characters/Skin/18/Hecarim.png",
+    "lillia": "https://sunderarmor.com/characters/Skin/18/Lillia.png",
+    "morellonomicon": "https://sunderarmor.com/items/Morellonomicon.png",
+    "void staff": "https://sunderarmor.com/items/VoidStaff.png",
+    "protectors vow": "https://sunderarmor.com/items/ProtectorsVow.png",
+    "alune": "https://sunderarmor.com/characters/Skin/18/Alune.png",
+    "varus": "https://sunderarmor.com/characters/Skin/18/Varus.png",
+    "kogmaw": "https://sunderarmor.com/characters/Skin/18/Kogmaw.png",
+    "vi": "https://sunderarmor.com/characters/Skin/18/Vi.png",
+    "amumu": "https://sunderarmor.com/characters/Skin/18/Amumu.png",
+    "aphelios": "https://sunderarmor.com/characters/Skin/18/Aphelios.png",
+    "deathblade": "https://sunderarmor.com/items/Deathblade.png",
+    "nidalee": "https://sunderarmor.com/characters/Skin/18/Nidalee.png",
+    "infinity edge": "https://sunderarmor.com/items/InfinityEdge.png",
+    "spear of shojin": "https://sunderarmor.com/items/SpearofShojin.png",
+    "cinderling": "https://sunderarmor.com/characters/Skin/18/Cinderling.png",
+    "last whisper": "https://sunderarmor.com/items/LastWhisper.png",
+    "murkwolf": "https://sunderarmor.com/characters/Skin/18/Murkwolf.png",
+    "scuttlecrab": "https://sunderarmor.com/characters/Skin/18/Scuttlecrab.png",
+    "brambleback": "https://sunderarmor.com/characters/Skin/18/Brambleback.png",
+    "gnar": "https://sunderarmor.com/characters/Skin/18/Gnar.png",
+    "khazix": "https://sunderarmor.com/characters/Skin/18/Khazix.png",
+    "edge of night": "https://sunderarmor.com/items/EdgeofNight.png",
+    "hand of justice": "https://sunderarmor.com/items/HandofJustice.png",
+    "yorick": "https://sunderarmor.com/characters/Skin/18/Yorick.png",
+    "master yi": "https://sunderarmor.com/characters/Skin/18/MasterYi.png",
+    "titans resolve": "https://sunderarmor.com/items/TitansResolve.png",
+    "rengar": "https://sunderarmor.com/characters/Skin/18/Rengar.png",
+    "elder dragon": "https://sunderarmor.com/characters/Skin/18/ElderDragon.png",
+    "kobuko": "https://sunderarmor.com/characters/Skin/18/Kobuko.png",
+    "malphite": "https://sunderarmor.com/characters/Skin/18/Malphite.png",
+    "yunara": "https://sunderarmor.com/characters/Skin/18/Yunara.png",
+    "kennen": "https://sunderarmor.com/characters/Skin/18/Kennen.png",
+    "ionic spark": "https://sunderarmor.com/items/IonicSpark.png",
+    "sivir": "https://sunderarmor.com/characters/Skin/18/Sivir.png",
+    "ashe": "https://sunderarmor.com/characters/Skin/18/Ashe.png",
+    "draven": "https://sunderarmor.com/characters/Skin/18/Draven.png",
+    "krakens fury": "https://sunderarmor.com/items/KrakensFury.png",
+    "ivern": "https://sunderarmor.com/characters/Skin/18/Ivern.png",
+    "maokai": "https://sunderarmor.com/characters/Skin/18/Maokai.png",
+    "xayah": "https://sunderarmor.com/characters/Skin/18/Xayah.png",
+    "spirit visage": "https://sunderarmor.com/items/SpiritVisage.png",
+    "executioner emblem": "https://sunderarmor.com/items/ExecutionerEmblem.png",
+    "rakan": "https://sunderarmor.com/characters/Skin/18/Rakan.png",
+    "tristana": "https://sunderarmor.com/characters/Skin/18/Tristana.png",
+    "giant slayer": "https://sunderarmor.com/items/GiantSlayer.png",
+    "nashors tooth": "https://sunderarmor.com/items/NashorsTooth.png",
+    "red buff": "https://sunderarmor.com/items/RedBuff.png",
+    "caitlyn": "https://sunderarmor.com/characters/Skin/18/Caitlyn.png",
+    "sejuani": "https://sunderarmor.com/characters/Skin/18/Sejuani.png",
+    "archangels staff": "https://sunderarmor.com/items/ArchangelsStaff.png",
+    "akali": "https://sunderarmor.com/characters/Skin/18/Akali.png",
+    "shen": "https://sunderarmor.com/characters/Skin/18/Shen.png",
+    "quicksilver": "https://sunderarmor.com/items/Quicksilver.png",
+    "mama beak": "https://sunderarmor.com/characters/Skin/18/MamaBeak.png",
+    "leona": "https://sunderarmor.com/characters/Skin/18/Leona.png",
+    "kayle": "https://sunderarmor.com/characters/Skin/18/Kayle.png",
+    "warwick": "https://sunderarmor.com/characters/Skin/18/Warwick.png",
+    "steraks gage": "https://sunderarmor.com/items/SteraksGage.png",
+    "elise": "https://sunderarmor.com/characters/Skin/18/Elise.png",
+    "gromp": "https://sunderarmor.com/characters/Skin/18/Gromp.png"
+  },
+  "item_components": {
+    "rabadons deathcap": [
+      "needlessly large rod",
+      "needlessly large rod"
+    ],
+    "infinity edge": [
+      "bf sword",
+      "sparring gloves"
+    ],
+    "protectors vow": [
+      "tear of the goddess",
+      "chain vest"
+    ],
+    "spirit visage": [
+      "tear of the goddess",
+      "giants belt"
+    ],
+    "tacticians cape": [
+      "spatula",
+      "frying pan"
+    ],
+    "thiefs gloves": [
+      "sparring gloves",
+      "sparring gloves"
+    ],
+    "guinsoos rageblade": [
+      "recurve bow",
+      "needlessly large rod"
+    ],
+    "ionic spark": [
+      "needlessly large rod",
+      "negatron cloak"
+    ],
+    "steraks gage": [
+      "bf sword",
+      "giants belt"
+    ],
+    "dragons claw": [
+      "negatron cloak",
+      "negatron cloak"
+    ],
+    "strikers flail": [
+      "giants belt",
+      "sparring gloves"
+    ],
+    "gargoyle stoneplate": [
+      "chain vest",
+      "negatron cloak"
+    ],
+    "bramble vest": [
+      "chain vest",
+      "chain vest"
+    ],
+    "giant slayer": [
+      "bf sword",
+      "recurve bow"
+    ],
+    "sunfire cape": [
+      "chain vest",
+      "giants belt"
+    ],
+    "hand of justice": [
+      "tear of the goddess",
+      "sparring gloves"
+    ],
+    "tftitemnamecursedblade": [
+      "tftitemnamecursedblade",
+      "tftitemnamecursedblade"
+    ],
+    "edge of night": [
+      "bf sword",
+      "chain vest"
+    ],
+    "titans resolve": [
+      "chain vest",
+      "recurve bow"
+    ],
+    "krakens fury": [
+      "negatron cloak",
+      "recurve bow"
+    ],
+    "bloodthirster": [
+      "bf sword",
+      "negatron cloak"
+    ],
+    "archangels staff": [
+      "needlessly large rod",
+      "tear of the goddess"
+    ],
+    "tftitemnamehextechchestguard": [
+      "tftitemnamehextechchestguard",
+      "tftitemnamehextechchestguard"
+    ],
+    "spear of shojin": [
+      "bf sword",
+      "tear of the goddess"
+    ],
+    "evenshroud": [
+      "negatron cloak",
+      "giants belt"
+    ],
+    "nashors tooth": [
+      "recurve bow",
+      "giants belt"
+    ],
+    "morellonomicon": [
+      "needlessly large rod",
+      "giants belt"
+    ],
+    "red buff": [
+      "recurve bow",
+      "recurve bow"
+    ],
+    "crownguard": [
+      "needlessly large rod",
+      "chain vest"
+    ],
+    "adaptive helm": [
+      "negatron cloak",
+      "tear of the goddess"
+    ],
+    "blue buff": [
+      "tear of the goddess",
+      "tear of the goddess"
+    ],
+    "last whisper": [
+      "recurve bow",
+      "sparring gloves"
+    ],
+    "jeweled gauntlet": [
+      "needlessly large rod",
+      "sparring gloves"
+    ],
+    "steadfast heart": [
+      "chain vest",
+      "sparring gloves"
+    ],
+    "tacticians crown": [
+      "spatula",
+      "spatula"
+    ],
+    "quicksilver": [
+      "sparring gloves",
+      "negatron cloak"
+    ],
+    "deathblade": [
+      "bf sword",
+      "bf sword"
+    ],
+    "tacticians shield": [
+      "frying pan",
+      "frying pan"
+    ],
+    "warmogs armor": [
+      "giants belt",
+      "giants belt"
+    ],
+    "void staff": [
+      "recurve bow",
+      "tear of the goddess"
+    ],
+    "hextech gunblade": [
+      "bf sword",
+      "needlessly large rod"
+    ]
+  },
+  "item_images": {
+    "bf sword": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bfsword.png",
+    "bloodthirster": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bloodthirster.png",
+    "bramble vest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bramblevest.png",
+    "chain vest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chainvest.png",
+    "sparring gloves": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sparringgloves.png",
+    "deathblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_deathblade.png",
+    "dragons claw": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_dragonsclaw.png",
+    "tacticians crown": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_forceofnature.png",
+    "thiefs gloves": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_thiefsgloves.png",
+    "shroud of stillness": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_shroud.png",
+    "protectors vow": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_frozenheart.png",
+    "giants belt": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_giantsbelt.png",
+    "giant slayer": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_madredsbloodrazor.png",
+    "edge of night": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guardianangel.png",
+    "guinsoos rageblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_guinsoosrageblade.png",
+    "hand of justice": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstableconcoction.png",
+    "hextech gunblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_hextechgunblade.png",
+    "chalice of power": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_chalice.png",
+    "infinity edge": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_infinityedge.png",
+    "ionic spark": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_ionicspark.png",
+    "jeweled gauntlet": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_jeweledgauntlet.png",
+    "last whisper": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_lastwhisper.png",
+    "locket of the iron solari": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_locketoftheironsolari.png",
+    "archangels staff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_archangelsstaff.png",
+    "spatula": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spatula.png",
+    "quicksilver": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_quicksilver.png",
+    "morellonomicon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_morellonomicon.png",
+    "needlessly large rod": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_needlesslylargerod.png",
+    "negatron cloak": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_negatroncloak.png",
+    "strikers flail": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_powergauntlet.png",
+    "rabadons deathcap": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rabadonsdeathcap.png",
+    "red buff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_rapidfirecannon.png",
+    "recurve bow": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_recurvebow.png",
+    "sunfire cape": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_redbuff.png",
+    "spirit visage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+    "krakens fury": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayer.png",
+    "spear of shojin": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spearofshojin.png",
+    "void staff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_voidstaff.png",
+    "gargoyle stoneplate": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_gargoylestoneplate.png",
+    "tear of the goddess": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tearofthegoddess.png",
+    "zzrot portal": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titanichydra.png",
+    "titans resolve": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_titansresolve.png",
+    "warmogs armor": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_warmogsarmor.png",
+    "zekes herald": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_zekesherald.png",
+    "zephyr": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_zephyr.png",
+    "missingno": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugbase.png",
+    "portable pain": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugdamage.png",
+    "the tears of my enemies": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugmana.png",
+    "hammer to the face": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugstun.png",
+    "do you know who i am": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugunitid.png",
+    "unusable slot": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unusableslot.png",
+    "evenshroud": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spectralgauntlet.png",
+    "crownguard": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_crownguard.png",
+    "steadfast heart": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_nightharvester.png",
+    "steraks gage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_steraksgage.png",
+    "blue buff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bluebuff.png",
+    "adaptive helm": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_adaptivehelm.png",
+    "nashors tooth": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_leviathan.png",
+    "aegis of the legion": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_aegisofthelegion.png",
+    "virtue of the martyr": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_radiantvirtue.png",
+    "banshees veil": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_bansheesveil.png",
+    "pengus protection": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugshield.png",
+    "critical hit": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugcrit.png",
+    "damage amp": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugdamageamp.png",
+    "the eternal flame": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_eternalflame.png",
+    "knights vow": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_supportknightsvow.png",
+    "moonstone renewer": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_moonstone.png",
+    "unstable treasure chest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_unstabletreasurechest.png",
+    "talisman of ascension": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_talismanofascension.png",
+    "fishbones": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_fishbones.png",
+    "suspicious trench coat": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_suspicioustrenchcoat.png",
+    "mittens": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_mittens.png",
+    "unending despair": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_unendingdespair.png",
+    "rapid firecannon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_rapidfirecannon.png",
+    "innervating locket": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_innervatinglocket.png",
+    "ludens tempest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_ludenstempest.png",
+    "silvermere dawn": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_silvermeredawn.png",
+    "prowlers claw": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_prowlersclaw.png",
+    "spectral cutlass": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_spectralcutlass.png",
+    "blighting jewel": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_blightingjewel.png",
+    "wits end": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_witsend.png",
+    "forbidden idol": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_forbiddenidol.png",
+    "lich bane": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_lichbane.png",
+    "lightshield crest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_lightshieldcrest.png",
+    "seekers armguard": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_seekersarmguard.png",
+    "ace": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugfirsthit.png",
+    "taunt": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_debugtaunt.png",
+    "sentinel swarm": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_sentinelswarm.png",
+    "frying pan": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_fryingpan.png",
+    "tacticians cape": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansring.png",
+    "tacticians shield": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_tacticiansscepter.png",
+    "corrupt vampiric scepter": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_cursedvampiricscepter.png",
+    "flickerblades": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_navoriflickerplade.png",
+    "statikk shiv": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_stattikshiv.png",
+    "the indomitable": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_theindomitable.png",
+    "dawncore": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_dawncore.png",
+    "titanic hydra": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_titanichydra.png",
+    "mirrored persona": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_mirroredpersona.png",
+    "lesser mirrored persona": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_lessermirroredpersona.png",
+    "hellfire hatchet": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_hellfirehatchet.png",
+    "cappa juice": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_kappajuice.png",
+    "shadow puppet": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_shadowpuppet.png",
+    "mending echoes": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_mendingechoes.png",
+    "eternal pact": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_eternalpact.png",
+    "void gauntlet": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_artifact_voidgauntlet.png",
+    "aegis of dawn": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdawn.png",
+    "aegis of dusk": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_aegisofdusk.png",
+    "chonccs crown": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft_ct/ct_items_crown.png",
+    "chonccs chalice": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft_ct/ct_items_chalice.png",
+    "chonccs spork": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft_ct/ct_items_septer.png",
+    "completed item anvil": "https://raw.communitydragon.org/latest/game/assets/characters/tft_armorykeycompleted/hud/icons2d/tft_armorykeycompleted_square.png",
+    "artifact anvil": "https://raw.communitydragon.org/latest/game/assets/characters/tft_armorykeyornn/hud/icons2d/tft_armorykeyornn_square.png",
+    " completed item": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "itemstogive completed items": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    " component": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "itemstogive components": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "component item key": "https://raw.communitydragon.org/latest/game/assets/characters/tft_armorykeycomponent/hud/icons2d/tft_armorykeycomponent_square.png",
+    " loot orb": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "orbstogive loot orbs": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "realm warp": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/realmwrap.png",
+    "malware matrix": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_chemicalcapacitormod.png",
+    "drone uplink": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_dronemod.png",
+    "targetlock optics": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_targetlockmod.png",
+    "semiconductor": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_semiconductormod.png",
+    "biomatter preserver": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_grenademod.png",
+    "sympathetic implant": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_psyops_mod_sympatheticimplantmod.png",
+    "zekes bleak herald": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/shadow/s_zekes_herald.png",
+    "win more": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_heimerupgrades/tft9_heimerupgrade_goldification.png",
+    "lose more": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_heimerupgrades/tft9_heimerupgrade_selfdestruct.png",
+    "voltage conduit": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_voltageconduit.png",
+    "microrockets": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_microrockets.png",
+    "kinetic barrier": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_kineticbarrier.png",
+    "upgrade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_upgrade.png",
+    "magnetron coil": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_magnetroncoil.png",
+    "gigantification ray": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_gigantificationray.png",
+    "momentum drive": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_momentumdrive.png",
+    "blast shield": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_blastshield.png",
+    " caliber nets": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_90calibernets.png",
+    "overclocked capacitors": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_overclockedcapacitors.png",
+    "continuum cogs": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_continuumcogs.png",
+    "tuned oscillator": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_tunedoscillator.png",
+    "emp": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_emp.png",
+    "electrical overload": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_electricaloverload.png",
+    "unstable core": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_unstablecore.png",
+    "armor nullifier": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_armornullifier.png",
+    "superior lifeform": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_superiorlifeform.png",
+    "mining drill": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_miningdrill.png",
+    "echo engine": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_unstablecore.png",
+    "acceleration gate": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_piltover/tft16_item_piltover_accelerationgate.png",
+    "dead mans dagger": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tt16_item_bilgewater_deadmansdagger.png",
+    "lucky doubloon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_luckydubloon.png",
+    "cutthroats cutlass": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_bilgeratcutlass.png",
+    "blackmarket explosives": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_blackmarketexplosives.png",
+    "bonusarmormr armor  magic resist": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_armormr_tier2.png",
+    "bonusas attack speed": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_as_tier2.png",
+    "first ones free": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/freeas.png",
+    "bonusad attack damage  ability power": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_adap_tier2.png",
+    "bonusap ability power": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_ap_tier3.png",
+    "bonushealthpercent max health": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_health_tier1.png",
+    "bonusad attack damage": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_bilgewater/tft16_bilgewater_ad_tier3.png",
+    "black market restock": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/consumables/tft_item_consumable_shopreroll.png",
+    "brigands dice": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/placeholders/tft_item_unknown.png",
+    "pile o citrus": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_pileofcitrus.png",
+    "first mates flintlock": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_dreadwaycannon.png",
+    "treasure typhoon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_jollyroger.png",
+    "haunted spyglass": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_hauntedspyglass.png",
+    "barknuckles": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_freebootersfrock.png",
+    "captains hat": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_jollyroger.png",
+    "dreadway cannon": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_dreadwaycannon.png",
+    "captains brew": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_jollyroger.png",
+    "bilgewater lesser champion duplicator": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft16/tft16_item_bilgewater_lesserduplicator.png",
+    "syrens broadside": "https://raw.communitydragon.org/latest/game/assets/characters/tft14_missfortune/hud/icons2d/tft14_missfortunespell.png",
+    "edgelord emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_edgelord.png",
+    "sorcerer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_sorceror.png",
+    "bastion emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_bastion.png",
+    "prodigy emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_prodigy.png",
+    "battle academia emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_battleacademia.png",
+    "heavyweight emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_heavyweight.png",
+    "juggernaut emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_juggernaut.png",
+    "protector emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_protector.png",
+    "crystal gambit emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_crystalgambit.png",
+    "duelist emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_duelist.png",
+    "executioner emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_executioner.png",
+    "soul fighter emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_soulfighter.png",
+    "supreme cells emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_supremecells.png",
+    "wraith emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_empyrean.png",
+    "strategist emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_strategist.png",
+    "sniper emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_sniper.png",
+    "luchador emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_luchador.png",
+    "star guardian emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set15/tft15_emblem_starguardian.png",
+    "radiant dragons claw": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_dragonsclawradiant.png",
+    "radiant strikers flail": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_trapclawradiant.png",
+    "radiant ionic spark": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_ionicsparkradiant.png",
+    "radiant quicksilver": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_quicksilverradiant.png",
+    "radiant hextech gunblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_hextechgunbladeradiant.png",
+    "radiant void staff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_voidstaffradiant.png",
+    "radiant protectors vow": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_frozenheartradiant.png",
+    "radiant blue buff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bluebuffradiant.png",
+    "radiant archangels staff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_archangelsstaffradiant.png",
+    "radiant morellonomicon": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_morellonomiconradiant.png",
+    "radiant bramble vest": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bramblevestradiant.png",
+    "shroud of reverence": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/radiant/shroud_of_stillness_radiant.png",
+    "radiant krakens fury": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayerradiant.png",
+    "mistral": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/radiant/zephyr_radiant.png",
+    "radiant guinsoos rageblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guinsoosragebladeradiant.png",
+    "radiant hand of justice": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_handofjusticeradiant.png",
+    "radiant sunfire cape": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_sunfirecaperadiant.png",
+    "zekes harmony": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/radiant/zekes_herald_radiant.png",
+    "radiant last whisper": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_lastwhisperradiant.png",
+    "locket of targon prime": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/radiant/locket_of_the_iron_solari_radiant.png",
+    "radiant thiefs gloves": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_thiefsglovesradiant.png",
+    "radiant warmogs armor": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_warmogsarmorradiant.png",
+    "radiant steraks gage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_steraksgageradiant.png",
+    "radiant spirit visage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+    "radiant edge of night": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guardianangelradiant.png",
+    "radiant red buff": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rapidfirecannonradiant.png",
+    "radiant steadfast heart": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_nightharvesterradiant.png",
+    "radiant titans resolve": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_titansresolveradiant.png",
+    "radiant giant slayer": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_giantslayerradiant.png",
+    "radiant crownguard": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_crownguardradiant.png",
+    "radiant bloodthirster": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bloodthirsterradiant.png",
+    "radiant rabadons deathcap": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rabadonsdeathcapradiant.png",
+    "radiant jeweled gauntlet": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_jeweledgauntletradiant.png",
+    "radiant gargoyle stoneplate": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_gargoylestoneplateradiant.png",
+    "chalice of charity": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/radiant/chalice_of_power_radiant.png",
+    "radiant nashors tooth": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_leviathanradiant.png",
+    "radiant spear of shojin": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spearofshojinradiant.png",
+    "radiant evenshroud": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spectralgauntletradiant.png",
+    "radiant infinity edge": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_infinityedgeradiant.png",
+    "radiant deathblade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_deathbladeradiant.png",
+    "radiant adaptive helm": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_adaptivehelmradiant.png",
+    "tome of traits": "https://raw.communitydragon.org/latest/game/assets/characters/tft8_teamupprop/hud/icons2d/tft5_emblemarmorykey_square.png",
+    "continue": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft13_item_crime_armorycontinue.png",
+    "convert to vials": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft13_item_crime_armorycashout.png",
+    "maestros baton": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_maestrosbaton.png",
+    "mascot": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_mascot.png",
+    "dragonlord": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_dragonlord.png",
+    "socialite": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_socialite.png",
+    "pentakill": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_pentakill.png",
+    "mountain": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_mountain.png",
+    "chrome": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14/tft14_item_chromecounter.png",
+    "shimmerscale": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_shimmerscale.png",
+    "ixtal": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_ixtal.png",
+    "the crew": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_thecrew.png",
+    "honeymancy": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_honeymancy.png",
+    "conqueror": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_conqueror.png",
+    "punk": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_punk.png",
+    "storyweaver": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_storyweaver.png",
+    "glacial": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_glacial.png",
+    "mechpilot": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_mechpilot.png",
+    "pyro": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_pyro.png",
+    "jazz": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_jazz.png",
+    "demacia": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_demacia.png",
+    "rebel": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_rebel.png",
+    "maestro": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_maestro.png",
+    "empress": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_empress.png",
+    "sevikas jinxed arm": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_sevikasjinxedarm.png",
+    "goldmancers staff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_goldmancersstaff_base.png",
+    "elderwood": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_elderwood.png",
+    "glacial mallet": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_glacialmallet.png",
+    "the boss": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_boss.png",
+    "yordle": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_yordle.png",
+    "phantom": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_phantom.png",
+    "nitro": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_nitro.png",
+    "hellion": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_hellion.png",
+    "crystal": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_crystal.png",
+    "bilgewater": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_bilgewater.png",
+    "hacker": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_hacker.png",
+    "fated": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_fated.png",
+    "renewer": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_renewer.png",
+    "high roller": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5yr_set14_highroller.png",
+    "boss knuckles": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_bossknuckles.png",
+    "trainer": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_trainers.png",
+    "shurima": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_shurima.png",
+    "lavender crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_lavendercrown.png",
+    "overlord": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_overlord.png",
+    "delicious snax": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/5yr/tftevent5yr_item_trainersnax.png",
+    "dravens axe": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_dravensaxe_base.png",
+    "imperial": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_imperial.png",
+    "coven": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_coven.png",
+    "crown of champions": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_crownofchampions_base.png",
+    "ghostly": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_ghostly.png",
+    "lasercorps": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/tftevent5yr/5year_traitarmory_lasercorps.png",
+    "mikaels crucible": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_mikaelscrucible.png",
+    "avarice blade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_avariceblade.png",
+    "spirit of the spectral wraith": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_spiritofthespectralwraith.png",
+    "lucky pick": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_luckypick.png",
+    "philosophers stone": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_philosophersstone.png",
+    "spirit of the elder lizard": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_spiritoftheelderlizard.png",
+    "banner of command": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_bannerofcommand.png",
+    "runic bulwark": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_runicbulwark.png",
+    "spirit of the ancient golem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_spiritoftheancientgolem.png",
+    "the black cleaver": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_blackcleaver.png",
+    "chalice of harmony": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_chaliceofharmony.png",
+    "sword of the divine": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_swordofthedivine.png",
+    "will of the ancients": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_willoftheancients.png",
+    "heart of gold": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_heartofgold.png",
+    "ohmwrecker": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/er/tfteventer_items_ohmwrecker.png",
+    "soul crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/sf/tft_event_sf_soulcrown_tournament.png",
+    "imperfect soul crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/sf/tft_event_sf_soulcrown_training_1.png",
+    "hextech sniper rifle": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/caitlyn_aceinthehole.png",
+    "unstable component": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistrandomcomponent.png",
+    "exotech emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_exotech.png",
+    "anima squad emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_animasquad.png",
+    "slayer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_slayer.png",
+    "marksman emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_marksman.png",
+    "techie emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_techie.png",
+    "nitro emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_hotrod.png",
+    "dynamo emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_dynamo.png",
+    "boombot emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_boombots.png",
+    "street demon emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_streetdemon.png",
+    "divinicorp emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_divinicorp.png",
+    "rapidfire emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_rapidfire.png",
+    "bruiser emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_bruiser.png",
+    "syndicate emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_syndicate.png",
+    "golden ox emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_goldenox.png",
+    "cypher emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_cypher.png",
+    "vanguard emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set14/tft14_emblem_vanguard.png",
+    "revel emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/revel.png",
+    "dragonmancer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/dragonmancer.png",
+    "mage emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/mage.png",
+    "astral emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/astral.png",
+    "shimmerscale emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/shimmerscale.png",
+    "warrior emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/warrior_craftable.png",
+    "cavalier emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/cavalier.png",
+    "scalescorn emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/dragonbane.png",
+    "mystic emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/mystic.png",
+    "trainer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/trainer.png",
+    "guild emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/guild_craftable.png",
+    "darkflight emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/darkflight_craftable.png",
+    "legend emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/legend.png",
+    "swiftshot emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/swiftshot_craftable.png",
+    "whispers emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/whispers_craftable.png",
+    "assassin emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/assassin_uncraftable.png",
+    "tempest emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/tempest_craftable.png",
+    "guardian emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/guardian.png",
+    "ragewing emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/ragewing.png",
+    "cannoneer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/cannoneer_craftable.png",
+    "mirage emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/mirage.png",
+    "evoker emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/evoker.png",
+    "lagoon emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/lagoon.png",
+    "jade emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set7/jade_craftable.png",
+    "hullcrusher": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft9_ornnitem_hullbreaker.png",
+    "tftitemnamehush": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hush.png",
+    "arcana signifier": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_arcanasignifier.png",
+    "eternal monarchs crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriecrown_radiant.png",
+    "faerie queens crown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriecrown.png",
+    "cursed quicksilver": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/shadow/s_quicksilver.png",
+    "a light snack": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_ravenous_lightsnack.png",
+    "cursed guinsoos rageblade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/shadow/s_guinsoos_rageblade.png",
+    "cursed hextech gunblade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/shadow/s_hextech_gunblade.png",
+    "queenguards armor": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriequeenguardarmor.png",
+    "armor of eternal devotion": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriequeenguardarmor_radiant.png",
+    "tftitemnametftitemtrainerheimerdinger": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_trainer/tft7_dragonitems_ap.png",
+    "tftitemnametftitemtrainerluluarmor": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_trainer/tft7_dragonitems_hp.png",
+    "darkflight essence": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_darkflight/tft7_darkflightessence.png",
+    "darkflight zekes herald": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_zekesherald.png",
+    "tftitemnametftitemtrainershred": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_trainer/tft7_dragonitems_attackspeed.png",
+    "chonccs prowlers claw": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft9_ornnitem_prowlersclaw.png",
+    "invoker emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_invoker.png",
+    "vanquisher emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_vanquisher.png",
+    "longshot emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_longshot.png",
+    "quickstriker emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_quickstriker.png",
+    "disruptor emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_disruptor.png",
+    "yordle emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_yordle.png",
+    "gunslinger emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_gunslinger.png",
+    "void emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_void.png",
+    "piltover emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_piltover.png",
+    "bilgewater emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_bilgewater.png",
+    "freljord emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_freljord.png",
+    "warden emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_warden.png",
+    "arcanist emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_arcanist.png",
+    "noxus emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_noxus.png",
+    "zaun emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_zaun.png",
+    "ixtal emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_ixtal.png",
+    "ionia emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_ionia.png",
+    "demacia emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_demacia.png",
+    "defender emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set16/tft16_emblem_defender.png",
+    "duelist stance": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set15_dragonfist/tft15_traitarmory_df_duelist.png",
+    "juggernaut stance": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set15_dragonfist/tft15_traitarmory_df_juggernaut.png",
+    "executioner stance": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set15_dragonfist/tft15_traitarmory_df_executioner.png",
+    "close armory": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_virus.png",
+    "nitro mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_nitro.png",
+    "dynamo mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_dynamo.png",
+    "street demon mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_streetdemon.png",
+    "bastion mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_bastion.png",
+    "marksman mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_marksman.png",
+    "executioner mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_executioner.png",
+    "strategist mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_strategist.png",
+    "divinicorp mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_divinicorp.png",
+    "boombot mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_boombots.png",
+    "anima squad mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_animasquad.png",
+    "golden ox mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_goldenox.png",
+    "slayer mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_slayer.png",
+    "exotech mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_exotech.png",
+    "cypher mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_cypher.png",
+    "vanguard mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_vanguard.png",
+    "bruiser mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_bruiser.png",
+    "techie mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_techie.png",
+    "syndicate mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_syndicate.png",
+    "rapidfire mod": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft14_gotn_mods/tft14_modtrait_rapidfire.png",
+    "tftlimitbreakitemname": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/events/sf/tft_event_sf_soulcrown_tournament.png",
+    "tftitemnamechampionsbelt": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft15/tft15_championsring.png",
+    "tftitemnamebattlequeencrown": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft12/tft12_faeriecrown.png",
+    "ekkos patience": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_ekkopatience.png",
+    "tftitemnameoceanhexbuff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hex_ocean.png",
+    "withered relic": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_witheringrelic.png",
+    "manazane": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnmuramana.png",
+    "needlessly big gem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_heartofgold_base.png",
+    "orb of greed": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft7/tft7_item_shimmerscalepiggybank.png",
+    "determined investor": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscaledeterminedinvestor.png",
+    "moguls mail": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalemogulsmail.png",
+    "diamond hands": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalediamondhands.png",
+    "gamblers blade": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft7_item_shimmerscalegamblersblade.png",
+    "tricksters glass": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft9_item_ornntrickstersglass.png",
+    "tftitemnamebladeoftheruinedking": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_bladeoftheruinedking.png",
+    "ambusher emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_ambusher.png",
+    "rebel emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_rebel.png",
+    "enforcer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_enforcer.png",
+    "academy emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_academy.png",
+    "black rose emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_cabal.png",
+    "experiment emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_experiment.png",
+    "automata emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_automata.png",
+    "artillerist emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_artillerist.png",
+    "dominator emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_dominator.png",
+    "chembaron emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_chembaron.png",
+    "scrap emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_scrap.png",
+    "firelight emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_firelight.png",
+    "conqueror emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_conqueror.png",
+    "sentinel emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_sentinel.png",
+    "pit fighter emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_pitfighter.png",
+    "visionary emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_visionary.png",
+    "family emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_family.png",
+    "watcher emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set13/tft_set13_emblem_watcher.png",
+    "radiant gamblers blade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_goldcollector_radiant.png",
+    "radiant goldmancers staff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_goldmancersstaff_radiant.png",
+    "radiant determined investor": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_determinedinvestor_radiant.png",
+    "radiant crown of champions": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_crownofchampions_radiant.png",
+    "radiant dravens axe": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_dravensaxe_radiant.png",
+    "radiant orb of greed": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_amuletofgreed_radiant.png",
+    "radiant moguls mail": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_mogulsmail_radiant.png",
+    "radiant diamond hands": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_diamondhands_radiant.png",
+    "radiant needlessly big gem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set7_shimmerscale/shimmerscale_heartofgold_radiant.png",
+    "tftitemnamephantomdancer": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_phantomdancer.png",
+    "arbiter emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_arbiter.png",
+    "anima emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_animatech.png",
+    "timebreaker emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_timebreaker.png",
+    "nova emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_nova.png",
+    "meeple emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_meeple.png",
+    "shepherd emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_sheperd.png",
+    "psionic emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_psyops.png",
+    "brawler emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_brawler.png",
+    "rogue emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_rogue.png",
+    "challenger emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_challenger.png",
+    "dark star emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_darkstar.png",
+    "stargazer emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_stargazer.png",
+    "marauder emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_marauder.png",
+    "space groove emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_spacegroove.png",
+    "voyager emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_voyager.png",
+    "primordian emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set17/tft17_emblem_primordian.png",
+    "guardian angel": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/standard/guardian_angel.png",
+    "gameitemdisplayname": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_thornmail.png",
+    "tattoo of vitality": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_vitality.png",
+    "tattoo of force": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_force.png",
+    "tattoo of bombardment": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_bombardment.png",
+    "tattoo of protection": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_protection.png",
+    "tattoo of toxin": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_toxin.png",
+    "tattoo of fury": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft11_inkshadowitems/tft11_inkshadow_fury.png",
+    "anima visage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnanimavisage.png",
+    "chonccs rocketpropelled fist": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft4_ornnitem_rocketpropelledfist.png",
+    "tftitemnamefrozenfist": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_iceborngauntlet.png",
+    "tftitemnamespellthiefsedge": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_spellthiefsedge.png",
+    "eternal winter": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornneternalwinter.png",
+    "tftitemnamecatalyst": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_giantslayer.png",
+    "tftitemnamewindhexbuff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hex_wind.png",
+    "yasuos bladework": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_yasuobladework.png",
+    "baron nashors head": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_miscitems/baron_square.png",
+    "replicator mode": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set17/tft17_missfortuneunique_flextraiticon.png",
+    "conduit mode": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set17/tft17_missfortuneunique_manatraiticon.png",
+    "challenger mode": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set17/tft17_missfortuneunique_astraiticon.png",
+    "onslaught": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft8/tft8_item_arsenalredgun.png",
+    "duskwave": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft8/tft8_item_arsenalbluegun.png",
+    "binding eclipse": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft8/tft8_item_arsenalpurplegun.png",
+    "blademaster emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set3/blademaster.png",
+    "battlecast emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set3/battlecast.png",
+    "infiltrator emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set3/infiltrator.png",
+    "celestial emblem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/spatula/set3/celestial.png",
+    "tftitemnameinfernohexbuff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hex_inferno.png",
+    "obsidian cleaver": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnobsidiancleaver.png",
+    "threshs lantern": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_threshlantern.png",
+    "confiscated": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft13_item_squadstolenitem.png",
+    "tftitemnameswordofthedivine": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_swordofthedivine.png",
+    "kayles radiant exaltation": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_kaylegreatsword.png",
+    "tftitemnamecursedblade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_cursedblade.png",
+    "kayles exaltation": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_kaylegreatsword.png",
+    "crest of cinders": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_supportitems/crest_of_cinders.png",
+    "cursed blade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/ornn_items/tft_item_artifact_cursedblade.png",
+    "zhonyas paradox": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnzhonyasparadox.png",
+    "charges": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set9_inventor/tft9_piltovercharges.png",
+    "crown of demacia": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/tft9_regionitems/crownofdemacia.png",
+    "tftitemnamemittens": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_mittens.png",
+    "crystalline reinforcements": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft15_crystalrosehellion_itemicon.png",
+    " gold": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/assistgivegold.png",
+    "snipers focus": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft9_item_ornnhorizonfocus.png",
+    "evelynns instinct": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_evelynnfang.png",
+    "sorakas miracle": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_sorakamiracle.png",
+    "varuss obsession": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_varusobsession.png",
+    "tftitemnamefrozenmallet": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_frozenmallet.png",
+    "tftitemnamehextechchestguard": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hextechchestguard.png",
+    "ahris aura": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft17_item_artifact_ahrirhythm.png",
+    "deaths defiance": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornndeathsdefiance.png",
+    "tftitemnamedarkin": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_darkin.png",
+    "youmuus ghostblade": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_youmuusghostblade.png",
+    "blacksmiths gloves": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft9_item_ornnprototypeforge.png",
+    "infinity force": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornninfinityforce.png",
+    "tftitemnameyuumi": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_yuumi.png",
+    "power": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/traits/set9_inventor/tft9_piltoverpower.png",
+    "deathfire grasp": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft9_item_ornndeathfiregrasp.png",
+    "spite": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spite.png",
+    "tftitemnamezhonyashourglass": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_zhonyashourglass.png",
+    "jammed": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_jammed.png",
+    "horizon focus": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_artifact_horizonfocus.png",
+    "randuins omen": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnranduinssanctum.png",
+    "accomplices gloves": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft11_item_thiefsglovessupport.png",
+    "gold collector": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft4_item_ornnthecollector.png",
+    "tftitemnamemountainhexbuff": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_hex_mountain.png",
+    "tftitemnamestarguardianspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_starguardian.png",
+    "tftitemnameumbralglaive": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_blademaster.png",
+    "tftitemnameinfiltratorspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_infiltrator.png",
+    "tftitemnamecelestialspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_celestial.png",
+    "protectors chestguard": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_protector.png",
+    "tftitemnamedarkstarspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_darkstar.png",
+    "tftitemnamerebelspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_rebel.png",
+    "tftitemnamedemolitionistspatulaitem": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft3_item_demolitionist.png",
+    "battlecast plating": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/tft_item_battlecast.png",
+    "time undilator": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft16_carouselofchaos_timeundiltor.png"
+  }
+}
